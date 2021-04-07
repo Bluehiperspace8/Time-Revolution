@@ -23,7 +23,7 @@ public class moverCamara : MonoBehaviour
     void Update()
     {
         //Sacamos posición del personaje en x y z
-        float x = Mathf.Clamp(personajePrincipal.transform.position.x, 0, 35.5f);
+        float x = Mathf.Clamp(personajePrincipal.transform.position.x,0,1000f);
         float y = Mathf.Clamp(personajePrincipal.transform.position.y, 0, 9.5f);
         float z = transform.position.z;
         transform.position = new Vector3(x, y, z);
