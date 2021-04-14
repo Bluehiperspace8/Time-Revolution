@@ -20,7 +20,7 @@ public class menu : MonoBehaviour
     }
     public void IniciarJuego()
     {
-        SceneManager.LoadScene("nivel1");
+        SceneManager.LoadScene("Scenes/Nivel_I/Casa");
     }
     /*
     public void AprendeSteam()
