@@ -11273,7 +11273,7 @@ GameObject:
   - component: {fileID: 1488606242}
   m_Layer: 0
   m_Name: items_51
-  m_TagString: Untagged
+  m_TagString: ITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11357,7 +11357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 23455584}
   parrafos:
-  - "Tantas historias y entrevistas que he anotado en esta libreta, que recuerdos\u2026"
+  - "Jacob:\nTantas historias y entrevistas que he anotado en esta libreta, que recuerdos\u2026"
   velParrafo: 0.02
   botonContinuar: {fileID: 1807470030}
   botonQuitar: {fileID: 85849123}
@@ -11950,7 +11950,7 @@ GameObject:
   - component: {fileID: 1741658186}
   m_Layer: 0
   m_Name: Untitled_7
-  m_TagString: Untagged
+  m_TagString: ITEM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
