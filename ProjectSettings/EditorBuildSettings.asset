@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Nivel_I/nivel1.unity
+    guid: ab6e72e6da10f1247bdf8aaffbd02ff9
+  - enabled: 1
+    path: Assets/Scenes/Nivel_I/Casa.unity
+    guid: 821f2d48446455642a2ce8f3e1495831
+  - enabled: 1
+    path: Assets/Scenes/Nivel_I/Fabriica.unity
+    guid: 0470090b0617ec443806a7ef48bcb33f
+  - enabled: 1
+    path: Assets/Scenes/Nivel_I/Portal.unity
+    guid: 36f349358e5775a43b082b6ae231bf18
   m_configObjects: {}
