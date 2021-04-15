@@ -74,7 +74,7 @@ public class GameManager : MonoBehaviour
 
 
         //Esto debe estar en el boton de si
-        NextQuestion();
+        //NextQuestion();
 
     }
     //--------------------------------------------------------------//
@@ -125,6 +125,11 @@ public class GameManager : MonoBehaviour
         NextQuestion();
 
     }
+    /*
+    public void botonterminado()
+    { 
+     if()
+    }*/
 
     public void botonQuedarse()
     {
@@ -142,6 +147,7 @@ public class GameManager : MonoBehaviour
     // Codigo
     private void NextQuestion()
     {
+        print("Ejecutando nexquestion");
         m_preguntaUI.Construct(m_preguntaBd.GETRandom(), GiveAnswer);
     }
 
