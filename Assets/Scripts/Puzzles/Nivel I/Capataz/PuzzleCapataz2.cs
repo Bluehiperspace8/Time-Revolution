@@ -4,10 +4,11 @@ using UnityEngine;
 using TMPro;
 
 /*
- Primera platica del capataz con Jacob
+ Segunda platica del capataz con Jacob
     Autor: Roberto Valdez Jasso
  */
-public class PuzzleCapataz1 : MonoBehaviour
+
+public class PuzzleCapataz2 : MonoBehaviour
 {
     // Variables ---//
     // llamanndo al mensaje
@@ -84,7 +85,8 @@ public class PuzzleCapataz1 : MonoBehaviour
         }
         else
         {
-            textD.text = "Buena suerte!!!";
+            textD.text = "Jacob:\n"+
+                    "Si, de nada Bye!!!!!";
             botonQuitar.SetActive(true);
 
         }

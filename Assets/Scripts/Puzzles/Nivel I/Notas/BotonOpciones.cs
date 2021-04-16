@@ -43,6 +43,7 @@ public class BotonOpciones : MonoBehaviour
     public void Construct(Opciones opcion, Action<BotonOpciones> callback)
     {
         texto.text = opcion.texto;
+        boton.onClick.RemoveAllListeners();
         boton.enabled = true;
         imagen.color = colorOriginal;
 

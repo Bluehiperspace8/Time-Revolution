@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 /*
- CLase Game Manager para control de Puzzle
- Autor: Roberto Valdez Jasso
- */
+CLase Game Manager para control de Puzzle
+Autor: Roberto Valdez Jasso
+*/
 //Requerimientos
 [RequireComponent(typeof(AudioSource))]
 public class GameManager : MonoBehaviour
@@ -38,6 +39,8 @@ public class GameManager : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    public GameObject BotonFinalizar;
+
    //--------------------------------------------------------------//
    // Variable --//
    //Puzzle:
@@ -53,7 +56,7 @@ public class GameManager : MonoBehaviour
     private preguntasBD m_preguntaBd = null;
     private preguntasIU m_preguntaUI = null;
     private AudioSource m_audioSource = null;
-    private int contador = 3;
+    private int contador2 = 0;
     //--------------------------------------------------------------//
 
 
@@ -71,6 +74,7 @@ public class GameManager : MonoBehaviour
         BotonLeer.SetActive(false);
         PanelDialogo.SetActive(false);
         PanelJuego.SetActive(false);
+        BotonFinalizar.SetActive(false);
 
 
         //Esto debe estar en el boton de si
@@ -102,7 +106,7 @@ public class GameManager : MonoBehaviour
     {
 
         PanelDialogo.SetActive(true);
-        textD.text = "Listo para seguir adelante:";
+        textD.text = "Listo para contestar las preguntas:";
 
         botonSi.SetActive(true);
         botonNo.SetActive(true);
@@ -125,11 +129,14 @@ public class GameManager : MonoBehaviour
         NextQuestion();
 
     }
-    /*
+    
+    //Aparece una vez terminado el puzzle
     public void botonterminado()
-    { 
-     if()
-    }*/
+    {
+        PanelDialogo.SetActive(false);
+        BotonFinalizar.SetActive(false);
+        Destroy(gameObject, t: 0.1f);
+    }
 
     public void botonQuedarse()
     {
@@ -154,6 +161,7 @@ public class GameManager : MonoBehaviour
     private void GiveAnswer(BotonOpciones opcionBoton)
     {
         StartCoroutine(RutinaPregunta(opcionBoton));
+
     }
 
     // Corruntina
@@ -179,20 +187,35 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(m_tiempoEspera);
 
         // Y regresamos
-        if (opcionBoton.Opcion.opcionCorrecta && contador > 0)
+
+
+
+        if (opcionBoton.Opcion.opcionCorrecta)
         {
+
             NextQuestion();
+            contador2++;
+
+            
         }
         else
         {
-            contador = contador - 1;
+          
+            // En caso que pierda,este vuelva a hacer el puzzle desde cero
+            SceneManager.LoadScene("Scenes/Nivel_I/Fabriica");
         }
-
-        // En caso que pierda,este vuelva a hacer el puzzle
-        if (contador == 0)
+        // En caso que termine, este
+        if (contador2 == 4)
         {
-            botoncambiar();
+            PanelJuego.SetActive(false);
+            PanelDialogo.SetActive(true);
+            textD.text = " ";
+            BotonFinalizar.SetActive(true);
         }
+        
+
+        
+
     }
 
     //--------------------------------------------------------------//

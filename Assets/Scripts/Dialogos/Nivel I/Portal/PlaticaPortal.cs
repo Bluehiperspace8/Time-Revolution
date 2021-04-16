@@ -55,7 +55,6 @@ public class PlaticaPortal : MonoBehaviour
 
     public GameObject BotonNivel;
     public GameObject BotonMenu;
-    public GameObject BotonSalir;
 
     // Start is called before the first frame update
     void Start()
@@ -69,7 +68,6 @@ public class PlaticaPortal : MonoBehaviour
         Portal.SetActive(false);
         BotonNivel.SetActive(false);
         BotonMenu.SetActive(false);
-        BotonSalir.SetActive(false);
     }
 
     // Update is called once per frame
@@ -151,7 +149,6 @@ public class PlaticaPortal : MonoBehaviour
         PanelMisionCumplida.SetActive(true);
         BotonNivel.SetActive(true);
         BotonMenu.SetActive(true);
-        BotonSalir.SetActive(true);
     }
 
     // Botones de transiciones
@@ -167,10 +164,6 @@ public class PlaticaPortal : MonoBehaviour
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
     }
 
-    public void BotonSalirJuego()
-    {
-        //Regresa al sistema operativo
-        Application.Quit();
-    }
+
 }
 
