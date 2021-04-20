@@ -20148,11 +20148,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 2096880619}
   parrafos:
-  - "La nota dice lo siguiente:\r\nA Alexander Graham Bell se le atribuye la invenci\xF3n
-    del tel\xE9fono. Se trat\xF3 de un aparato que transmit\xEDa sonidos por un cable
-    a trav\xE9s de se\xF1ales el\xE9ctricas. "
-  - "Ha sido uno de los inventos m\xE1s importantes porque revolucion\xF3 el mundo
-    de las telecomunicaciones."
+  - "La nota dice lo siguiente:\r\nGalileo Galilei, fue un astr\xF3nomo, ingeniero
+    y f\xEDsico italiano, relacionado estrechamente con la revoluci\xF3n cient\xEDfica.
+    \nSus logros incluyen la mejora del telescopio,  \n"
+  - "gran variedad de observaciones astron\xF3micas, la primera ley del movimiento
+    y un apoyo determinante a la Revoluci\xF3n de Cop\xE9rnico.\nHa sido considerado
+    como el Padre de la Astronom\xEDa Moderna, \nel Padre de la F\xEDsica Moderna
+    y el Padre de la ciencia."
   - "Una vez que teminaste de leerla, con solo tocarla esta prendi\xF3 fuego por
     cierta fricci\xF3n con tu mano y cierto liquido en la que estaba\n empapada,
     fue combusti\xF3n instant\xE1nea lo cual hizo imposible \nrecoger algo de la

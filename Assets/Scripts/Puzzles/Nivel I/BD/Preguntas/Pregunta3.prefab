@@ -43,14 +43,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7530587cd85a62044947bf881c53a334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Alexander Graham, creo el siguiente invento la cual ayudo a revolucionar
-    la forma de comunicarse de manera r\xE1pida y eficaz durante estos a\xF1os."
+  texto: "Galileo Galilei, fue un cient\xEDfico de renombre durante la revoluci\xF3n
+    cient\xEDfica, cuyos logros resonaron por todo el mundo dando los t\xEDtulos
+    por sus descubrimientos y aportaciones a la comunidad cient\xEDfica. \xBFCu\xE1l
+    de estos t\xEDtulos obtuvo Galileo? "
   opciones:
-  - texto: a) Internet
+  - texto: "a) Padre de la Astronom\xEDa Moderna"
     opcionCorrecta: 0
-  - texto: b) Carta
+  - texto: "b) Padre de la F\xEDsica Moderna"
     opcionCorrecta: 0
-  - texto: "c) Tel\xE9fono "
+  - texto: c) Padre de la Ciencia
+    opcionCorrecta: 0
+  - texto: d) Todas las anteriores
     opcionCorrecta: 1
-  - texto: d) Telegrama
-    opcionCorrecta: 0
