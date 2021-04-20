@@ -37,6 +37,9 @@ public class EstanteMensaje : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    // Referencia al auido Source
+    public AudioSource EfectoSonido;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -111,6 +114,7 @@ public class EstanteMensaje : MonoBehaviour
     {
         PanelDialogo.SetActive(true);
         StartCoroutine(TextDialogo());
+        EfectoSonido.Play();
     }
 
     public void botonCerrar()

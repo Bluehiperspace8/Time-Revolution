@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 
 /*
@@ -55,6 +57,18 @@ public class PlaticaPortal : MonoBehaviour
 
     public GameObject BotonNivel;
     public GameObject BotonMenu;
+
+    // Referencia al auido Source1(Dialogo)
+    public AudioSource EfectoSonido;
+
+    // Referencia al auido Source (Portal)
+    public AudioSource EfectoSonido1;
+
+    // Referencia al auido Source (Portal2 pasando al siguiente nivel)
+    public AudioSource EfectoSonido2;
+
+    //Imagen que dara la transicion en negro a la siguiente escena
+    public Image imagenFondo;
 
     // Start is called before the first frame update
     void Start()
@@ -111,6 +125,7 @@ public class PlaticaPortal : MonoBehaviour
             textD.text = "AHHH!!!!";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
+            EfectoSonido1.Play();
             //Activar Portal
             Portal.SetActive(true);
             Prota.SetActive(false);
@@ -136,6 +151,7 @@ public class PlaticaPortal : MonoBehaviour
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
+        EfectoSonido.Play();
         StartCoroutine(TextDialogo());
     }
 
@@ -154,6 +170,27 @@ public class PlaticaPortal : MonoBehaviour
     // Botones de transiciones
     public void BotonSiguienteNivel()
     {
+        //Reproducimos el sonido
+        EfectoSonido2.Play();
+        PanelMisionCumplida.SetActive(false);
+        BotonNivel.SetActive(false);
+        BotonMenu.SetActive(false);
+    //Generar animacion de transicion con el audio
+    imagenFondo.canvasRenderer.SetAlpha(0);
+        imagenFondo.gameObject.SetActive(true);
+        imagenFondo.CrossFadeAlpha(1, 11, true);
+        new WaitForSeconds(3);
+
+        // Cargamos Escena
+        StartCoroutine(CambiarEscena());
+    }
+
+    //Corrutina -> Cambio de escena
+    private IEnumerator CambiarEscena()
+    {
+        yield return new WaitForSeconds(11);
+        // Cambiar de escena
+        //Ya regreso /Ya termino
         // Transicion al siguiente Nivel
         SceneManager.LoadScene("Scenes/Nivel_II/nivel2");
     }

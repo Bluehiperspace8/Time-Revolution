@@ -36,6 +36,8 @@ public class PlaticaFabrica3 : MonoBehaviour
     public GameObject PanelDialogo;
     // Boton Lectura
     public GameObject BotonLeer;
+    // Referencia al auido Source
+    public AudioSource EfectoSonido;
 
     // Start is called before the first frame update
     void Start()
@@ -110,6 +112,7 @@ public class PlaticaFabrica3 : MonoBehaviour
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
+        EfectoSonido.Play();
         StartCoroutine(TextDialogo());
     }
 

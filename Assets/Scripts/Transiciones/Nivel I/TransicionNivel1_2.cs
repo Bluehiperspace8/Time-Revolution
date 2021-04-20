@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 /*
  Objetivo: Pasar a la transicion del Nivel I y fabrica  del Prota
@@ -31,6 +33,12 @@ public class TransicionNivel1_2 : MonoBehaviour
     public GameObject PanelDialogo;
     // Boton Lectura
     public GameObject BotonLeer;
+
+    // Referencia al auido Source
+    public AudioSource EfectoSonido;
+
+    //Imagen que dara la transicion en negro a la siguiente escena
+    public Image imagenFondo;
 
     // Start is called before the first frame update
     void Start()
@@ -85,9 +93,32 @@ public class TransicionNivel1_2 : MonoBehaviour
     {
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
-        SceneManager.LoadScene("Scenes/Nivel_I/Fabriica");
-        Destroy(gameObject, t: 0.1f);
+
+        //Reproducimos el sonido
+        EfectoSonido.Play();
+
+        // Esperamos Tres segundos y esperamos que efecto Fade in aparezca
+        imagenFondo.canvasRenderer.SetAlpha(0);
+        imagenFondo.gameObject.SetActive(true);
+        imagenFondo.CrossFadeAlpha(1, 0.7f, true);
+        new WaitForSeconds(3);
+
+        // Cargamos Escena
+        StartCoroutine(CambiarEscena());
+
+
     }
+
+    //Corrutina -> Cambio de escena
+    private IEnumerator CambiarEscena()
+    {
+        yield return new WaitForSeconds(0.7f);
+        // Cambiar de escena
+        //Ya regreso /Ya termino
+        SceneManager.LoadScene("Scenes/Nivel_I/Fabriica");
+    }
+
+
 
     public void botonQuedarse()
     {

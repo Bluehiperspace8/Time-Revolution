@@ -37,6 +37,10 @@ public class LibretaMensaje : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    // Referencia al auido Source
+    public AudioSource EfectoSonido;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -111,6 +115,7 @@ public class LibretaMensaje : MonoBehaviour
     {
         PanelDialogo.SetActive(true);
         StartCoroutine(TextDialogo());
+        EfectoSonido.Play();
     }
 
     public void botonCerrar()
