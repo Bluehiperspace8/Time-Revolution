@@ -4161,7 +4161,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 257839686}
         m_TargetAssemblyTypeName: PistaPantalla, Assembly-CSharp
-        m_MethodName: activarBotonConv
+        m_MethodName: ActivarBotonConv
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4701,7 +4701,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1284705100}
         m_TargetAssemblyTypeName: DialogoMartinG, Assembly-CSharp
-        m_MethodName: activarBotonConv
+        m_MethodName: ActivarBotonConv
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5774,7 +5774,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1284705100}
         m_TargetAssemblyTypeName: DialogoMartinG, Assembly-CSharp
-        m_MethodName: activarBotonSalir
+        m_MethodName: ActivarBotonSalir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7224,7 +7224,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1284705100}
         m_TargetAssemblyTypeName: DialogoMartinG, Assembly-CSharp
-        m_MethodName: siguienteParrafo
+        m_MethodName: SiguienteParrafo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8391,7 +8391,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 257839686}
         m_TargetAssemblyTypeName: PistaPantalla, Assembly-CSharp
-        m_MethodName: siguienteParrafo
+        m_MethodName: SiguienteParrafo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8606,7 +8606,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 257839686}
         m_TargetAssemblyTypeName: PistaPantalla, Assembly-CSharp
-        m_MethodName: activarBotonSalir
+        m_MethodName: ActivarBotonSalir
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
