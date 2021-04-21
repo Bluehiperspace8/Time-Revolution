@@ -40,7 +40,7 @@ public class DialogoMartinG : MonoBehaviour
         {
             textD.text += letra;
 
-            yield return new WaitForSecodns(velParrafo);
+            yield return new WaitForSeconds(velParrafo);
         }
 
     }
