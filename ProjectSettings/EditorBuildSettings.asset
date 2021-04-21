@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Menuprincipal.unity
     guid: b73535da205156f40a891d0fa98f8148
   - enabled: 1
-    path: Assets/Scenes/Nivel_II/nivel2.unity
+    path: Assets/Scenes/Nivel_II/Laboratorio.unity
     guid: 2c0e6b16d1841d34aa7110b010bf34c2
   m_configObjects: {}
