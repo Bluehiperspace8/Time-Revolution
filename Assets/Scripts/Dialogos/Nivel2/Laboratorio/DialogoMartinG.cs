@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+/*
+Implementar el diálogo con Martín Gómez en el laboratorio
+Autor: Renata de Luna
+*/
+
 public class DialogoMartinG : MonoBehaviour
 {
     public TextMeshProUGUI textD;
+    [TextArea (3,30)]
     public string[] parrafos;
     int index;
     public float velParrafo;
@@ -45,7 +51,7 @@ public class DialogoMartinG : MonoBehaviour
 
     }
 
-    public void siguienteParrafo()
+    public void SiguienteParrafo()
     {
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
@@ -71,13 +77,13 @@ public class DialogoMartinG : MonoBehaviour
         }
     }
 
-    public void activarBotonConv()
+    public void ActivarBotonConv()
     {
         panelDialogo.SetActive(true);
         StartCoroutine(TextDialogo());
     }
 
-    public void activarBotonSalir()
+    public void ActivarBotonSalir()
     {
         panelDialogo.SetActive(false);
         botonConversar.SetActive(false);
