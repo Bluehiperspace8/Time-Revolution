@@ -3,12 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-/*
-Implementar el diálogo con Martín Gómez en el laboratorio
-Autor: Renata de Luna
-*/
-
-public class PistaAcido : MonoBehaviour
+public class PistaAlchemy : MonoBehaviour
 {
     public TextMeshProUGUI textD;
     [TextArea (3,30)]
@@ -22,7 +17,7 @@ public class PistaAcido : MonoBehaviour
     public GameObject panelDialogo; 
     public GameObject botonConversar;
 
-    public AudioSource sonidoAcido;
+    public AudioSource sonidoAlchemy;
     // Start is called before the first frame update
     void Start()
     {
@@ -61,7 +56,7 @@ public class PistaAcido : MonoBehaviour
             index ++;
             textD.text = "";
             StartCoroutine(TextDialogo());
-            sonidoAcido.Play();
+            sonidoAlchemy.Play();
 
         }else{
             textD.text = "";
@@ -84,7 +79,7 @@ public class PistaAcido : MonoBehaviour
     {
         panelDialogo.SetActive(true);
         StartCoroutine(TextDialogo());
-        sonidoAcido.Play();
+        sonidoAlchemy.Play();
     }
 
     public void ActivarBotonSalir()

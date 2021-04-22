@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 /*
@@ -21,6 +22,9 @@ public class DialogoMartinG : MonoBehaviour
 
     public GameObject panelDialogo; 
     public GameObject botonConversar;
+
+    public AudioSource sonidoConv;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +41,7 @@ public class DialogoMartinG : MonoBehaviour
         if (textD.text == parrafos[index])
         {
             botonContinuar.SetActive(true);
+            sonidoConv.Play();
         }
     }
 
@@ -81,6 +86,7 @@ public class DialogoMartinG : MonoBehaviour
     {
         panelDialogo.SetActive(true);
         StartCoroutine(TextDialogo());
+        sonidoConv.Play();
     }
 
     public void ActivarBotonSalir()
@@ -88,5 +94,6 @@ public class DialogoMartinG : MonoBehaviour
         panelDialogo.SetActive(false);
         botonConversar.SetActive(false);
         botonSalir.SetActive(false);
+        
     }
 }

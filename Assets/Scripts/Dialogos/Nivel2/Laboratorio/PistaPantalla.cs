@@ -21,6 +21,8 @@ public class PistaPantalla : MonoBehaviour
 
     public GameObject panelDialogo; 
     public GameObject botonConversar;
+
+    public AudioSource audioComputadora;
     // Start is called before the first frame update
     void Start()
     {
@@ -59,6 +61,7 @@ public class PistaPantalla : MonoBehaviour
             index ++;
             textD.text = "";
             StartCoroutine(TextDialogo());
+            audioComputadora.Play();
 
         }else{
             textD.text = "";
@@ -81,6 +84,7 @@ public class PistaPantalla : MonoBehaviour
     {
         panelDialogo.SetActive(true);
         StartCoroutine(TextDialogo());
+        audioComputadora.Play();
     }
 
     public void ActivarBotonSalir()
