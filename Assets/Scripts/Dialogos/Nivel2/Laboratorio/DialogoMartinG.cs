@@ -25,6 +25,13 @@ public class DialogoMartinG : MonoBehaviour
 
     public AudioSource sonidoConv;
 
+    public Image imagenFondo;
+
+    public GameObject martin1;
+    public GameObject martin2;
+    
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,9 +73,23 @@ public class DialogoMartinG : MonoBehaviour
             StartCoroutine(TextDialogo());
 
         }else{
-            textD.text = "";
+            textD.text = "Martín: Oye hombre, ¿estás bien? ¿Qué sucede? ¿Quieres que te traiga algo?";
             botonContinuar.SetActive(false);
             botonSalir.SetActive(true);
+            //Hacer el código de fade out
+            imagenFondo.canvasRenderer.SetAlpha(0);
+            imagenFondo.gameObject.SetActive(true);
+            imagenFondo.CrossFadeAlpha(1, 11, true);
+
+            new WaitForSeconds(7);
+
+            imagenFondo.canvasRenderer.SetAlpha(0);
+            imagenFondo.gameObject.SetActive(false);
+            imagenFondo.CrossFadeAlpha(0, 11, true);
+
+            martin1.GameObject.SetActive(false);
+            martin2.GameObject.SetActive(true);
+
         }
     }
 
