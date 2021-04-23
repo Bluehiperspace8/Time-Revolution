@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel_II/Laboratorio.unity
     guid: 2c0e6b16d1841d34aa7110b010bf34c2
+  - enabled: 1
+    path: Assets/Scenes/Nivel_IV/Falldown.unity
+    guid: 814a0e85a6441bb48b51a95bb7c0c8ed
+  - enabled: 1
+    path: Assets/Scenes/Nivel_IV/Energysnake.unity
+    guid: b499a4c28369a87489ab808452ab1a89
+  - enabled: 1
+    path: Assets/Scenes/Nivel_IV/Nivel4.unity
+    guid: a095401cb2631a24eb01809a6160c757
   m_configObjects: {}

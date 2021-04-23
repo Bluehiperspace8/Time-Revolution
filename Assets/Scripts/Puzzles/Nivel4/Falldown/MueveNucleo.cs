@@ -1,0 +1,23 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MueveNucleo : MonoBehaviour
+{
+    // variables
+    public float maxVelocidadx = 10; //Mov horizonta 
+    private Rigidbody2D rigidbody;
+    // Start is called before the first frame update
+    void Start()
+    {
+        // Incializar variables
+        rigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        float movHorizontal = Input.GetAxis("Horizontal");  // [-1,1]
+        rigidbody.velocity = new Vector2(movHorizontal * maxVelocidadx, rigidbody.velocity.y);
+    }
+}
+
