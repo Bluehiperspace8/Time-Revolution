@@ -10,7 +10,7 @@ using UnityEngine;
 public class Movertile : MonoBehaviour
 {
     // Variable velocidad horizontal
-    public float maxVelocidadx = 2; //Movimiento horizonta
+    public float maxVelocidadx = 2.7f; //Movimiento horizonta
     private float movhor = 1;
 
     private Rigidbody2D rigidbodytile;
