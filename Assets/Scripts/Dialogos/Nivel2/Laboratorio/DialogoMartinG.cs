@@ -25,10 +25,10 @@ public class DialogoMartinG : MonoBehaviour
 
     public AudioSource sonidoConv;
 
-    public Image imagenFondo;
+    //public Image imagenFondo;
 
-    public GameObject martin1;
-    public GameObject martin2;
+    //public GameObject martin1;
+    //public GameObject martin2;
     
 
 
@@ -77,7 +77,7 @@ public class DialogoMartinG : MonoBehaviour
             botonContinuar.SetActive(false);
             botonSalir.SetActive(true);
             //Hacer el código de fade out
-            imagenFondo.canvasRenderer.SetAlpha(0);
+            /*imagenFondo.canvasRenderer.SetAlpha(0);
             imagenFondo.gameObject.SetActive(true);
             imagenFondo.CrossFadeAlpha(1, 11, true);
 
@@ -88,7 +88,7 @@ public class DialogoMartinG : MonoBehaviour
             imagenFondo.CrossFadeAlpha(0, 11, true);
 
             martin1.GameObject.SetActive(false);
-            martin2.GameObject.SetActive(true);
+            martin2.GameObject.SetActive(true);*/
 
         }
     }
