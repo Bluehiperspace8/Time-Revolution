@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 /*
- Objetivo: Dialogo de Jacob a si mismo de la vistaa
- Autor: Roberto Valdez Jasso
+ Objetivo: Dialogo de Jacob con Diego Ruiz
+ Autor: Diego Alejandro Juárez Ruiz
+Autor: Luis Enrique Zamarripa
+Referencia a: Drosgame
+Youtube: https://youtu.be/FjoL4ufZmXc
+
  */
 
-public class Platica4 : MonoBehaviour
+public class DialogoJacobDiego : MonoBehaviour
 {
     // Variables ---//
     // llamanndo al mensaje
@@ -37,9 +42,6 @@ public class Platica4 : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
-    // Referencia al auido Source
-    public AudioSource EfectoSonido;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -53,9 +55,7 @@ public class Platica4 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         // Si utilizamos el objecto pasamos al if
-
         if (textD.text == parrafos[index])
         {
             botonContinuar.SetActive(true);
@@ -88,8 +88,8 @@ public class Platica4 : MonoBehaviour
         }
         else
         {
-            textD.text = "Aunque hay mucho humo de las fábricas, es una pena**";
-            botonContinuar.SetActive(false);
+            textD.text = "Diego:\n" +
+                "Pues mira, aquí tengo el núcleo. Pero necesitamos colocarlo en su contenedor. Tu tarea es controlar el núcleo a control remoto y hacer que llegue hasta su lugar. Pero cuidado, cuando inicie el sistema estarás contra reloj. ¡Necesitaras ser veloz!";
             botonQuitar.SetActive(true);
 
         }
@@ -113,7 +113,6 @@ public class Platica4 : MonoBehaviour
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
-        EfectoSonido.Play();
         StartCoroutine(TextDialogo());
     }
 
@@ -124,6 +123,7 @@ public class Platica4 : MonoBehaviour
         botonQuitar.SetActive(false);
         textD.text = "";
         Destroy(gameObject, t: 0.1f);
+        SceneManager.LoadScene("Falldown");
 
     }
 }

@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7530587cd85a62044947bf881c53a334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Gran Matem\xE1tico que aporto ideas fundamentales sobre el calculo diferencial
-    e integral como otras ramas Matem\xE1ticas."
+  texto: "Gran Matem\xE1tico que aport\xF3 ideas fundamentales sobre el c\xE1lculo
+    diferencial e integral; as\xED como otras ramas Matem\xE1ticas."
   opciones:
   - texto: a) Nikola Tesla
     opcionCorrecta: 0

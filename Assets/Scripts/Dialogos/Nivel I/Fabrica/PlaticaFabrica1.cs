@@ -7,6 +7,7 @@ using TMPro;
  Objetivo: Dialogo de Jacob Con los obreros
  Autor: Roberto Valdez Jasso
  */
+
 public class PlaticaFabrica1 : MonoBehaviour
 {
     // Variables ---//

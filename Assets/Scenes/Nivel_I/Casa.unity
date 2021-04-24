@@ -4776,15 +4776,15 @@ MonoBehaviour:
   textD: {fileID: 1875692132}
   parrafos:
   - 'PARA EL  SR  SMITH:'
-  - "Tras la gran explosi\xF3n  de rumores que hay por las calles por las nuevas
+  - "Tras la gran explosi\xF3n de rumores que hay por las calles debido a las nuevas
     invenciones y descubrimientos del pasar de estos d\xEDas, se le requiere que
-    sus servicios sean destinados  a investigar, "
+    sus servicios sean destinados a investigar, "
   - "entrevistar y redactar un art\xEDculo sobre la gran llamada  \u201Cm\xE1quina
-    del vapor\u201D creada por Thomas Savery. Esta cita fue agendada en las oficinas
+    de vapor\u201D creada por Thomas Savery. Esta cita fue agendada en las oficinas
     centrales de vapor y carb\xF3n en la calle Olimpic Gate.\r\n"
-  - "Sin falta , este art\xEDculo deber\xE1 ser entregado en un tiempo de dos d\xEDas
-    para su publicaci\xF3n en el peridico semanal.\r\n"
-  - 'ATTE: Gazette Impress and Novelists news.
+  - "Sin falta, este art\xEDculo deber\xE1 ser entregado en un tiempo de dos d\xEDas
+    para su publicaci\xF3n en el peri\xF3dico semanal.\r\n"
+  - 'ATTE: Gazette Impress and Novelists News.
 
 '
   velParrafo: 0.02
@@ -12595,8 +12595,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 1321965607}
   parrafos:
-  - "Jacob:\nAlg\xFAn d\xEDa de estos tendr\xE9 que acomodar todo esto"
-  - "Donde est\xE1 mi\u2026\u2026ohh ah\xED esta"
+  - "Jacob:\nAlg\xFAn d\xEDa de estos tendr\xE9 que acomodar todo este desorden"
+  - "\xBFD\xF3nde est\xE1 mi\u2026? Oh ah\xED esta"
   - No quiero que vuelva a pasar lo de la otra vez
   velParrafo: 0.02
   botonContinuar: {fileID: 913027903}

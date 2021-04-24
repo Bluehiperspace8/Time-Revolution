@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo de Jacob Con los obreros 2
+ Objetivo: Dialogo de Jacob con Amelie
  Autor: Diego Alejandro Juárez Ruiz
 Autor: Luis Enrique Zamarripa
 Referencia a: Drosgame
@@ -54,9 +54,7 @@ public class DialogoAmelieJacob : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         // Si utilizamos el objecto pasamos al if
-
         if (textD.text == parrafos[index])
         {
             botonContinuar.SetActive(true);
@@ -89,8 +87,8 @@ public class DialogoAmelieJacob : MonoBehaviour
         }
         else
         {
-            textD.text = "Obrero 4:\n" +
-                    "AmlieAmlie";
+            textD.text = "Ya estamos dando los últimos toques al teletransportador. ¿Por qué no vas a hablar con mis compañeros Diego y Cindy?";
+
             botonQuitar.SetActive(true);
 
         }

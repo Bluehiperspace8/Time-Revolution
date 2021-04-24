@@ -2,13 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 /*
- Objetivo: Dialogo de Jacob a si mismo de la vistaa
- Autor: Roberto Valdez Jasso
+ Objetivo: Dialogo de Jacob con Cindy
+ Autor: Diego Alejandro Juárez Ruiz
+Autor: Luis Enrique Zamarripa
+Referencia a: Drosgame
+Youtube: https://youtu.be/FjoL4ufZmXc
+
  */
 
-public class Platica4 : MonoBehaviour
+public class DialogoJacobCindy : MonoBehaviour
 {
     // Variables ---//
     // llamanndo al mensaje
@@ -37,9 +42,6 @@ public class Platica4 : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
-    // Referencia al auido Source
-    public AudioSource EfectoSonido;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -53,9 +55,7 @@ public class Platica4 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         // Si utilizamos el objecto pasamos al if
-
         if (textD.text == parrafos[index])
         {
             botonContinuar.SetActive(true);
@@ -88,8 +88,10 @@ public class Platica4 : MonoBehaviour
         }
         else
         {
-            textD.text = "Aunque hay mucho humo de las fábricas, es una pena**";
-            botonContinuar.SetActive(false);
+            textD.text = "Pero ahorita lo que urge es conseguir la energía para tu transportador."+
+                "¿Me podrías ayudar a recolectar distintas fuentes de energía?"+
+                "Ten cuidado, con tanto movimiento se va transformando la energía y queda inservible."+
+                "Tienes que asegurarte de recolectar suficiente energía útil para el reactor y regresar con ella a tiempo.";
             botonQuitar.SetActive(true);
 
         }
@@ -113,7 +115,6 @@ public class Platica4 : MonoBehaviour
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
-        EfectoSonido.Play();
         StartCoroutine(TextDialogo());
     }
 
@@ -124,6 +125,7 @@ public class Platica4 : MonoBehaviour
         botonQuitar.SetActive(false);
         textD.text = "";
         Destroy(gameObject, t: 0.1f);
+        SceneManager.LoadScene("Energysnake");
 
     }
 }

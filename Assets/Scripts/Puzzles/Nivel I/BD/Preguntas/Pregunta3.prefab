@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7530587cd85a62044947bf881c53a334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Galileo Galilei, fue un cient\xEDfico de renombre durante la revoluci\xF3n
+  texto: "Galileo Galilei fue un cient\xEDfico de renombre durante la revoluci\xF3n
     cient\xEDfica, cuyos logros resonaron por todo el mundo dando los t\xEDtulos
     por sus descubrimientos y aportaciones a la comunidad cient\xEDfica. \xBFCu\xE1l
     de estos t\xEDtulos obtuvo Galileo? "

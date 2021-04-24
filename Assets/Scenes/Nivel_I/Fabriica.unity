@@ -1433,18 +1433,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 2096880619}
   parrafos:
-  - "La nota dice lo siguiente:\r\nDebido a la nueva alza de zonas comerciales y
-    f\xE1bricas, hay una creciente inclinaci\xF3n a los nuevos trabajos de operarios,
-    operadores \n"
-  - "y \"mano de trabajo\u201D cada vez que se abre una nueva f\xE1brica"
-  - ' dando paso a las nuevas administraciones y sindicatos que han creado hasta
-    el momento, perdiendo asi las tradiciones y trabajos'
+  - "La nota dice lo siguiente:\r\nDebido al nuevo alza de zonas comerciales y f\xE1bricas,
+    hay una creciente inclinaci\xF3n a los nuevos trabajos de operarios, operadores
+    \n"
+  - "y \"mano de trabajo\u201D cada vez que se abre una nueva f\xE1brica."
+  - Esto da paso a las nuevas administraciones y sindicatos que han creado hasta
+    el momento, perdiendo las tradiciones y trabajos
   - "que antes los artesanos hac\xEDan para sostener las demandas de la misma ciudad.\r\nNota
-    a m\xED mismo:\r\nPrepararme para ser capataz de la siguiente fabrica cerca de
-    casa.\r\n"
-  - "Agarras la nota y la guardas de manera exitosa en el bolsillo, justo la intentas
-    volver a leer y esa desapareci\xF3 de tu propio bolsillo.\r\nComo paso algo asi,
-    ni t\xFA sabes y no generas preguntas al respecto.\r\n"
+    a m\xED mismo:\r\nPrepararme para ser capataz de la siguiente f\xE1brica cerca
+    de casa.\r\n"
+  - "**Agarras la nota y la guardas de manera exitosa en el bolsillo, justo la intentas
+    volver a leer y esta desaparece de tu propio bolsillo. \xBFC\xF3mo pas\xF3 algo
+    as\xED?**\r\n"
   velParrafo: 0.02
   botonContinuar: {fileID: 1934740474}
   botonQuitar: {fileID: 820614103}
@@ -6269,17 +6269,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 2096880619}
   parrafos:
-  - "La nota dice lo siguiente:\r\nLeonhard Paul Euler es  un matem\xE1tico y f\xEDsico
-    suizo muy conocido por el\nn\xFAmero de Euler, n\xFAmero que aparece en muchas
-    f\xF3rmulas de c\xE1lculo \ny f\xEDsica."
-  - "Y fue quien aport\xF3 ideas fundamentales sobre el c\xE1lculo diferencial\ne
+  - "La nota dice lo siguiente:\r\nLeonhard Paul Euler fue un matem\xE1tico y f\xEDsico
+    suizo muy conocido por el\nn\xFAmero de Euler, que aparece en muchas f\xF3rmulas
+    de c\xE1lculo \ny f\xEDsica."
+  - "Y fue \xE9l quien aport\xF3 ideas fundamentales sobre el c\xE1lculo diferencial,\n
     integral y otras ramas de las matem\xE1ticas y sus aplicaciones."
   - "El numero de Euler es el siguiente:\r\ne=2.718\r\ny funciona como constante
-    matem\xE1tico la cual esta en los numero \nconocido como \u201CIrracionales\u201D,
-    es decir, no tiene expansi\xF3n \n"
-  - "Decimal finita.\r\nUna vez que teminaste de leerla y justo al intentar gu\xE1rdala
-    en tu bolsillo, esta se deshizo en tus mandos dando a conocer el terrible cuidado
-    que tuvo esa nota."
+    matem\xE1tica la cual est\xE1 en los n\xFAmeros \nconocidos como \u201CIrracionales\u201D,
+    es decir, no tienen expansi\xF3n \n"
+  - 'decimal finita.
+
+    **Una vez que teminaste de leerla y justo al intentar
+    guardarla en tu bolsillo, esta se deshizo en tus manos dando a conocer el terrible
+    cuidado que tuvo la nota**'
   velParrafo: 0.02
   botonContinuar: {fileID: 1983298982}
   botonQuitar: {fileID: 1027609946}
@@ -13361,8 +13363,8 @@ MonoBehaviour:
   textD: {fileID: 2096880619}
   parrafos:
   - "Viejo Obrero:\r\nYa estoy viejo, ya no puedo cargar tantas cosas al mismo tiempo\r"
-  - "Obrero Flojo:\r\nY yo muy joven para cargar tambi\xE9n\r\nCreo que estamos en
-    un dilema muy interesante aqu\xED \u2026\r"
+  - "Obrero Flojo:\r\nY yo muy joven para cargar tambi\xE9n\r.\nCreo que estamos
+    en un dilema muy interesante aqu\xED \u2026\r"
   velParrafo: 0.02
   botonContinuar: {fileID: 180161347}
   botonQuitar: {fileID: 543632195}
@@ -16217,9 +16219,9 @@ MonoBehaviour:
   parrafos:
   - "Obrero 1:\r\nYo ya te dije que no est\xE1n las cosas en su lugar\r"
   - "Obrero 2:\r\nY yo ya te dije viejo, ese barril tiene todo lo necesario para\u2026\r"
-  - "\nSin pensarlo dos veces interrumpe la pl\xE1tica entre ambos obreros"
+  - "**Sin pensarlo dos veces interrumpe la pl\xE1tica entre ambos obreros**"
   - "Jacob: \r\nDisculpa\u2026. \xBFc\xF3mo salgo de aqu\xED?\r"
-  - "Obrero 2: \r\nPreg\xFAntale al capataz, el te dir\xE1 como salir de aqu\xED\r\nEsta
+  - "Obrero 2: \r\nPreg\xFAntale al capataz, el te dir\xE1 como salir de aqu\xED\r.\nEsta
     en este mismo piso, al final del edificio.\r"
   - 'Jacob:
 
@@ -17024,7 +17026,7 @@ MonoBehaviour:
   parrafos:
   - "Obrero 4:\r\nTe dije que aqu\xED no estaba la pieza que necesitamos, solo encuentro
     notas sin sentido del capataz.\r"
-  - "Obrero 5:\r\n\xBFQue pieza necesitamos primero?\r"
+  - "Obrero 5:\r\n\xBFQu\xE9 pieza necesitamos?\r"
   velParrafo: 0.02
   botonContinuar: {fileID: 262500910}
   botonQuitar: {fileID: 1577052475}
@@ -21054,14 +21056,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 2096880619}
   parrafos:
-  - "La nota dice lo siguiente:\r\nGalileo Galilei, fue un astr\xF3nomo, ingeniero
-    y f\xEDsico italiano, relacionado estrechamente con la revoluci\xF3n cient\xEDfica.
+  - "La nota dice lo siguiente:\r\nGalileo Galilei fue un astr\xF3nomo, ingeniero
+    y f\xEDsico italiano. Estaba relacionado estrechamente con la revoluci\xF3n cient\xEDfica.
     \nSus logros incluyen la mejora del telescopio,  \n"
   - "gran variedad de observaciones astron\xF3micas, la primera ley del movimiento
     y un apoyo determinante a la Revoluci\xF3n de Cop\xE9rnico.\nHa sido considerado
     como el Padre de la Astronom\xEDa Moderna, \nel Padre de la F\xEDsica Moderna
     y el Padre de la Ciencia."
-  - "Una vez que teminaste de leerla, con solo tocarla esta prendi\xF3 fuego por
+  - "**Una vez que teminas de leerla, con solo tocarla esta prendi\xF3 fuego por
     cierta fricci\xF3n con tu mano y cierto liquido en la que estaba\n empapada,
     fue combusti\xF3n instant\xE1nea lo cual hizo imposible \nrecoger algo de la
     nota."
@@ -21375,29 +21377,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 2096880619}
   parrafos:
-  - "Capataz:\r\n\xBFTu quien eres?\r"
+  - "Capataz:\r\n\xBFT\xFA qui\xE9n eres?\r"
   - "Jacob:\r\nSoy Jacob Smith y me gustar\xEDa\u2026\r"
-  - "Capataz:\r\nSi si si, no me interesa\r\nPor favor salga de la fabrica antes
-    que salga lastimado por algo\r\nNormalmente se caen las cosas por aqu\xED.\r"
+  - "Capataz:\r\nSi, si, si, no me interesa.\nPor favor, salga de la fabrica antes
+    que lastime.\nNormalmente se caen las cosas por aqu\xED"
   - "Jacob:\r\nEso no me trae mucha confianza en la construcci\xF3n\u2026\r\nY bueno
     esa es mi idea, tengo que salir de aqu\xED lo m\xE1s r\xE1pido posible, \nsi
     no\u2026\r\n"
-  - "Capataz,:\nYa veo, entonces tendr\xE1 que pasar por la puerta que tengo detr\xE1s
+  - "Capataz:\nYa veo, entonces tendr\xE1 que pasar por la puerta que tengo detr\xE1s
     m\xEDa\r"
-  - "Jacob:\r\nGraci\u2026\r"
-  - "Capataz:\r\nPero antes, necesito que haga algo por mi antes de que se vaya\r"
-  - "Jacob:\r\nSi\u2026la ve\xEDa venir desde lejos\u2026\r\nQue necesitas, se me
-    acaba el tiempo\r"
+  - "Capataz:\r\nPero antes, necesito que haga algo por m\xED"
+  - "Jacob:\r\nS\xED\u2026 La ve\xEDa venir desde lejos\u2026\r\n\xBFQu\xE9 necesitas?
+    Se me acaba el tiempo\r"
   - "Capataz:\r\nTr\xE1eme mis notas que est\xE1n escondidas en los barriles\r"
-  - "Jacob:\r\n\xBFY porque est\xE1n escondidas en primeras?\r"
+  - "Jacob:\r\n\xBFY por qu\xE9 est\xE1n escondidas?\r"
   - "Capataz:\r\nEso no importa, ve por mis notas y tr\xE1elas\r"
   - "Instrucciones:\r\nEn esta f\xE1brica est\xE1n escondidas notas que contendr\xE1n\nlo
     necesario para contestar a las preguntas que te har\xE1 \nel capataz m\xE1s adelante\r\n"
-  - "Estas notas tienen la informacion necesaria,\n pero estas desaparecer\xE1n una
-    vez que las encuentres.\n Recuerda bien lo que encontraste porque lo necesitaras
+  - "Estas notas tienen la informacion necesaria,\n pero desaparecer\xE1n una vez
+    que las encuentres.\n Recuerda bien lo que encontraste porque lo necesitar\xE1s
     \npara contestar de manera correcta"
-  - "Una vez que las hayas encontrado las notas, \nregresa con el capataz \ny prep\xE1rate
-    para contestar!!!"
+  - "Una vez que las hayas encontrado las notas, \n\xA1regresa con el capataz \ny
+    prep\xE1rate para contestar!"
   velParrafo: 0.02
   botonContinuar: {fileID: 1315910926}
   botonQuitar: {fileID: 660258271}

@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7530587cd85a62044947bf881c53a334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Visto en la pregunta a anterior, cual es el famoso n\xFAmero de Euler y
-    como es identificado."
+  texto: "Visto en la pregunta a anterior, \xBFcu\xE1l es el famoso n\xFAmero de
+    Euler y c\xF3mo es identificado?"
   opciones:
   - texto: a) e=3.1416 , Es un numero imaginario
     opcionCorrecta: 0

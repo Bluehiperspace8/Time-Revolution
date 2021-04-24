@@ -47,7 +47,7 @@ MonoBehaviour:
     su revolucionaria idea o la incentivaci\xF3n econ\xF3mica, esta tiene un efecto
     negativo en la sociedad actual, la cual es:"
   opciones:
-  - texto: "a) Cambio de r\xE9gimen religioso"
+  - texto: "a) Cambio de r\xE9gimen religioso."
     opcionCorrecta: 0
   - texto: "b) Perdida de trabajos de artesan\xEDa."
     opcionCorrecta: 1
