@@ -175,8 +175,8 @@ public class PlaticaPortal : MonoBehaviour
         PanelMisionCumplida.SetActive(false);
         BotonNivel.SetActive(false);
         BotonMenu.SetActive(false);
-    //Generar animacion de transicion con el audio
-    imagenFondo.canvasRenderer.SetAlpha(0);
+        //Generar animacion de transicion con el audio
+        imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(true);
         imagenFondo.CrossFadeAlpha(1, 11, true);
         new WaitForSeconds(3);

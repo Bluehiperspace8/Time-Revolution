@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 /*
  Objetivo: Dialogo de Jacob con Diego Ruiz
  Autor: Diego Alejandro Juárez Ruiz
-Autor: Luis Enrique Zamarripa
-Referencia a: Drosgame
-Youtube: https://youtu.be/FjoL4ufZmXc
+ Autor: Luis Enrique Zamarripa
+ Referencia a: Drosgame
+ Youtube: https://youtu.be/FjoL4ufZmXc
 
  */
 

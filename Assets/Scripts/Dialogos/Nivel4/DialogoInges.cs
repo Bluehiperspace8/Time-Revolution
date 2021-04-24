@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo de Jacob con Diego Ruiz
+ Objetivo: Dialogo entre Diego, Cindy y Amelie
  Autor: Diego Alejandro Juárez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
@@ -12,7 +12,7 @@ using TMPro;
 
  */
 
-public class DialogoAmelieJacob2 : MonoBehaviour
+public class DialogoInges : MonoBehaviour
 {
     // Variables ---//
     // llamanndo al mensaje
@@ -87,8 +87,10 @@ public class DialogoAmelieJacob2 : MonoBehaviour
         }
         else
         {
-            textD.text = "Amelie:\n" +
-                         "Lo sé y espero que no lo comprendas por un buen rato";
+            textD.text = "Diego:\n" +
+                        "Bueno, al menos le dejaste una sopresa para que lo descubra con el tiempo.\n" +
+                        "La cual descubrirá en poco tiempo…";
+
 
             botonQuitar.SetActive(true);
 

@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 /*
- Objetivo: Dialogo de Jacob con Diego Ruiz
+ Objetivo: Dialogo de Jacob antes de entrar al portal. También maneja su entrada al portal
  Autor: Diego Alejandro Juárez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
@@ -12,7 +14,7 @@ using TMPro;
 
  */
 
-public class DialogoAmelieJacob2 : MonoBehaviour
+public class DialogoPortal : MonoBehaviour
 {
     // Variables ---//
     // llamanndo al mensaje
@@ -41,6 +43,32 @@ public class DialogoAmelieJacob2 : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    // Protagonista
+    public GameObject Prota;
+
+    // PANEL MISION CUMPLIDA
+    public GameObject PanelMisionCumplida;
+
+    // Boton Seguir al Siguiente Nivel
+
+    public GameObject BotonNivel;
+    public GameObject BotonMenu;
+
+    /*
+    // Referencia al auido Source1(Dialogo)
+    public AudioSource EfectoSonido;
+
+    // Referencia al auido Source (Portal)
+    public AudioSource EfectoSonido1;
+
+    // Referencia al auido Source (Portal2 pasando al siguiente nivel)
+    public AudioSource EfectoSonido2;
+    */
+
+    //Imagen que dara la transicion en negro a la siguiente escena
+    public Image imagenFondo;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +77,9 @@ public class DialogoAmelieJacob2 : MonoBehaviour
         botonQuitar.SetActive(false);
         BotonLeer.SetActive(false);
         PanelDialogo.SetActive(false);
+        PanelMisionCumplida.SetActive(false);
+        BotonNivel.SetActive(false);
+        BotonMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -87,10 +118,10 @@ public class DialogoAmelieJacob2 : MonoBehaviour
         }
         else
         {
-            textD.text = "Amelie:\n" +
-                         "Lo sé y espero que no lo comprendas por un buen rato";
-
+            textD.text = "\nEs hora de revolucionar mi tiempo";
+            botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
+            Prota.SetActive(false);
 
         }
     }
@@ -121,7 +152,46 @@ public class DialogoAmelieJacob2 : MonoBehaviour
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
         botonQuitar.SetActive(false);
-        textD.text = "";
-        Destroy(gameObject, t: 0.1f);
+
+        // Activar panel de mision cumplida
+        PanelMisionCumplida.SetActive(true);
+        BotonNivel.SetActive(true);
+        BotonMenu.SetActive(true);
     }
+
+    public void BotonSiguienteNivel()
+    {
+        //Reproducimos el sonido
+        //EfectoSonido2.Play();
+        PanelMisionCumplida.SetActive(false);
+        BotonNivel.SetActive(false);
+        BotonMenu.SetActive(false);
+        //Generar animacion de transicion con el audio
+        imagenFondo.canvasRenderer.SetAlpha(0);
+        imagenFondo.gameObject.SetActive(true);
+        imagenFondo.CrossFadeAlpha(1, 11, true);
+        new WaitForSeconds(3);
+
+        // Cargamos Escena
+        StartCoroutine(CambiarEscena());
+    }
+
+    //Corrutina -> Cambio de escena
+    private IEnumerator CambiarEscena()
+    {
+        yield return new WaitForSeconds(11);
+        // Cambiar de escena
+        //Ya regreso /Ya termino
+        // Transicion al siguiente Nivel
+        SceneManager.LoadScene("Scenes/Nivel_IV/Nivel4-4");
+    }
+
+    public void BotonIrMenu()
+    {
+        // Transicion al menu
+        SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
+    }
+
+
 }
+

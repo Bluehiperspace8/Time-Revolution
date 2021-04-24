@@ -100,7 +100,7 @@ public class MueveBola : MonoBehaviour
         {
             if (col.CompareTag("Nuclear"))
             {
-                agrega = 5;
+                agrega = 6;
             } else if (col.CompareTag("Agua"))
             {
                 agrega = 4;
