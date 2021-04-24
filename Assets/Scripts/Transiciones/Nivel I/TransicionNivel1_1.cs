@@ -48,7 +48,7 @@ public class TransicionNivel1_1 : MonoBehaviour
         //No estara prendido hasta que el objeto sea utilizado
         BotonLeer.SetActive(false);
         PanelDialogo.SetActive(false);
-        imagenFondo.gameObject.SetActive(false);
+        //imagenFondo.gameObject.SetActive(false);
     }
 
     // Update is called once per frame

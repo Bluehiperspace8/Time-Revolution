@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel_IV/Nivel4.unity
     guid: a095401cb2631a24eb01809a6160c757
+  - enabled: 1
+    path: Assets/Scenes/Nivel_III/nivel3Pasillo.unity
+    guid: 81e3e38f2ef1cb94f89956776a632610
+  - enabled: 1
+    path: Assets/Scenes/Nivel_III/nivel3Museo.unity
+    guid: 319b469113a7b734dbd3179c3a79cfce
   m_configObjects: {}
