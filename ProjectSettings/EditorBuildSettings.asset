@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel_III/nivel3Museo.unity
     guid: 319b469113a7b734dbd3179c3a79cfce
+  - enabled: 1
+    path: Assets/Scenes/Nivel_IV/Nivel4-3.unity
+    guid: 7437a276b283d5c4c85c78dd8570e947
+  - enabled: 1
+    path: Assets/Scenes/Nivel_IV/Nivel4-4.unity
+    guid: ebb1b7b642b34a14b8d367f8b8a80979
+  - enabled: 1
+    path: Assets/Scenes/Nivel_IV/Nivel42.unity
+    guid: c59ac81ceef6f81419d3de452285fd22
   m_configObjects: {}

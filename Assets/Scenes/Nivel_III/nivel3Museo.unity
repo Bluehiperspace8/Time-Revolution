@@ -2743,93 +2743,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 920350188}
   parrafos:
-  - "Amelie:\r\nBienvenido a la Gran Museo Gal\xE1ctico de Londres\r\nEl \xFAnico
-    en su clase en toda la Tierra\r\nAqu\xED puedes encontrar Historia desde la primera
-    era de piedra humana, \nhasta el primer salto al centro de la Galaxia.\r"
-  - "Jacob\r:\nToda la Historia que hay aqu\xED debe valer al menos millones de \na\xF1os
-    de conocimiento\r\nPero antes... quien es esa persona azul?\r"
+  - "Amelie:\r\nBienvenido al Gran Museo Gal\xE1ctico de Londres.\r\nEl \xFAnico
+    en su clase en toda la Tierra\r.\nAqu\xED puedes encontrar historia desde la
+    primera era de piedra, hasta el primer salto al centro de la Galaxia.\r"
+  - "Jacob\r:\nToda la historia que hay aqu\xED debe valer al menos millones de \na\xF1os
+    de conocimiento\r.\nPero antes... \xBFQui\xE9n es esa persona azul?\r"
   - 'Amelie:
 
-    Ahh cierto, te presento a la Inteligencia Artificial del Museo,
-    se llama Noviler
+    Ah cierto, te presento a la Inteligencia Artificial del Museo,
+    se llama Noviler.
 
     Es una copia casi exacta del mismo Noviler en persona.'
-  - "IA Noviler:\r\nYo no tomar\xEDa asi Dr. Amelie\r\nYo dir\xEDa que soy una versi\xF3n
-    simp\xE1tica y carism\xE1tica del Dr. Noviler.\r\nIncluso m\xE1s atractivo.\r\n"
+  - "IA Noviler:\r\nYo no lo tomar\xEDa asi Dra. Amelie\r.\nYo dir\xEDa que soy una
+    versi\xF3n simp\xE1tica y carism\xE1tica del Dr. Noviler.\r\nIncluso m\xE1s atractivo.\r\n"
   - "Amelie:\r\nSigue so\xF1ando N\r"
-  - "Jacob:\r\nEntonces me dices que t\xFA eres una \u2026?\r"
-  - "IA Noviler: \r\nUna Inteligencia Artificial, una de las mas guapas e inteligentes
-    de todas en la Tierra\r\nEs la primera vez que a una IA tan Magnifico y poderosa
-    en todo \narco superior de la v\xEDa l\xE1ctea?\r"
-  - "Jacob:\nNo puedo creer que han llegado a estas cosas\r\nEsto se tomar\xEDa como
-    brujer\xEDa, incluso en mi tiempo\r\n"
-  - 'IA Noviler:
-
-    Brujeria?, Amelie, de donde sacas este tipo de personas?
-
-    En
-    enserio es la primera vez IA en tu vida?
-
-    Ni has visto una en una tienda
-    o centro comercial?
-
-'
-  - "Amelie:\r\nEjem\u2026., te presento a Jacob Smith\r\nEl primer viajero en el
+  - "Jacob:\r\n\xBFEntonces me dices que t\xFA eres una \u2026?\r"
+  - "IA Noviler: \r\nUna Inteligencia Artificial, una de las m\xE1s guapas e inteligentes
+    en la Tierra.\r\nSoy la primera IA tan magn\xEDfica y poderosa en todo el\narco
+    superior de la v\xEDa l\xE1ctea"
+  - "Jacob:\nNo puedo creer que han llegado a estas cosas\r.\nEsto se tomar\xEDa
+    como brujer\xEDa, incluso en mi tiempo\r\n"
+  - "IA Noviler:\n\xBFBrujer\xEDa? Amelie, \xBFde d\xF3nde sacas a este tipo de personas?\n\xBFEn
+    serio es tu primera interacci\xF3n con una IA en tu vida?\n\xBFNi has visto una
+    en alguna tienda o centro comercial?\n"
+  - "Amelie:\r\nEjem\u2026., te presento a Jacob Smith\r.\nEl primer viajero en el
     tiempo\r"
-  - "IA Noviler:\r\nCOMO?!?!?\nPor las siete estrellas de Nova Prime!!!\r\nLas teor\xEDas
-    son ciertas!!!\r\nEs todo un gusto conocerlo viajero"
+  - "IA Noviler:\r\n\xBF\xA1\xBF\xA1\xBFCOMO?!?!?\n!!!Por las siete estrellas de
+    Nova Prime!!!\r\n!!!Las teor\xEDas son ciertas!!!\r\nEs todo un gusto conocerlo
+    viajero"
   - "Jacob:\r\nEl gusto es m\xEDo, supongo\r\n"
   - "IA Noviler:\r\nPero espera\u2026\r\nLa otra\u2026\r\n"
-  - "Amelie\r\nNO, Y NO \xA1!!!\r\nPorque Martin y tu quieren saber eso?!?\r"
+  - "Amelie\r:\n!!!NO, Y NO!!!\r\n\xBF\xA1\xBFPorque Martin y tu quieren saber eso?!?\r"
   - "\rIA Noviler:\r\nBueno siento que har\xEDa un gran avance a la teor\xEDa si\u2026\r"
-  - "Amelie:\r\nNo!!!!!\r\nYa habr\xE1 otra manera de comprobarla, \npero no haremos
+  - "Amelie:\r\n!!No!!\r\nYa habr\xE1 otra manera de comprobarla, \npero no haremos
     experimentos con Jacob\r"
-  - "IA Noviler:\r\nTranquila Dr. Amelie, soy una IA, no yo un ser vivo que pueda
-    \nmanejar todo de manera f\xEDsica\r\nMe preocupar\xEDa mas de Dr. Noviler en
-    persona\r\nA el le gusta m\xE1s la experimentaci\xF3n m\xE1s que nada\r"
-  - "Jacob:\r\nQuien es el Dr Noviler?\r"
+  - "IA Noviler:\r\nTranquila Dra. Amelie, soy una IA, no un ser vivo que pueda \nmanejar
+    todo de manera f\xEDsica\r.\nMe preocupar\xEDa m\xE1s del Dr. Noviler en persona\r.\nA
+    \xE9l le gusta la experimentaci\xF3n m\xE1s que nada\r"
+  - "Jacob:\r\n\xBFQuien es el Dr. Noviler?\r"
   - "Amelie\r:\nCharles Noviler es el cient\xEDfico humano con mas prestigio \nen
     todos los rincones de la galaxia \r"
-  - "Y forma parte del consejo de la Federaci\xF3n cient\xEDfica de exploraci\xF3n
-    y descubrimiento intergal\xE1ctico y pronto extragalactico.\r"
-  - "Jacob:\r\nWOW\r!!!!\nMe gustar\xEDa un d\xEDa entrevistarlo y aprender de el
-    antes de irme.\r"
-  - "Amelie:\r\nEl Dr Noviler es una persona muy ocupada en si\r\nToma casi nada
-    de entrevistas por nuestros propios\nentrevistadores aqu\xED en la universidad\r."
-  - "Hablando de\u2026 no se encuentra aqu\xED ya que lo pienso, \nnormalmente te
-    los encuentras aqu\xED m\xE1s que en su oficina\r\nDonde esta N?\r"
-  - "IA Noviler\r:\nEl Dr se fue hace unas horas por razones que desconozco\r\nYa
-    es habitual que el Dr Noviler entre y salga del Museo sin \nsiquiera decir una
+  - "\nY forma parte del consejo de la Federaci\xF3n Cient\xEDfica de Exploraci\xF3n
+    y Descubrimiento Intergal\xE1ctico y pronto Extragalactico.\r"
+  - "Jacob:\r\n\xA1\xA1\xA1\xA1WOW\r!!!!\nMe gustar\xEDa un d\xEDa entrevistarlo
+    y aprender de \xE9l antes de irme.\r"
+  - "Amelie:\r\nEl Dr. Noviler es una persona muy ocupada.\nNo toma nada de entrevistas
+    por nuestros\nentrevistadores aqu\xED en la universidad\r."
+  - "\nHablando de\u2026 no se encuentra aqu\xED ya que lo pienso.\nNormalmente te
+    lo encuentras aqu\xED m\xE1s que en su oficina\r.\n\xBFDonde est\xE1, N?\r"
+  - "IA Noviler\r:\nEl Dr. se fue hace unas horas por razones que desconozco\r.\nYa
+    es habitual que el Dr. Noviler entre y salga del Museo sin \nsiquiera decir una
     palabra\r"
-  - "En cuanto a ti viajero, dices que quieres entrevistarlo\r\nPorque no hacemos
-    un juego\r."
-  - "Amelie:\nAh no, ah\xED vamos de nuevo\u2026"
-  - "IA Noviler:\r\nDr Amelie, no sea aguafiestas, nuestro visitante quiere saber
-    de la\n historia que se encuentran en  estas paredes"
-  - "Adem\xE1s es uno de juego favoritos cuando llego aqu\xED por primera vez, mucho
-    antes de ser Doctora de plaza."
-  - "Amelie:\r\nuhhh, bueno dile como funciona.\r"
-  - "IA Noviler:\r\nPerfecto!!!!\r\nViajero, el juego se trata de los siguiente:\r\nEste
-    museo tiene artefactos de tu tiempo como \nArte e informacion valiosa para el
-    mismo\r"
-  - "Tu mision es simple\r\nExplora el Museo y aprende de nuestra gran colecci\xF3n
-    privada\r\nSientete libre de ir a las alas del pasado y del ma\xF1ana\r\n"
-  - "Una vez que hayas visto todo o sientas que ya estes listo\r\nRegresa conmigo
-    y hare yo las preguntas para ver que aprendiste y\nte dar\xE9 una recompensa
-    por ello.\r\n"
-  - "Jacob:\r\nY cual ser\xE1 esa recompensa?\r"
-  - "IA Noviler:\r\nEs una sorpresa\r\nVete a divertir en el museo y aprende todo
-    lo que quieras\r\nMientras yo me quedare a hablar un rato con la Dr Amelie\r"
-  - "Amelie:\r\nYeih\u2026\r"
+  - "\nEn cuanto a ti viajero, dices que quieres entrevistarlo.\r\n\xBFPor qu\xE9
+    no hacemos un juego?"
+  - "Amelie:\nAy no, ah\xED vamos de nuevo\u2026"
+  - 'IA Noviler:
+
+    Dr Amelie, no sea aguafiestas, nuestro visitante quiere saber
+    de la historia que se encuentran en estas paredes'
+  - "\nAdem\xE1s es uno de mis juegos favoritos cuando llega alguien aqu\xED por
+    primera vez"
+  - "Amelie:\r\nUh, bueno, dile como funciona.\r"
+  - "IA Noviler:\r\n\xA1\xA1Perfecto!!\nViajero, el juego se trata de lo siguiente:\r\nEste
+    museo tiene artefactos de tu tiempo, as\xED como \narte e informacion valiosa
+    para el mismo\r"
+  - "\nTu mision es simple\r.\nExplora el Museo y aprende de nuestra gran colecci\xF3n
+    privada\r.\nSi\xE9ntete libre de ir a las alas del pasado y del ma\xF1ana\r\n"
+  - "\nUna vez que hayas visto todo o sientas que ya est\xE9s listo.\r\nRegresa conmigo
+    y har\xE9 yo las preguntas para ver que aprendiste. Y tambi\xE9n te dar\xE9 una
+    recompensa por ello.\r\n"
+  - "Jacob:\r\n\xBFY cu\xE1l ser\xE1 esa recompensa?\r"
+  - "IA Noviler:\r\nEs una sorpresa\r.\nVete a divertir en el museo y aprende todo
+    lo que quieras\r.\nMientras, yo me quedar\xE9 a hablar un rato con la Dra. Amelie\r"
+  - "Amelie:\r\nYay\u2026\r"
   - "Instrucciones:\r\nEn este museo hay piezas las cuales est\xE1n esperando para
-    contar sus historias, estas piezas de museo est\xE1n desde la primera era de
-    la humanidad \nhasta la ultima conocida en este tiempo.\r\n"
-  - "Estas piezas al acercarte te dar\xE1n la informacion necesaria para que puedas
-    aprender de ellas, ojo, estas solo contaran la historia una vez,\npor lo tanto
-    recuerda bien la informacion que te contaran,\nya que la necesitaran mas adelante
-    para contestar de manera\ncorrecta las preguntas."
-  - "Una vez que hayas ido con cada pieza del museo, regresa con IA Noviler \ny prep\xE1rate
-    para contestar !!!"
+    contar sus historias.\nEstas piezas est\xE1n desde la primera era de la humanidad
+    \nhasta la \xFAltima conocida en este tiempo.\r\n"
+  - "Al acercarte te dar\xE1n la informaci\xF3n necesaria para que puedas aprender
+    de ellas. Ojo, estas solo contaran la historia una vez, por lo tanto, recuerda
+    bien la informacion que te contaran.\nLa necesitar\xE1s mas adelante para contestar
+    de manera\ncorrecta las preguntas."
+  - "Una vez que hayas ido con cada pieza del museo, regresa con IA Noviler y, !!!prep\xE1rate
+    para contestar!!!"
   velParrafo: 0.02
   botonContinuar: {fileID: 1023943794}
   botonQuitar: {fileID: 343304123}
@@ -34028,8 +34023,8 @@ MonoBehaviour:
   parrafos:
   - 'Mundo:
 
-    El mundo se ve controlado por tres leyes esenciales las cuales
-    son las leyes de Kepler,.
+    El mundo se ve controlado por tres leyes esenciales las cuales son
+    las leyes de Kepler,.
 
 
 '
