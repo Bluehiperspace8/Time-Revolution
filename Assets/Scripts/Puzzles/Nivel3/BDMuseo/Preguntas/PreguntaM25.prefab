@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3353285590324229856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1231226900344215193}
+  - component: {fileID: 6019163612059421981}
+  m_Layer: 0
+  m_Name: PreguntaM25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1231226900344215193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353285590324229856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6019163612059421981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3353285590324229856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: 'El sistema de Hipersalto, se maneja por la idea de Miguel Alcubierre, el
+    cual:'
+  opciones:
+  - texto: "a) Dio la miniaturizaci\xF3n al proceso tecnol\xF3gico mediante el cual
+      se intenta reducir el tama\xF1o de cualquier dispositivo electr\xF3nico."
+    opcionCorrecta: 0
+  - texto: "b) Inici\xF3 la impresi\xF3n de los viajes espaciales a larga distancia"
+    opcionCorrecta: 1
+  - texto: "c) Dijo que la energ\xEDa no se crea ni se destruye, solamente se transforma"
+    opcionCorrecta: 0
+  - texto: d) Dijo que la materia no se crea ni se destruye
+    opcionCorrecta: 0

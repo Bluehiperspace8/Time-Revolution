@@ -12,7 +12,7 @@ using System;
 
 [RequireComponent(typeof(Button))]
 [RequireComponent(typeof(Image))]
-public class BotonOpciones : MonoBehaviour
+public class BotonesOpciones1 : MonoBehaviour
 {
     //---------------------------------------------------------------//
     // PUZZLE
@@ -22,7 +22,7 @@ public class BotonOpciones : MonoBehaviour
     private Image imagen = null;
     private Color colorOriginal = Color.black;
 
-    public Opciones Opcion { get; set; }
+    public Opciones2 Opcion { get; set; }
 
     //---------------------------------------------------------------//
 
@@ -37,7 +37,7 @@ public class BotonOpciones : MonoBehaviour
         colorOriginal = imagen.color;
     }
 
-    public void Construct(Opciones opcion, Action<BotonOpciones> callback)
+    public void Construct(Opciones2 opcion, Action<BotonesOpciones1> callback)
     {
         texto.text = opcion.texto;
         boton.onClick.RemoveAllListeners();
@@ -45,7 +45,7 @@ public class BotonOpciones : MonoBehaviour
         imagen.color = colorOriginal;
 
         Opcion = opcion;
-        
+
         boton.onClick.AddListener(delegate
         {
             callback(this);

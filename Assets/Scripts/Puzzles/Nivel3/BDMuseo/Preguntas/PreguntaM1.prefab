@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &280953132480995317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4357606813899308940}
+  - component: {fileID: 9144342933378720776}
+  m_Layer: 0
+  m_Name: PreguntaM1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4357606813899308940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280953132480995317}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9144342933378720776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280953132480995317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: "Los barcos de vapor utilizaban carb\xF3n como combustible para moverse
+    en los mares y oc\xE9anos, antes de ellos exist\xEDan los barcos de vela que
+    eran los sucesores de los barcos de remo de las antiguas civilizaciones. \xBFCu\xE1l
+    o cu\xE1les era la energ\xEDa que utilizaban los barcos de vela para moverse
+    por los mares? "
+  opciones:
+  - texto: "a) Energ\xEDa nuclear"
+    opcionCorrecta: 0
+  - texto: "b) Energ\xEDa geot\xE9rmica y Energ\xEDa e\xF3lica"
+    opcionCorrecta: 0
+  - texto: "c) Energ\xEDa e\xF3lica y Energ\xEDa marina"
+    opcionCorrecta: 1
+  - texto: "d) Energ\xEDa Solar y Energ\xEDa nuclear"
+    opcionCorrecta: 0

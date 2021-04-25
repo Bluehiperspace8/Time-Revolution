@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4898527995718550706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8963395191893812427}
+  - component: {fileID: 4537956421125816143}
+  m_Layer: 0
+  m_Name: PreguntaM18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8963395191893812427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898527995718550706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4537956421125816143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898527995718550706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texto: 'La Ley Fundamental de la Materia dada por Locomonosov-Lavoisier dice que:'
+  opciones:
+  - texto: "a) \u201CA toda acci\xF3n corresponde una reacci\xF3n\u201D"
+    opcionCorrecta: 0
+  - texto: "b) \u201CLa cantidad de materia antes y despu\xE9s de una transformaci\xF3n
+      es siempre la misma\u201D"
+    opcionCorrecta: 1
+  - texto: "c) \u201CEl corrimiento al rojo de una galaxia es proporcional a la distancia
+      a la que se encuentra.\u201D"
+    opcionCorrecta: 0
+  - texto: "d) \"Todos los planetas se desplazan alrededor del Sol describiendo \xF3rbitas
+      el\xEDpticas\""
+    opcionCorrecta: 0

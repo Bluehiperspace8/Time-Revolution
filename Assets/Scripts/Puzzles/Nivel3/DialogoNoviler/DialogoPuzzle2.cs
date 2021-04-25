@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 /*
- Primera platica del IANoviler con Jacob para proseguir con el puzzle
+Segunda platica del IANoviler con Jacob para dar termino del nivel y seguir al Nivel IV
  Autor: Roberto Valdez Jasso
  */
 
 
-public class DialogoPuzzle1 : MonoBehaviour
+public class DialogoPuzzle2 : MonoBehaviour
 {
     // Variables ---//
     // llamanndo al mensaje
@@ -38,22 +40,25 @@ public class DialogoPuzzle1 : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
-    // Noviler1
-    public GameObject Noviler1;
-    // Noviler2
-    public GameObject Noviler2;
-    //Amelie2
-    public GameObject Amelie1;
 
-    //Amelie2
-    public GameObject Amelie2;
 
-    // Activacion del puzzle
+    // PANEL MISION CUMPLIDA
+    public GameObject PanelMisionCumplida;
 
-    public GameObject Collider;
+    // Boton Seguir al Siguiente Nivel
 
-    // Referencia al auido Source
+    public GameObject BotonNivel;
+    public GameObject BotonMenu;
+
+    // Referencia al auido Source1(Dialogo)
     public AudioSource EfectoSonido;
+
+
+    // Referencia al auido Source (Elevador pasando al siguiente nivel)
+    public AudioSource EfectoSonido2;
+
+    //Imagen que dara la transicion en negro a la siguiente escena
+    public Image imagenFondo;
 
     // Start is called before the first frame update
     void Start()
@@ -63,9 +68,9 @@ public class DialogoPuzzle1 : MonoBehaviour
         botonQuitar.SetActive(false);
         BotonLeer.SetActive(false);
         PanelDialogo.SetActive(false);
-        Noviler2.SetActive(false);
-        Amelie2.SetActive(false);
-        Collider.SetActive(false);
+        PanelMisionCumplida.SetActive(false);
+        BotonNivel.SetActive(false);
+        BotonMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -106,7 +111,8 @@ public class DialogoPuzzle1 : MonoBehaviour
         }
         else
         {
-            textD.text = "Buena suerte!!!";
+            textD.text = "Buen viaje y bien jugado!!!!";
+            botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 
         }
@@ -139,20 +145,44 @@ public class DialogoPuzzle1 : MonoBehaviour
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
         botonQuitar.SetActive(false);
-        textD.text = "";
 
-        //Desactivamos la poscion uno de N y A
-        Amelie1.SetActive(false);
-        Noviler1.SetActive(false);
+        // Activar panel de mision cumplida
+        PanelMisionCumplida.SetActive(true);
+        BotonNivel.SetActive(true);
+        BotonMenu.SetActive(true);
+    }
 
-        //Activamos la segunda posicion de N y A
-        Amelie2.SetActive(true);
-        Noviler2.SetActive(true);
+    // Botones de transiciones
+    public void BotonSiguienteNivel()
+    {
+        //Reproducimos el sonido
+        EfectoSonido2.Play();
+        PanelMisionCumplida.SetActive(false);
+        BotonNivel.SetActive(false);
+        BotonMenu.SetActive(false);
+        //Generar animacion de transicion con el audio
+        imagenFondo.canvasRenderer.SetAlpha(0);
+        imagenFondo.gameObject.SetActive(true);
+        imagenFondo.CrossFadeAlpha(1, 9, true);
+        new WaitForSeconds(3);
 
-        //Activando el Collider del puzzle
-        Collider.SetActive(false);
+        // Cargamos Escena
+        StartCoroutine(CambiarEscena());
+    }
 
-        //Destruimos el objecto
-        Destroy(gameObject, t: 0.1f);
+    //Corrutina -> Cambio de escena
+    private IEnumerator CambiarEscena()
+    {
+        yield return new WaitForSeconds(9);
+        // Cambiar de escena
+        //Ya regreso /Ya termino
+        // Transicion al siguiente Nivel
+        SceneManager.LoadScene("Scenes/Nivel_IV/Nivel4");
+    }
+
+    public void BotonIrMenu()
+    {
+        // Transicion al menu
+        SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
     }
 }
