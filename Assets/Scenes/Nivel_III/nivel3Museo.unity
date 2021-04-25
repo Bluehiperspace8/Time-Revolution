@@ -3230,7 +3230,7 @@ MonoBehaviour:
     de manera\ncorrecta las preguntas."
   - "Una vez que hayas ido con cada pieza del museo, regresa con IA Noviler y, !!!prep\xE1rate
     para contestar!!!"
-  velParrafo: 0.02
+  velParrafo: 0.0002
   botonContinuar: {fileID: 1023943794}
   botonQuitar: {fileID: 343304123}
   PanelDialogo: {fileID: 817034292}

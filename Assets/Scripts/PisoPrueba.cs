@@ -6,10 +6,10 @@ using UnityEngine;
  * Prueba si el colider esta dentro o fuera de una plataforma
  * Autores:
  * Luis Enrique Zamarripa
- * Diego Alejandro Ruiz
+ * Diego Alejandro Juarez Ruiz
  */
 
-public class pruebaPiso : MonoBehaviour
+public class PisoPrueba : MonoBehaviour
 {
     public static bool estaenpiso = false;
     private void OnTriggerEnter2D(Collider2D other)
@@ -21,4 +21,3 @@ public class pruebaPiso : MonoBehaviour
         estaenpiso = false;
     }
 }
-

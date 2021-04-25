@@ -9,7 +9,7 @@ using UnityEngine;
  * Diego Alejandro Juarez
  */
 
-public class moverPersonaje : MonoBehaviour
+public class MoverProtagonista : MonoBehaviour
 {
     // variables
     public float maxVelocidadx = 10; //Mov horizonta 
@@ -30,7 +30,7 @@ public class moverPersonaje : MonoBehaviour
 
         //Salto
         float movVertical = Input.GetAxis("Vertical");
-        if (movVertical > 0 && pruebaPiso.estaenpiso)
+        if (movVertical > 0 && PisoPrueba.estaenpiso)
         {
             rigidbody.velocity = new Vector2(rigidbody.velocity.x, maxVelocidady);
         }

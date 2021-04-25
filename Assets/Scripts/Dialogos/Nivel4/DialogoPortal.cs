@@ -43,6 +43,11 @@ public class DialogoPortal : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    // Referencia al auido Source
+    public AudioSource EfectoSonido;
+    // Referencia al auido Source
+    public AudioSource EfectoSonido1;
+
     // Protagonista
     public GameObject Prota;
 
@@ -144,6 +149,7 @@ public class DialogoPortal : MonoBehaviour
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
+        EfectoSonido.Play();
         StartCoroutine(TextDialogo());
     }
 
@@ -162,7 +168,7 @@ public class DialogoPortal : MonoBehaviour
     public void BotonSiguienteNivel()
     {
         //Reproducimos el sonido
-        //EfectoSonido2.Play();
+        EfectoSonido1.Play();
         PanelMisionCumplida.SetActive(false);
         BotonNivel.SetActive(false);
         BotonMenu.SetActive(false);

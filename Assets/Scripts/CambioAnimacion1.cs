@@ -9,7 +9,7 @@ using UnityEngine;
  * Luis Enrique Zamarripa
  * Diego Alejandro Juarez
  */
-public class cambioAnimacion : MonoBehaviour
+public class CambioAnimacion1: MonoBehaviour
 {
     public Rigidbody2D rb2D;
     // Animator
@@ -41,6 +41,6 @@ public class cambioAnimacion : MonoBehaviour
             sprrende.flipX = true;
         }
         //saltando
-        anim.SetBool(name: "Salto", !pruebaPiso.estaenpiso);
+        anim.SetBool(name: "Salto", !PisoPrueba.estaenpiso);
     }
 }

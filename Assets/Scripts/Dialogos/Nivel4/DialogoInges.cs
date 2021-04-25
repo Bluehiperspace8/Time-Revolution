@@ -41,6 +41,9 @@ public class DialogoInges : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    // Referencia al auido Source
+    public AudioSource EfectoSonido;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -115,6 +118,7 @@ public class DialogoInges : MonoBehaviour
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
+        EfectoSonido.Play();
         StartCoroutine(TextDialogo());
     }
 

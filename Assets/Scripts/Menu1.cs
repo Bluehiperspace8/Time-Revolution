@@ -6,30 +6,21 @@ using UnityEngine.SceneManagement;
 /*
  * Código que controla el Menu Principal
  * Diego Alejandro Juárez Ruiz 
- * Luis Enrique el zama
- * Robert
- * Renata
- * Melissa
+ * Luis Enrique Zamarripa
  */
 
-public class menu : MonoBehaviour
+public class Menu1 : MonoBehaviour
 {
-   public void Salir()
+    public void Salir()
     {
         Application.Quit();
     }
     public void IniciarJuego()
     {
-        SceneManager.LoadScene("Scenes/Nivel_I/Casa");
-    }
-    /*
-    public void AprendeSteam()
-    {
-        SceneManager.LoadScene("Aprendiendo");
+        SceneManager.LoadScene("EleccionMenu");
     }
     public void Configuracion()
     {
         SceneManager.LoadScene("Configuraciones");
     }
-    */
 }
