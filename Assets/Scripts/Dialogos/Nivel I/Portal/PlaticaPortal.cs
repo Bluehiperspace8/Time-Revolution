@@ -192,7 +192,7 @@ public class PlaticaPortal : MonoBehaviour
         // Cambiar de escena
         //Ya regreso /Ya termino
         // Transicion al siguiente Nivel
-        SceneManager.LoadScene("Scenes/Nivel_II/nivel2");
+        SceneManager.LoadScene("Scenes/Nivel_II/Laboratorio");
     }
 
     public void BotonIrMenu()

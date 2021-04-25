@@ -445,7 +445,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30635151}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -142.35, y: -9.18, z: -35.521343}
+  m_LocalPosition: {x: -141.66, y: -9.03, z: -35.521343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1928666432}
@@ -586,7 +586,44 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textD: {fileID: 920350188}
-  parrafos: []
+  parrafos:
+  - 'IA Noviler:
+
+    Felicidades!!!
+
+    Has logrado contestar todas bien
+
+    Al
+    parecer te divertiste mucho aprendiendo de tu tiempo y el nuestro.
+
+'
+  - "Jacob\r:\nEstuvo muy interesante todo\r\nPero me duele mucho la cabeza\r\nMucha
+    informacion en tan poco tiempo har\xE1 explotar mi cabeza en cualquier momento.\r\n"
+  - "Amelie:\r\nEn cierta manera te \u2018spoleaste\u2019 todo lo que va a pasar
+    ahora en adelante en tu tiempo original.\r\nEs peor que saber c\xF3mo termino
+    Tony Stark antes de ver la pel\xEDcula completa.\r\n"
+  - "Jacob:\r\nQuien?\r"
+  - "IA Noviler:\r\nNo des importancia a eso viajero.\r\nLo que importa es que ganaste
+    esto\r"
+  - "\rIA Noviler le entrega una tableta llena de informacion del museo y datos extras
+    al gusto de Jacob"
+  - "Jacob:\nGracias N!!!\r\npero como funciona este\u2026bloque?\r"
+  - 'Amelie:
+
+    Es una tableta, es parecida a tu libreta pero de manera digital
+
+    Te
+    explicare  cuando este en el hiper elevador.
+
+'
+  - "Jacob: \r\nA d\xF3nde vamos?\r"
+  - "Amelie:\r\nVamos a mi laboratorio\r\nQuiero ense\xF1arte unas cosas antes de
+    que te vayas\r\n"
+  - 'IA Noviler:
+
+    Fue un gusto haberte conocido viajero!!!
+
+'
   velParrafo: 0.02
   botonContinuar: {fileID: 1899544369}
   botonQuitar: {fileID: 730752153}
@@ -597,7 +634,7 @@ MonoBehaviour:
   BotonMenu: {fileID: 1360826853}
   EfectoSonido: {fileID: 30635153}
   EfectoSonido2: {fileID: 30635156}
-  imagenFondo: {fileID: 848364973}
+  imagenFondo: {fileID: 574110988}
 --- !u!82 &30635156
 AudioSource:
   m_ObjectHideFlags: 0
@@ -609,7 +646,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4cb4cd8aef8e8df4daa9a9fe93849bf3, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
@@ -1175,8 +1212,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 8b41ef9c9631cd64d85c264b7e5dcfd4, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -2007,7 +2044,7 @@ Transform:
   - {fileID: 960113279}
   - {fileID: 1915831802}
   m_Father: {fileID: 369464303}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &171705603
 GameObject:
@@ -2249,8 +2286,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: f2e1cc85bf32e1b47b6952f34e932c5b, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -3089,6 +3126,7 @@ GameObject:
   - component: {fileID: 247792333}
   - component: {fileID: 247792332}
   - component: {fileID: 247792331}
+  - component: {fileID: 247792335}
   m_Layer: 0
   m_Name: Platica1
   m_TagString: Untagged
@@ -3201,7 +3239,6 @@ MonoBehaviour:
   Noviler2: {fileID: 235532679}
   Amelie1: {fileID: 337433064}
   Amelie2: {fileID: 1436290484}
-  Collider: {fileID: 444937190}
   EfectoSonido: {fileID: 247792332}
 --- !u!82 &247792332
 AudioSource:
@@ -3333,12 +3370,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247792330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -162.65, y: -8.99, z: -35.521343}
+  m_LocalPosition: {x: -162.08, y: -8.99, z: -35.521343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1928666432}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &247792335
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247792330}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 7.355835, y: 0.96945226}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.8661499, y: 2.9389045}
+  m_EdgeRadius: 0
 --- !u!1 &259068443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5023,6 +5086,7 @@ Transform:
   m_LocalPosition: {x: 16.753376, y: 5.085546, z: -1.151274}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1467804869}
   - {fileID: 149417489}
   - {fileID: 646124395}
   m_Father: {fileID: 0}
@@ -5715,6 +5779,7 @@ GameObject:
   - component: {fileID: 444937194}
   - component: {fileID: 444937193}
   - component: {fileID: 444937192}
+  - component: {fileID: 444937195}
   m_Layer: 0
   m_Name: Preguntas
   m_TagString: Untagged
@@ -5730,7 +5795,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444937190}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.79, y: -4.583871, z: -39.34658}
+  m_LocalPosition: {x: 25, y: -4.583871, z: -39.34658}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2109738953}
@@ -5756,7 +5821,6 @@ MonoBehaviour:
   PanelJuego: {fileID: 1813418169}
   BotonLeer: {fileID: 1272689839}
   BotonFinalizar: {fileID: 1833224603}
-  Collider: {fileID: 30635151}
   sonidoCorrecto: {fileID: 8300000, guid: 11c19e640357f5543b7c2d9642937db5, type: 3}
   sonidoIncorrecto: {fileID: 8300000, guid: 5e2f1898121605e4ea8ba6111076295c, type: 3}
   colorCorrecto: {r: 0.104870915, g: 1, b: 0, a: 1}
@@ -5871,7 +5935,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.32116508, y: -0.13194013}
+  m_Offset: {x: -0.38864994, y: -0.13194013}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5882,7 +5946,33 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.3041954, y: 0.73611975}
+  m_Size: {x: 2.1692257, y: 0.73611975}
+  m_EdgeRadius: 0
+--- !u!61 &444937195
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444937190}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.1832237, y: 0.4723904}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.43313217, y: 2.790585}
   m_EdgeRadius: 0
 --- !u!1 &455827550
 GameObject:
@@ -23103,7 +23193,7 @@ RectTransform:
   - {fileID: 1042197388}
   - {fileID: 721430027}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -24306,7 +24396,7 @@ Transform:
   - {fileID: 1559162166}
   - {fileID: 1396561681}
   m_Father: {fileID: 369464303}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &659328579
 GameObject:
@@ -24959,6 +25049,22 @@ CompositeCollider2D:
         Y: 67500000
       - X: 387500000
         Y: -42500000
+    - - X: 172500100
+        Y: 67499959
+      - X: 172500100
+        Y: 77500041
+      - X: 172500041
+        Y: 77500100
+      - X: 132499959
+        Y: 77500100
+      - X: 132499900
+        Y: 77500041
+      - X: 132499900
+        Y: 67499959
+      - X: 132499959
+        Y: 67499900
+      - X: 172500041
+        Y: 67499900
     - - X: 382500000
         Y: 37500000
       - X: 212500000
@@ -25061,6 +25167,10 @@ CompositeCollider2D:
       - {x: 27.75, y: 5.722029}
       - {x: 27.750029, y: 6.722}
       - {x: 38.75, y: 6.7219706}
+    - - {x: 17.249975, y: 6.7219906}
+      - {x: 17.249975, y: 7.7220097}
+      - {x: 13.24999, y: 7.721975}
+      - {x: 13.250026, y: 6.7219906}
     - - {x: 38.249973, y: 2.722}
       - {x: 38.249973, y: 3.722}
       - {x: 21.25, y: 3.7219708}
@@ -27845,6 +27955,76 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 27, y: 14, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 28, y: 14, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 29, y: 14, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 30, y: 14, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 31, y: 14, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 32, y: 14, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 33, y: 14, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 40, y: 14, z: 0}
     second:
       serializedVersion: 2
@@ -29691,7 +29871,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: f11011ffe6992d8418664d80142d4b43, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 81
+  - m_RefCount: 88
     m_Data: {fileID: 11400000, guid: bc2c271b14a5e07468ab8f8e86ec0d87, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 9d74fd57bab3d234597c862f8c4a0da4, type: 2}
@@ -29724,7 +29904,7 @@ Tilemap:
     m_Data: {fileID: -6128095796346890352, guid: c8be9752b54356941804ac60221dc65a, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -2827071171628907551, guid: c8be9752b54356941804ac60221dc65a, type: 3}
-  - m_RefCount: 81
+  - m_RefCount: 88
     m_Data: {fileID: -3959268972280257183, guid: c8be9752b54356941804ac60221dc65a, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1862008136150378644, guid: c8be9752b54356941804ac60221dc65a, type: 3}
@@ -29733,7 +29913,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 1049026715173110051, guid: c8be9752b54356941804ac60221dc65a, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 450
+  - m_RefCount: 457
     m_Data:
       e00: 1
       e01: 0
@@ -29752,7 +29932,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 450
+  - m_RefCount: 457
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -30017,9 +30197,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_audioClip: {fileID: 8300000, guid: 9ae5f84706e11a0428bb6bd00ad359bb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -30143,7 +30323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 920350188}
   parrafos:
-  - "Prototipo de generador de energ\xEDa negativa\r\nMaqueta del generador Dimensional
+  - "Prototipo de generador de energ\xEDa negativa\r:\nMaqueta del generador Dimensional
     con bases la energ\xEDa negativa que se puede encontrar en la quinta dimensi\xF3n,
     dando nuevo avanzas en la generaci\xF3n \ny eficiencia de tecnolog\xEDas dimensionales
     y multidimensionales.\r"
@@ -31573,7 +31753,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -31760,8 +31940,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: ba2ec54db430db1499386b4e2b50c20f, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -35996,8 +36176,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 7e1f5136b49fe104f806c1abfb2668cc, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -37727,8 +37907,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 2a435d099848a2045be1d9568e3d336a, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -38043,9 +38223,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_audioClip: {fileID: 8300000, guid: 2493db55f1a590443915f6979071cb5b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -39532,9 +39712,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_audioClip: {fileID: 8300000, guid: 200f7fa4c4818834983248ea18a23ed7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -39777,8 +39957,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 767178de88e98664aa5f77415fbe0404, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -40014,8 +40194,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 75cf5f236d86aaa458fc9fc7e582e49b, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -40311,8 +40491,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: acb860410e0f52443b7760368db13e9a, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -40452,6 +40632,133 @@ MonoBehaviour:
   PanelDialogo: {fileID: 817034292}
   BotonLeer: {fileID: 672660178}
   EfectoSonido: {fileID: 1455514235}
+--- !u!1 &1467804868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1467804869}
+  - component: {fileID: 1467804870}
+  m_Layer: 0
+  m_Name: AudioFondo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1467804869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467804868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 369464303}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1467804870
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467804868}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 496c80f743ef12241ace0094365dc0b0, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 90
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1469386169
 GameObject:
   m_ObjectHideFlags: 0
@@ -42737,9 +43044,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_audioClip: {fileID: 8300000, guid: 97b1472100a435144a885a5e01bc6852, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -42839,7 +43146,7 @@ MonoBehaviour:
   parrafos:
   - "Foto apocal\xEDptica:\r\nEsta imagen da a conocer una idea sobre el \u201CFin
     del mundo\u201D y como esta lucir\xEDa en durante los a\xF1os 2016-2024,\ndebido
-    a los altos cambios clim\xE1ticos que se presentaban en esos a\xF1os, ya fuera
+    a los altos cambios clim\xE1ticos que se presentaban en esos a\xF1os, ya \nfuera
     por el alto consumo de combustible "
   - " f\xF3sil, Deforestaci\xF3n y contaminaci\xF3n excesiva de residuos t\xF3xicos
     y no t\xF3xicos.\r\nEl artista represento este fin del mundo como el castigo
@@ -43661,8 +43968,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 2a435d099848a2045be1d9568e3d336a, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
@@ -47025,8 +47332,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: e2cb694c6f4da654494568117fb16715, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
   Loop: 0

@@ -161,8 +161,9 @@ public class DialogoPuzzle2 : MonoBehaviour
         BotonNivel.SetActive(false);
         BotonMenu.SetActive(false);
         //Generar animacion de transicion con el audio
-        imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(true);
+        imagenFondo.canvasRenderer.SetAlpha(0);
+        
         imagenFondo.CrossFadeAlpha(1, 9, true);
         new WaitForSeconds(3);
 

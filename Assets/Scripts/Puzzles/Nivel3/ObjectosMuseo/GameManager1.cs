@@ -40,8 +40,7 @@ public class GameManager1 : MonoBehaviour
 
     public GameObject BotonFinalizar;
 
-    // Activacion de la platica Final
-    public GameObject Collider;
+
 
     //--------------------------------------------------------------//
     // Variable --//
@@ -77,8 +76,6 @@ public class GameManager1 : MonoBehaviour
         PanelDialogo.SetActive(false);
         PanelJuego.SetActive(false);
         BotonFinalizar.SetActive(false);
-        Collider.SetActive(false);
-
 
         //Esto debe estar en el boton de si
         //NextQuestion();
@@ -139,7 +136,6 @@ public class GameManager1 : MonoBehaviour
         PanelDialogo.SetActive(false);
         BotonFinalizar.SetActive(false);
         // Activando el Collider para la platica final
-        Collider.SetActive(true);
         Destroy(gameObject, t: 0.1f);
     }
 

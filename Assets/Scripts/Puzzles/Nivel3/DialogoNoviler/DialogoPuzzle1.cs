@@ -48,10 +48,6 @@ public class DialogoPuzzle1 : MonoBehaviour
     //Amelie2
     public GameObject Amelie2;
 
-    // Activacion del puzzle
-
-    public GameObject Collider;
-
     // Referencia al auido Source
     public AudioSource EfectoSonido;
 
@@ -65,7 +61,6 @@ public class DialogoPuzzle1 : MonoBehaviour
         PanelDialogo.SetActive(false);
         Noviler2.SetActive(false);
         Amelie2.SetActive(false);
-        Collider.SetActive(false);
     }
 
     // Update is called once per frame
@@ -149,8 +144,7 @@ public class DialogoPuzzle1 : MonoBehaviour
         Amelie2.SetActive(true);
         Noviler2.SetActive(true);
 
-        //Activando el Collider del puzzle
-        Collider.SetActive(false);
+
 
         //Destruimos el objecto
         Destroy(gameObject, t: 0.1f);
