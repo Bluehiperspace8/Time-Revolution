@@ -1298,7 +1298,7 @@ Transform:
   - {fileID: 7948096}
   - {fileID: 1754193900}
   m_Father: {fileID: 1694960733}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &399601142
 GameObject:
@@ -5807,7 +5807,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1694960733}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6201,7 +6201,7 @@ Transform:
   - {fileID: 1302321205}
   - {fileID: 298835770}
   m_Father: {fileID: 1694960733}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1121749566
 GameObject:
@@ -6233,7 +6233,7 @@ Transform:
   - {fileID: 669289182}
   - {fileID: 1256027954}
   m_Father: {fileID: 1694960733}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1152624721
 GameObject:
@@ -11947,7 +11947,7 @@ Transform:
   - {fileID: 1838821059}
   - {fileID: 497411892}
   m_Father: {fileID: 1694960733}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1543658759
 GameObject:
@@ -12373,6 +12373,7 @@ GameObject:
   - component: {fileID: 1694960732}
   - component: {fileID: 1694960731}
   - component: {fileID: 1694960730}
+  - component: {fileID: 1694960734}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -12452,11 +12453,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1023621836}
   - {fileID: 1072776984}
   - {fileID: 1121749567}
   - {fileID: 358917036}
   - {fileID: 1535875832}
-  - {fileID: 1023621836}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12465,6 +12466,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1694960734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694960729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e3eef0ba19a3348b547dc1f33263ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagenFondo: {fileID: 1023621837}
 --- !u!1 &1697272476
 GameObject:
   m_ObjectHideFlags: 0

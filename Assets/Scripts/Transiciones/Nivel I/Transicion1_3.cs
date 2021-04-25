@@ -101,6 +101,8 @@ public class Transicion1_3 : MonoBehaviour
         imagenFondo.gameObject.SetActive(true);
         imagenFondo.CrossFadeAlpha(1, 0.7f, true);
         new WaitForSeconds(3);
+        botonSi.SetActive(false);
+        botonNo.SetActive(false);
 
         // Cargamos Escena
         StartCoroutine(CambiarEscena());

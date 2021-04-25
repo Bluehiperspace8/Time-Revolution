@@ -101,8 +101,10 @@ public class TransicionNivel1_1 : MonoBehaviour
         // Esperamos Tres segundos y esperamos que efecto Fade in aparezca
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(true);
-        imagenFondo.CrossFadeAlpha(1,0.7f, true);
+        imagenFondo.CrossFadeAlpha(1,0.8f, true);
         new WaitForSeconds(3);
+        botonSi.SetActive(false);
+        botonNo.SetActive(false);
 
         // Cargamos Escena
         StartCoroutine(CambiarEscena());
@@ -114,7 +116,7 @@ public class TransicionNivel1_1 : MonoBehaviour
     //Corrutina -> Cambio de escena
     private IEnumerator CambiarEscena()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0.8f);
         // Cambiar de escena
         //Ya regreso /Ya termino
         SceneManager.LoadScene("Scenes/Nivel_I/nivel1");
