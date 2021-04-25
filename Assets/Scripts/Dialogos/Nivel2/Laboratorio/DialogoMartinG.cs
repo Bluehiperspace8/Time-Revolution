@@ -25,13 +25,12 @@ public class DialogoMartinG : MonoBehaviour
 
     public AudioSource sonidoConv;
 
-    //public Image imagenFondo;
+    public Image imagenFondo;
 
     public GameObject martin1;
     public GameObject martin2;
-    
 
-
+  
     // Start is called before the first frame update
     void Start()
     {
