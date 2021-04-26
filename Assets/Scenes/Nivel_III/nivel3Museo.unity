@@ -449,7 +449,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1928666432}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &30635153
 AudioSource:
@@ -587,43 +587,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 920350188}
   parrafos:
-  - 'IA Noviler:
-
-    Felicidades!!!
-
-    Has logrado contestar todas bien
-
-    Al
-    parecer te divertiste mucho aprendiendo de tu tiempo y el nuestro.
-
-'
-  - "Jacob\r:\nEstuvo muy interesante todo\r\nPero me duele mucho la cabeza\r\nMucha
+  - "IA Noviler:\n\xA1\xA1\xA1Felicidades!!!\nHas logrado contestar todas bien\nAl
+    parecer te divertiste mucho aprendiendo de tu tiempo y el nuestro.\n"
+  - "Jacob\r:\nEstuvo muy interesante todo\r.\nPero me duele mucho la cabeza\r.\nMucha
     informacion en tan poco tiempo har\xE1 explotar mi cabeza en cualquier momento.\r\n"
   - "Amelie:\r\nEn cierta manera te \u2018spoleaste\u2019 todo lo que va a pasar
     ahora en adelante en tu tiempo original.\r\nEs peor que saber c\xF3mo termino
     Tony Stark antes de ver la pel\xEDcula completa.\r\n"
-  - "Jacob:\r\nQuien?\r"
+  - "Jacob:\r\n\xBFQui\xE9n?\r"
   - "IA Noviler:\r\nNo des importancia a eso viajero.\r\nLo que importa es que ganaste
-    esto\r"
+    esto\r."
   - "\rIA Noviler le entrega una tableta llena de informacion del museo y datos extras
     al gusto de Jacob"
-  - "Jacob:\nGracias N!!!\r\npero como funciona este\u2026bloque?\r"
+  - "Jacob:\n\xA1\xA1\xA1Gracias N!!!\r\npero \xBFc\xF3mo funciona este\u2026bloque?\r"
   - 'Amelie:
 
-    Es una tableta, es parecida a tu libreta pero de manera digital
+    Es una tableta, es parecida a tu libreta pero de manera digital.
 
     Te
     explicare  cuando este en el hiper elevador.
 
 '
-  - "Jacob: \r\nA d\xF3nde vamos?\r"
-  - "Amelie:\r\nVamos a mi laboratorio\r\nQuiero ense\xF1arte unas cosas antes de
-    que te vayas\r\n"
-  - 'IA Noviler:
-
-    Fue un gusto haberte conocido viajero!!!
-
-'
+  - "Jacob: \r\n\xBFA d\xF3nde vamos?\r"
+  - "Amelie:\r\nVamos a mi laboratorio\r.\nQuiero ense\xF1arte unas cosas antes de
+    que te vayas\r.\n"
+  - "IA Noviler:\n\xA1\xA1\xA1Fue un gusto haberte conocido viajero!!!\n"
   velParrafo: 0.02
   botonContinuar: {fileID: 1899544369}
   botonQuitar: {fileID: 730752153}
@@ -3161,33 +3149,34 @@ MonoBehaviour:
     Es una copia casi exacta del mismo Noviler en persona.'
   - "IA Noviler:\r\nYo no lo tomar\xEDa asi Dra. Amelie\r.\nYo dir\xEDa que soy una
     versi\xF3n simp\xE1tica y carism\xE1tica del Dr. Noviler.\r\nIncluso m\xE1s atractivo.\r\n"
-  - "Amelie:\r\nSigue so\xF1ando N\r"
+  - "Amelie:\r\nSigue so\xF1ando N\r."
   - "Jacob:\r\n\xBFEntonces me dices que t\xFA eres una \u2026?\r"
   - "IA Noviler: \r\nUna Inteligencia Artificial, una de las m\xE1s guapas e inteligentes
     en la Tierra.\r\nSoy la primera IA tan magn\xEDfica y poderosa en todo el\narco
-    superior de la v\xEDa l\xE1ctea"
+    superior de la v\xEDa l\xE1ctea."
   - "Jacob:\nNo puedo creer que han llegado a estas cosas\r.\nEsto se tomar\xEDa
-    como brujer\xEDa, incluso en mi tiempo\r\n"
+    como brujer\xEDa, incluso en mi tiempo\r.\n"
   - "IA Noviler:\n\xBFBrujer\xEDa? Amelie, \xBFde d\xF3nde sacas a este tipo de personas?\n\xBFEn
     serio es tu primera interacci\xF3n con una IA en tu vida?\n\xBFNi has visto una
     en alguna tienda o centro comercial?\n"
   - "Amelie:\r\nEjem\u2026., te presento a Jacob Smith\r.\nEl primer viajero en el
-    tiempo\r"
-  - "IA Noviler:\r\n\xBF\xA1\xBF\xA1\xBFCOMO?!?!?\n!!!Por las siete estrellas de
-    Nova Prime!!!\r\n!!!Las teor\xEDas son ciertas!!!\r\nEs todo un gusto conocerlo
-    viajero"
-  - "Jacob:\r\nEl gusto es m\xEDo, supongo\r\n"
+    tiempo."
+  - "IA Noviler:\r\n\xBF\xA1\xBF\xA1\xBFC\xD3MO?!?!?\n\xA1\xA1\xA1Por las siete estrellas
+    de Nova Prime!!!\r\n\xA1\xA1\xA1Las teor\xEDas son ciertas!!!\r\nEs todo un gusto
+    conocerlo viajero."
+  - "Jacob:\r\nEl gusto es m\xEDo, supongo\r.\n"
   - "IA Noviler:\r\nPero espera\u2026\r\nLa otra\u2026\r\n"
-  - "Amelie\r:\n!!!NO, Y NO!!!\r\n\xBF\xA1\xBFPorque Martin y tu quieren saber eso?!?\r"
+  - "Amelie\r:\n\xA1\xA1\xA1NO, Y NO!!!\r\n\xBF\xA1\xBFPorque Martin y tu quieren
+    saber eso?!?\r"
   - "\rIA Noviler:\r\nBueno siento que har\xEDa un gran avance a la teor\xEDa si\u2026\r"
-  - "Amelie:\r\n!!No!!\r\nYa habr\xE1 otra manera de comprobarla, \npero no haremos
-    experimentos con Jacob\r"
+  - "Amelie:\r\n\xA1\xA1No!!\r\nYa habr\xE1 otra manera de comprobarla, \npero no
+    haremos experimentos con Jacob.\r"
   - "IA Noviler:\r\nTranquila Dra. Amelie, soy una IA, no un ser vivo que pueda \nmanejar
     todo de manera f\xEDsica\r.\nMe preocupar\xEDa m\xE1s del Dr. Noviler en persona\r.\nA
-    \xE9l le gusta la experimentaci\xF3n m\xE1s que nada\r"
-  - "Jacob:\r\n\xBFQuien es el Dr. Noviler?\r"
-  - "Amelie\r:\nCharles Noviler es el cient\xEDfico humano con mas prestigio \nen
-    todos los rincones de la galaxia \r"
+    \xE9l le gusta la experimentaci\xF3n m\xE1s que nada\r."
+  - "Jacob:\r\n\xBFQui\xE9n es el Dr. Noviler?\r"
+  - "Amelie\r:\nCharles Noviler es el cient\xEDfico humano con mas prestigio. \nen
+    todos los rincones de la galaxia. \r"
   - "\nY forma parte del consejo de la Federaci\xF3n Cient\xEDfica de Exploraci\xF3n
     y Descubrimiento Intergal\xE1ctico y pronto Extragalactico.\r"
   - "Jacob:\r\n\xA1\xA1\xA1\xA1WOW\r!!!!\nMe gustar\xEDa un d\xEDa entrevistarlo
@@ -3370,11 +3359,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247792330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -162.08, y: -8.99, z: -35.521343}
+  m_LocalPosition: {x: -162.08, y: -8.99, z: -35.521347}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1928666432}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &247792335
 BoxCollider2D:
@@ -38039,15 +38028,15 @@ MonoBehaviour:
   - "1957. lan Shugart creo en los laboratorios de IBM El disquete o disco flexible 
     de tipo magn\xE9tico, formado por una fina l\xE1mina circular encerrada en una
     cubierta de pl\xE1stico, cuadrada o rectangular, que se utilizaba en la computadora.
-    \nEste pod\xEDa almacenar hasta 1.44 MB"
+    \nEste pod\xEDa almacenar hasta 1.44 MB."
   - "1995.  Kees Immink, creo a unidad de DVD es el dispositivo que hace referencia
     a la multitud de maneras en las que se almacenan los datos. Este pod\xEDa almacenar
-    hasta 8.5GB"
+    hasta 8.5GB."
   - "\xDAltimamente hay equipos de mayor tama\xF1o donde se experimenta la capacidad
     almacenamiento que puede mantener en las estaciones extra espaciales y nav\xEDos
     de investigaci\xF3n gal\xE1ctica, se estima que estas podr\xEDan llegar a almacenar
     un \nNovaByte, la \xFAltima unidad de capacidad de almacenamiento conocida en
-    toda la \ngalaxia, lo cual equivale a mil millones de Yoltabytes."
+    toda la .\ngalaxia, lo cual equivale a mil millones de Yoltabytes."
   velParrafo: 0.02
   botonContinuar: {fileID: 1761796115}
   botonQuitar: {fileID: 1890938521}
@@ -40321,12 +40310,12 @@ MonoBehaviour:
   textD: {fileID: 920350188}
   parrafos:
   - "Prototipos de c\xE1maras de Criogenizaci\xF3n profunda:\nLa cri\xF3nica es la
-    preservaci\xF3n de seres vivos a bajas temperaturas\r\n"
+    preservaci\xF3n de seres vivos a bajas temperaturas\r.\n"
   - "Estos prototipos son c\xE1maras de criogenizaci\xF3n basadas de los modelos
     anteriores, con, la intenci\xF3n que este prototipo pueda mantener material biol\xF3gico
-    de manera ilimitada, evitando asi el envejecimiento del cuerpo del estado mental
-    del usuario criogenizado, dando un estado de inmortalidad relativa y profunda
-    \nmientras este dentro del dispositivo."
+    de manera ilimitada, evitando as\xED el envejecimiento del cuerpo del estado
+    mental del usuario criogenizado, dando un estado de inmortalidad relativa y profunda
+    .\nmientras este dentro del dispositivo."
   velParrafo: 0.02
   botonContinuar: {fileID: 2075491339}
   botonQuitar: {fileID: 1846234287}
@@ -43148,7 +43137,7 @@ MonoBehaviour:
     del mundo\u201D y como esta lucir\xEDa en durante los a\xF1os 2016-2024,\ndebido
     a los altos cambios clim\xE1ticos que se presentaban en esos a\xF1os, ya \nfuera
     por el alto consumo de combustible "
-  - " f\xF3sil, Deforestaci\xF3n y contaminaci\xF3n excesiva de residuos t\xF3xicos
+  - " f\xF3sil, deforestaci\xF3n y contaminaci\xF3n excesiva de residuos t\xF3xicos
     y no t\xF3xicos.\r\nEl artista represento este fin del mundo como el castigo
     eterno de Dios y el fin de los tiempos como se conocida en aquel entonces."
   - Siente una incomodidad al ver la rara estatua a lado del cuadro y decides seguir
@@ -44104,7 +44093,7 @@ MonoBehaviour:
   - "La replicadora antes deb\xEDa estar conectada por su dependencia a en\xE9rgica,
     pero despu\xE9s del descubrimiento del encapsulamiento de energ\xEDa negra, la
     replicadora pudo miniaturizarse a un port\xE1til, d\xE1ndole m\xE1s facilidad
-    al momento\n de usarla y tener independencia de la energ\xEDa."
+    al momento.\n de usarla y tener independencia de la energ\xEDa."
   velParrafo: 0.02
   botonContinuar: {fileID: 622982243}
   botonQuitar: {fileID: 1159965274}
@@ -46601,8 +46590,8 @@ Transform:
   m_LocalPosition: {x: 169.65009, y: 4.022204, z: 4.064083}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 247792334}
   - {fileID: 30635152}
+  - {fileID: 247792334}
   m_Father: {fileID: 2109738953}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1443,7 +1443,7 @@ MonoBehaviour:
     a m\xED mismo:\r\nPrepararme para ser capataz de la siguiente f\xE1brica cerca
     de casa.\r\n"
   - "**Agarras la nota y la guardas de manera exitosa en el bolsillo, justo la intentas
-    volver a leer y esta desaparece de tu propio bolsillo. \xBFC\xF3mo pas\xF3 algo
+    volver a leer y esta desaparece de tu propio bolsillo \xBFC\xF3mo pas\xF3 algo
     as\xED?**\r\n"
   velParrafo: 0.02
   botonContinuar: {fileID: 1934740474}
@@ -12797,10 +12797,10 @@ MonoBehaviour:
   parrafos:
   - 'Capataz:
 
-    Gracias, fuiste de gran ayuda
+    Gracias, fuiste de gran ayuda.
 
 '
-  - "Ahora si puedes\u2026"
+  - "Ahora s\xED puedes\u2026"
   velParrafo: 0.02
   botonContinuar: {fileID: 1945007208}
   botonQuitar: {fileID: 34653563}
@@ -16344,15 +16344,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 2096880619}
   parrafos:
-  - "Obrero 1:\r\nYo ya te dije que no est\xE1n las cosas en su lugar\r"
+  - "Obrero 1:\r\nYo ya te dije que no est\xE1n las cosas en su lugar\r."
   - "Obrero 2:\r\nY yo ya te dije viejo, ese barril tiene todo lo necesario para\u2026\r"
   - "**Sin pensarlo dos veces interrumpe la pl\xE1tica entre ambos obreros**"
   - "Jacob: \r\nDisculpa\u2026. \xBFc\xF3mo salgo de aqu\xED?\r"
-  - "Obrero 2: \r\nPreg\xFAntale al capataz, el te dir\xE1 como salir de aqu\xED\r.\nEsta
-    en este mismo piso, al final del edificio.\r"
+  - "Obrero 2: \r\nPreg\xFAntale al capataz, \xE9l te dir\xE1 c\xF3mo salir de aqu\xED\r.\nEst\xE1
+    en este mismo piso, al final del... edificio.\r"
   - 'Jacob:
 
-    Gracias
+    Gracias.
 
 '
   velParrafo: 0.02
@@ -21507,8 +21507,8 @@ MonoBehaviour:
   parrafos:
   - "Capataz:\r\n\xBFT\xFA qui\xE9n eres?\r"
   - "Jacob:\r\nSoy Jacob Smith y me gustar\xEDa\u2026\r"
-  - "Capataz:\r\nSi, si, si, no me interesa.\nPor favor, salga de la fabrica antes
-    que lastime.\nNormalmente se caen las cosas por aqu\xED"
+  - "Capataz:\r\nS\xED, s\xED, s\xED, no me interesa.\nPor favor, salga de la fabrica
+    antes de que se lastime.\nNormalmente se caen las cosas por aqu\xED"
   - "Jacob:\r\nEso no me trae mucha confianza en la construcci\xF3n\u2026\r\nY bueno
     esa es mi idea, tengo que salir de aqu\xED lo m\xE1s r\xE1pido posible, \nsi
     no\u2026\r\n"
@@ -21522,8 +21522,8 @@ MonoBehaviour:
   - "Capataz:\r\nEso no importa, ve por mis notas y tr\xE1elas\r"
   - "Instrucciones:\r\nEn esta f\xE1brica est\xE1n escondidas notas que contendr\xE1n\nlo
     necesario para contestar a las preguntas que te har\xE1 \nel capataz m\xE1s adelante\r\n"
-  - "Estas notas tienen la informacion necesaria,\n pero desaparecer\xE1n una vez
-    que las encuentres.\n Recuerda bien lo que encontraste porque lo necesitar\xE1s
+  - "Estas notas tienen la informaci\xF3n necesaria,\n pero desaparecer\xE1n una
+    vez que las encuentres.\n Recuerda bien lo que encontraste porque lo necesitar\xE1s
     \npara contestar de manera correcta"
   - "Una vez que las hayas encontrado las notas, \n\xA1regresa con el capataz \ny
     prep\xE1rate para contestar!"

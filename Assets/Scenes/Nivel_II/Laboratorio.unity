@@ -1119,13 +1119,13 @@ MonoBehaviour:
   parrafos:
   - 'Jacob:
 
-    Gracias por dejarme en el piso eh'
+    Gracias por dejarme en el piso, eh.'
   - "Martin:\r\nLo siento, tuve que buscar ayuda \r\nEstuve buscando por aqu\xED
-    en la consola si pod\xEDa conseguir \nayuda medica\r"
+    en la consola si pod\xEDa conseguir\nayuda m\xE9dica.\r"
   - 'Jacob:
 
-    No te preocupes, ya ando bien'
-  - "Martin:\r\nQue bueno, me alegra que est\xE9s bien\r"
+    No te preocupes, ya ando bien.'
+  - "Martin:\r\nQu\xE9 bueno, me alegra que est\xE9s bien\r."
   - 'Jacob:
 
     ....'
@@ -1133,9 +1133,10 @@ MonoBehaviour:
 
     ....'
   - "Dicho eso, ambos se quedaron callados un rato hasta que Martin solt\xF3 una
-    pregunta algo peculiar con algo de emoci\xF3n"
-  - "Martin:\r\n\rEntonces eres un viajero?!?\r\nLa teor\xEDa es cierta?!?\r"
-  - "Jacob:\r\nComo que viajero?, a que te refieres?\r"
+    pregunta algo peculiar con algo de emoci\xF3n."
+  - "Martin:\r\n\r\xBF\xA1\xBFEntonces eres un viajero?!?\r\n\xBF\xA1\xBFLa teor\xEDa
+    es cierta?!?\r"
+  - "Jacob:\r\n\xBFC\xF3mo que viajero?, \xBFa qu\xE9 te refieres?\r"
   - "Martin:\r\nOk, de acuerdo con la teor\xEDa cu\xE1ntica oscura de Wellester, 
     la configuraci\xF3n subdimesional  trasespacial  de la formula Acci\xF3n, \nreacci\xF3n
     y consecuencia de Newton II  y\u2026"
@@ -1144,24 +1145,21 @@ MonoBehaviour:
 
     Sabes que no estoy entendiendo nada verdad?'
   - "Martin:\r\nLo siento, se me olvido de que vienes de un tiempo primitivo\r"
-  - "Jacob\r\nDisculpa, no soy un cavern\xEDcola de la era de piedra?\r"
-  - "Martin\r:\nY t\xFA sabes que hubo dos eras de piedra en la historia de la humanidad?\r"
+  - "Jacob\r\nDisculpa, no soy un cavern\xEDcola de la era de piedra?."
+  - "Martin\r:\n\xBFY t\xFA sabes que hubo dos eras de piedra en la historia de la
+    humanidad?\r"
   - "Jacob\r:\nPunto tomado "
   - "Martin\r:\nEl punto aqu\xED es esto hay que dec\xEDrselo a los dem\xE1s de esto
-    a mis compa\xF1eros para hacer el articulo lo antes posible\r"
-  - "Esto es un acontecimiento hist\xF3rico comparado con la extracci\xF3n de material
-    oscuro del centro gal\xE1ctico!!!"
-  - "\rJacob:\r\nEntonces vamos, quiero saber c\xF3mo regresar a mi tiempo original\r"
-  - "Martin:\r\nSi\u2026. En cuanto a eso\u2026\r\nNo podemos\u2026\r\n"
-  - 'Jacob:
-
-    Porque no?
-
-'
+    a mis compa\xF1eros para hacer el articulo lo antes posible."
+  - "\xA1\xA1\xA1Esto es un acontecimiento hist\xF3rico comparado con la extracci\xF3n
+    de material oscuro del centro gal\xE1ctico!!!"
+  - "\rJacob:\r\nEntonces vamos, quiero saber c\xF3mo regresar a mi tiempo original\r."
+  - "Martin:\r\nS\xED\u2026. En cuanto a eso\u2026\r\nNo podemos\u2026\r\n"
+  - "Jacob:\n\xBFPor qu\xE9 no?\n"
   - "Martin:\r\nLa puerta esta atorada\u2026por eso use el  portal para abrir otro
     portal que esta en la entrada de la Universidad\u2026\r\n"
-  - "Jacob:\r\nSabes toda esa teor\xEDa \u201CKuantika\u201D y magia oscura y no
-    sabes c\xF3mo reparar la puerta?\r\n"
+  - "Jacob:\r\n\xBFSabes toda esa teor\xEDa \u201CKuantika\u201D y magia oscura y
+    no sabes c\xF3mo reparar la puerta?\r\n"
   - 'Martin:
 
     Punto tomado.
@@ -1172,20 +1170,20 @@ MonoBehaviour:
     Entonces que hacemos?
 
 '
-  - "Martin:\r\nSi nos ayudamos mutuamente podremos salir de esta\r\nQue tal tu me
-    ayudas en abrir la puerta, lo que yo intento abrir un \nportal como realmente
-    lo quer\xEDa hacerlo al inicio\r\n"
-  - "Jacob:\r\n\rY como quieres que haga eso?\r"
+  - "Martin:\r\nSi nos ayudamos mutuamente podremos salir de esta.\r\n\xBFQu\xE9
+    tal tu me ayudas en abrir la puerta?, en lo que yo intento abrir un \nportal
+    como realmente lo quer\xEDa hacerlo al inicio\r.\n"
+  - "Jacob:\r\n\r\xBFY c\xF3mo quieres que haga eso?\r"
   - "Martin:\r\nNo se sinceramente, buscan por el laboratorio y encuentra la  forma
     de abrirla\r"
   - "*Piensas:\r\nVaya que este sujeto si que no sabe hacer nada\u2026.\r\n"
   - "Instrucciones:\r\nEn el laboratorio hay pantallas las cuales te pueden ayudar
     en c\xF3mo resolver esta problem\xE1tica, estas te contaran la forma de solucionarlo,
-    \npero ten cuidado, ya que estas pantallas son funciona una vez "
+    \npero ten cuidado, ya que estas pantallas son funciona una vez."
   - Y no vuelven a prender, por lo tanto, recuerda bien la informacion que te dieron,
     ya que la necesitaras para poder seguir adelante.
-  - Una vez que hayas encontrado todas las pantallas, ve a la puerta y resuelve el
-    problema!!!!
+  - "\xA1\xA1\xA1\xA1Una vez que hayas encontrado todas las pantallas, ve a la puerta
+    y resuelve el problema!!!!"
   velParrafo: 0.02
   botonContinuar: {fileID: 1148435475}
   botonQuitar: {fileID: 2079875995}
@@ -5691,8 +5689,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 379569390}
   parrafos:
-  - "Jacob:\nCreo que me desmaye\u2026.\r\nDonde estoy????\r"
-  - "Porque me esta sucediendo esto\r\nPorque hay gente tan rara???\r\nHablando de\u2026.\r"
+  - "Jacob:\nCreo que me desmay\xE9\u2026.\r\n\xBF\xBF\xBF\xBFDonde estoy????\r"
+  - "\xBF\xBF\xBFPor qu\xE9 me esta sucediendo esto\r\n\xBF\xBF\xBFPor qu\xE9 hay
+    gente tan rara???\r\nHablando de\u2026.\r"
   velParrafo: 0.02
   botonContinuar: {fileID: 1070659594}
   botonQuitar: {fileID: 192414806}
@@ -7522,32 +7521,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 379569390}
   parrafos:
-  - "Martin \r:\nEso no tuvo que pasar\u2026Eso realmente no tuvo que pasar.\r\nComo
-    logr\xE9 traer un vagabundo del sector 6?, si \nen realidad tuve que conectar
+  - "Martin \r:\nEso no tuvo que pasar\u2026Eso realmente no tuvo que pasar.\r\n\xBFC\xF3mo
+    logr\xE9 traer un vagabundo del sector 6?, s\xED,\nen realidad tuve que conectar
     el portal con el sector 57.\r"
-  - "Jacob:\nComo que vagabundo?!?\r\nSOY UN PERIODISTA, GANO MAS MONEDA \nQUE UN
-    MERCADER EN PLENA TEMPORADA!!\r"
-  - "Martin\r:\nPeriodista??, Moneda??\r\nDe que hablas?\r\nLas monedas dejaron de
-    usarse hace  ocho milenios y medio.\r"
+  - "Jacob:\n\xBF\xA1\xBFComo que vagabundo?!?\r\n\xA1\xA1SOY UN PERIODISTA, GANO
+    MAS MONEDA \nQUE UN MERCADER EN PLENA TEMPORADA!!\r"
+  - "Martin\r:\n\xBF\xBFPeriodista??, \xBF\xBFMoneda??\r\n\xBF\xBFDe qu\xE9 hablas?\r\nLas
+    monedas dejaron de usarse hace  ocho milenios y medio.\r"
   - Y Periodista? , como has logrado sobrevivir con un trabajo tan anticuado?
-  - "Jacob:\nComo que anticuado? \nEn primera quien eres? \nDonde estoy? ,Porque
-    todo se ve muy raro?"
+  - "Jacob:\n\xBFC\xF3mo que anticuado? \nEn primera, \xBFqui\xE9n eres? \n\xBFD\xF3nde
+    estoy?, \xBFPor qu\xE9 todo se ve muy raro?"
   - "Martin:\nOk vamos por partes\u2026.\r\nPrimero me presento, soy Martin Gomez
     , \nsoy un ingeniero en tele trasportes terrestres\r\n"
   - "Segundo estas en la estaci\xF3n cient\xEDfica 55 de  la Universidad Gal\xE1ctica
-    de Londres o UGL de cortas.\r\nY como que raro?, no de donde vengas pero casi
-    todos lo \nniveles de la ciudad tiene este estilo \u201Cmoderno\u201D\n\n"
+    de Londres o UGL de cortas.\r\nY c\xF3mo que raro?, no de donde vengas pero casi
+    todos lo \nniveles de la ciudad tiene este estilo \u201Cmoderno\u201D.\n\n"
   - "Almenos que hayas vivido en los bosques Marte por un tiempo se te olvida \nque
     vivimos en el siglo 49 ,digo a todos nos pasa debes en cuando.\r"
-  - 'Al escuchar eso, Jacob le da un golpe de tiempo que se ve como Jacob se tambalea
-    un poco, al ver esto Martin muy preocupado pregunta:'
-  - 'Martin:
-
-    Oye hombre estas bien?
-
-    Que sucede?
-
-    Te sientes mal?'
+  - "Al escuchar eso, Jacob le da un golpe de tiempo que se ve como Jacob se tambalea
+    un poco, al ver esto Mart\xEDn muy preocupado pregunta:"
+  - "Martin:\nOye hombre, \xBFest\xE1s bien?\n\xBFQu\xE9 sucede?\n\xBFTe sientes
+    mal?"
   velParrafo: 0.02
   botonContinuar: {fileID: 232578091}
   botonQuitar: {fileID: 2048178458}

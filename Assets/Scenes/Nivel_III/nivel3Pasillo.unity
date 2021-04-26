@@ -5115,12 +5115,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 478183615}
   parrafos:
-  - "Jacob:\r\nAun no puedo creer que existan ciudades de tal tama\xF1o, me pregunto
-    como pasamos de los edificios de mi era a los grandes \u201CRascasielos\u201D"
+  - "Jacob:\r\nA\xFAn no puedo creer que existan ciudades de tal tama\xF1o, me pregunto
+    c\xF3mo pasamos de los edificios de mi era a los grandes \u201CRascasielos\u201D"
   - es simplemente impresionante ver estos gigantes sostenerse en es este mundo de
     Metal y cristal.
   - "Amelie:\r\n\xBFViajero, todo bien por all\xE1?\r"
-  - "Jacob:\nSi todo bien, ya voy para all\xE1.\r\n"
+  - "Jacob:\nS\xED, todo bien, ya voy para all\xE1.\r\n"
   velParrafo: 0.02
   botonContinuar: {fileID: 727834525}
   botonQuitar: {fileID: 1444457477}

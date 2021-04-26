@@ -3758,7 +3758,7 @@ MonoBehaviour:
   textD: {fileID: 845104012}
   parrafos:
   - "Jacob:\nVoy a extra\xF1ar a este tiempo. Todo aqu\xED es incre\xEDble. Pero
-    Thomas Savery me espera"
+    Thomas Savery me espera."
   velParrafo: 0.002
   botonContinuar: {fileID: 1262317393}
   botonQuitar: {fileID: 1834704639}
@@ -5797,32 +5797,29 @@ MonoBehaviour:
   parrafos:
   - "Amelie:\r\nInteresante, creo que sabr\xE1s un mont\xF3n de temas cuando regreses
     a tu tiempo. \xA1Ser\xE1s un genio para lo que apenas est\xE1 iniciando!\n"
-  - 'Jacob:
-
-    Espero nunca olvidar nada de esto, para ayudar a todos los que pueda
-    con la informacion que tengo
-
-'
+  - "Jacob:\nEspero nunca olvidar nada de esto, para ayudar a todos los que pueda
+    con la informaci\xF3n que tengo.\n"
   - "Amelie:\r\nEn caso de que necesites saber algo, esto ahora te ayudar\xE1 a recordar
-    una que otra cosita.  Lo que te doy, m\xE1s la informacion que te dio N del museo,
-    creo que estar\xE1s m\xE1s que preparado para cualquier cosa. Y bueno, tambi\xE9n
-    porque en tu tiempo no hay HyperInternet para que puedas investigar m\xE1s sabes\r\n"
+    una que otra cosita.  Lo que te doy, m\xE1s la informaci\xF3n que te dio N del
+    museo, creo que estar\xE1s m\xE1s que preparado para cualquier cosa. Y bueno,
+    tambi\xE9n porque en tu tiempo no hay HyperInternet para que puedas investigar
+    m\xE1s sabes\r\n"
   - "Jacob: \r\nSolo por curiosidad, \xBFcu\xE1nta informaci\xF3n tiene esta tableta?\r\n"
   - 'Amelie:
 
-    Si no me equivoco creo que tiene la capacidad de 256 Yottabytes
+    Si no me equivoco creo que tiene la capacidad de 256 Yottabytes.
 
 '
   - "Jacob:\r\n\xBFY eso es mucho o poco?\r\n"
-  - "Amelie: \r\nDigamos que nunca te faltara espacio en tu vida\r\n"
+  - "Amelie: \r\nDigamos que nunca te faltara espacio en tu vida\r.\n"
   - "Jacob:\n\xBFC\xF3mo te regreso el favor? Te lo tengo que regresar de una forma
-    u otra\n"
+    u otra.\n"
   - 'Amelie:
 
-    Ya lo hiciste
+    Ya lo hiciste.
 
 '
-  - "Jacob: \r\nNo comprendo\r\n"
+  - "Jacob: \r\nNo comprendo\r...\n"
   velParrafo: 0.02
   botonContinuar: {fileID: 2017807954}
   botonQuitar: {fileID: 215066598}
@@ -7431,7 +7428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 845104012}
   parrafos:
-  - "Jacob:\nEso fue bastante ca\xF3tico"
+  - "Jacob:\nEso fue bastante ca\xF3tico."
   velParrafo: 0.02
   botonContinuar: {fileID: 212697313}
   botonQuitar: {fileID: 542610312}
