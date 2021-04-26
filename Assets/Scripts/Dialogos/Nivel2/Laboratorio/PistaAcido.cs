@@ -64,7 +64,7 @@ public class PistaAcido : MonoBehaviour
             sonidoAcido.Play();
 
         }else{
-            textD.text = "";
+            textD.text = "Martín: ¡¡ES UNA MEZCLA DE HIDRÓGENO CON CLORO!!";
             botonContinuar.SetActive(false);
             botonSalir.SetActive(true);
         }

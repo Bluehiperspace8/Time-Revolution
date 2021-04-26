@@ -64,7 +64,7 @@ public class PistaPantalla : MonoBehaviour
             audioComputadora.Play();
 
         }else{
-            textD.text = "";
+            textD.text = "Martín: No lo veía venir, será mejor no acercame demasiado. ";
             botonContinuar.SetActive(false);
             botonSalir.SetActive(true);
         }

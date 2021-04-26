@@ -1,17 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
-/*
-Implementar el diálogo con Martín Gómez en el laboratorio
-Autor: Renata de Luna
-*/
-
-public class DialogoMartinG : MonoBehaviour
+public class DialogoMartin2 : MonoBehaviour
 {
-    public TextMeshProUGUI textD;
+     public TextMeshProUGUI textD;
     [TextArea (3,30)]
     public string[] parrafos;
     int index;
@@ -25,10 +19,8 @@ public class DialogoMartinG : MonoBehaviour
 
     public AudioSource sonidoConv;
 
-    //public Image imagenFondo;
 
-    public GameObject martin1;
-    public GameObject martin2;
+    
     
 
 
@@ -73,23 +65,10 @@ public class DialogoMartinG : MonoBehaviour
             StartCoroutine(TextDialogo());
 
         }else{
-            textD.text = "Martín: Oye hombre, ¿estás bien? ¿Qué sucede? ¿Quieres que te traiga algo?";
+            textD.text = "Martín: ¿Qué tal que tú me ayudas en abrir la puerta, lo que yo intento abrir un portal como realmente lo quería hacer al inicio?";
             botonContinuar.SetActive(false);
             botonSalir.SetActive(true);
-            //Hacer el código de fade out
-            /*imagenFondo.canvasRenderer.SetAlpha(0);
-            imagenFondo.gameObject.SetActive(true);
-            imagenFondo.CrossFadeAlpha(1, 11, true);
-
-            new WaitForSeconds(7);
-
-            imagenFondo.canvasRenderer.SetAlpha(0);
-            imagenFondo.gameObject.SetActive(false);
-            imagenFondo.CrossFadeAlpha(0, 11, true);
-
-            martin1.GameObject.SetActive(false);
-            martin2.GameObject.SetActive(true);*/
-
+           
         }
     }
 
@@ -112,32 +91,10 @@ public class DialogoMartinG : MonoBehaviour
 
     public void ActivarBotonSalir()
     {
-        //Desactivar panel y botones
         panelDialogo.SetActive(false);
         botonConversar.SetActive(false);
         botonSalir.SetActive(false);
 
-        //Efecto fade out
-        imagenFondo.canvasRenderer.SetAlpha(0);
-        imagenFondo.gameObject.SetActive(true);
-        imagenFondo.CrossFadeAlpha(1, 11, true);
-        martin1.SetActive(false);
-        new WaitForSeconds(3);
-
         
-        StartCoroutine(EfectoDadeIn());
-        martin2.SetActive(true);
-
-        
-        
-    }
-
-    public IEnumerator EfectoDadeIn()
-    {
-        
-        yield return new WaitForSeconds(11);
-        imagenFondo.canvasRenderer.SetAlpha(0);
-        imagenFondo.gameObject.SetActive(false);
-        imagenFondo.CrossFadeAlpha(0, 15, true);
     }
 }
