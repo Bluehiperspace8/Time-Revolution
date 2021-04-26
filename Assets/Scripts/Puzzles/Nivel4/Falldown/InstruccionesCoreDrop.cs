@@ -13,6 +13,7 @@ public class InstruccionesCoreDrop : MonoBehaviour
 {
     private bool estaPausado;  // True esta en pausa si no pues esta jugando
     public GameObject pantallaPausa; //Panel que se pone oscuro
+    public AudioSource Sonido;
 
     private void Start()
     {
@@ -24,7 +25,10 @@ public class InstruccionesCoreDrop : MonoBehaviour
     {
         estaPausado = !estaPausado; //Cambia el boolenao al valor inverso
         pantallaPausa.SetActive(estaPausado); //Poner la pantalla dependiendo del boolenao
-
+        if (estaPausado == false)
+        {
+            Sonido.Play();
+        }
         //Escala de tiempo
         Time.timeScale = estaPausado ? 0 : 1;
     }

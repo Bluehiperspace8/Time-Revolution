@@ -96,6 +96,8 @@ public class DialogoJacobCindy2 : MonoBehaviour
         }
     }
 
+
+
     //Interaccion  con el jugador
     public void OnTriggerEnter2D(Collider2D collsion)
     {
@@ -109,6 +111,11 @@ public class DialogoJacobCindy2 : MonoBehaviour
             BotonLeer.SetActive(false);
 
         }
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        BotonLeer.SetActive(false);
     }
 
     public void activarBotonLeer()

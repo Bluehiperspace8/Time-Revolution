@@ -82,6 +82,11 @@ public class DialogoInges : MonoBehaviour
         }
     }
 
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        BotonLeer.SetActive(false);
+    }
+
     // Funcion
     // Manejo de los controles
     public void siguienteParrafo()
@@ -136,7 +141,7 @@ public class DialogoInges : MonoBehaviour
         //Generar animacion de transicion con el audio
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(true);
-        imagenFondo.CrossFadeAlpha(1, 8, true);
+        imagenFondo.CrossFadeAlpha(1, 1, true);
         new WaitForSeconds(3);
 
         // Cargamos Escena
@@ -147,10 +152,10 @@ public class DialogoInges : MonoBehaviour
     //Corrutina -> Cambio de escena
     private IEnumerator CambiarEscena()
     {
-        yield return new WaitForSeconds(8);
+        yield return new WaitForSeconds(1);
         // Cambiar de escena
         //Ya regreso /Ya termino
         // Transicion al siguiente Nivel
-        SceneManager.LoadScene("Scenes/Nivel_IV/Nivel4Final");
+        SceneManager.LoadScene("Nivel4Final");
     }
 }

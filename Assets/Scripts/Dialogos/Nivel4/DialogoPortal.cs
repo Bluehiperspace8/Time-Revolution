@@ -145,6 +145,10 @@ public class DialogoPortal : MonoBehaviour
 
         }
     }
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        BotonLeer.SetActive(false);
+    }
 
     public void activarBotonLeer()
     {

@@ -7,8 +7,7 @@ public class GanaSnake : MonoBehaviour
     // Start is called before the first frame update
     void Gana()
     {
-        print("Ganste wwwwwiiiiiiiiii");
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Energysnake");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Nivel42");
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

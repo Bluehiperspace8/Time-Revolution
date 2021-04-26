@@ -14,7 +14,7 @@ public class PierdeoGana : MonoBehaviour
 
     void Gana()
     {
-        SceneManager.LoadScene("Nivel4");
+        SceneManager.LoadScene("Nivel4-3");
     }
     void Update()
     {

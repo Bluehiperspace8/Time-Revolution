@@ -22,6 +22,7 @@ public class MueveBola : MonoBehaviour
     public int puntaje = 3;
     public static MueveBola instance;
     public GameObject energia;
+    public AudioSource powerup;
     public int agrega;
     public Vector2 fronteraY;
     public Vector2 fronteraX;
@@ -98,6 +99,7 @@ public class MueveBola : MonoBehaviour
         }
         else if (col.CompareTag("Nuclear") || col.CompareTag("Agua") || col.CompareTag("Sol")  || col.CompareTag("Aire"))
         {
+            powerup.Play();
             if (col.CompareTag("Nuclear"))
             {
                 agrega = 6;
