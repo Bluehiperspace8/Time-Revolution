@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 /*
- Objetivo: Dialogo con extraños 2
+ Objetivo: Dialogo con extraï¿½os 2
  Autor: Roberto Valdez Jasso
  */
 
@@ -88,7 +88,7 @@ public class Platica3 : MonoBehaviour
         else
         {
             textD.text = "*Piensas:\n" +
-                "Wow, ¿Esa será la máquina de mi entrevista?\n"+
+                "Wow, Â¿Esa serÃ¡ la mÃ¡quina de mi entrevista?\n"+
                   "Tengo que saberlo todo lo antes posible.";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);

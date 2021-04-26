@@ -590,24 +590,18 @@ MonoBehaviour:
   - "IA Noviler:\n\xA1\xA1\xA1Felicidades!!!\nHas logrado contestar todas bien\nAl
     parecer te divertiste mucho aprendiendo de tu tiempo y el nuestro.\n"
   - "Jacob\r:\nEstuvo muy interesante todo\r.\nPero me duele mucho la cabeza\r.\nMucha
-    informacion en tan poco tiempo har\xE1 explotar mi cabeza en cualquier momento.\r\n"
-  - "Amelie:\r\nEn cierta manera te \u2018spoleaste\u2019 todo lo que va a pasar
+    informacion en tan poco tiempo har\xE1 que mi cabeza explote en cualquier momento.\r\n"
+  - "Amelie:\r\nEn cierta manera te \u2018spoileaste\u2019 todo lo que va a pasar
     ahora en adelante en tu tiempo original.\r\nEs peor que saber c\xF3mo termino
     Tony Stark antes de ver la pel\xEDcula completa.\r\n"
   - "Jacob:\r\n\xBFQui\xE9n?\r"
-  - "IA Noviler:\r\nNo des importancia a eso viajero.\r\nLo que importa es que ganaste
+  - "IA Noviler:\r\nNo des importancia a eso, viajero.\r\nLo que importa es que ganaste
     esto\r."
   - "\rIA Noviler le entrega una tableta llena de informacion del museo y datos extras
-    al gusto de Jacob"
+    al gusto de Jacob."
   - "Jacob:\n\xA1\xA1\xA1Gracias N!!!\r\npero \xBFc\xF3mo funciona este\u2026bloque?\r"
-  - 'Amelie:
-
-    Es una tableta, es parecida a tu libreta pero de manera digital.
-
-    Te
-    explicare  cuando este en el hiper elevador.
-
-'
+  - "Amelie:\nEs una tableta, es parecida a tu libreta pero de manera digital.\nTe
+    explicar\xE9 cuando est\xE9 en el hiper elevador.\n"
   - "Jacob: \r\n\xBFA d\xF3nde vamos?\r"
   - "Amelie:\r\nVamos a mi laboratorio\r.\nQuiero ense\xF1arte unas cosas antes de
     que te vayas\r.\n"
@@ -1330,9 +1324,9 @@ MonoBehaviour:
     Era de Hielo, creada por la humanidad, viejas especies volvieron a renacer, entre
     ellas los Tigres Dientes de sable por las condiciones que se viv\xEDan aquel
     entonces,"
-  - "Los cambios clim\xE1ticos dieron beneficios y perjudico a gran cantidad de otras
-    especies que necesitaban ambientes m\xE1s c\xE1lidos para su sobrevivencia, "
-  - "Dando asi una confirmaci\xF3n m\xE1s a la Teor\xEDa de Evoluci\xF3n y Selecci\xF3n
+  - "Los cambios clim\xE1ticos dieron beneficios y perjudic\xF3 a gran cantidad de
+    otras especies que necesitaban ambientes m\xE1s c\xE1lidos para su sobrevivencia, "
+  - "Dando as\xED una confirmaci\xF3n m\xE1s a la Teor\xEDa de Evoluci\xF3n y Selecci\xF3n
     Natural, dando la evoluci\xF3n por descendencia con modificaci\xF3n gen\xE9tica
     de las viejas especies a las nuevas especies."
   velParrafo: 0.02
@@ -3138,24 +3132,21 @@ MonoBehaviour:
   parrafos:
   - "Amelie:\r\nBienvenido al Gran Museo Gal\xE1ctico de Londres.\r\nEl \xFAnico
     en su clase en toda la Tierra\r.\nAqu\xED puedes encontrar historia desde la
-    primera era de piedra, hasta el primer salto al centro de la Galaxia.\r"
+    primera era de piedra, hasta el primer salto al centro de la Galaxia.\r."
   - "Jacob\r:\nToda la historia que hay aqu\xED debe valer al menos millones de \na\xF1os
     de conocimiento\r.\nPero antes... \xBFQui\xE9n es esa persona azul?\r"
-  - 'Amelie:
-
-    Ah cierto, te presento a la Inteligencia Artificial del Museo,
-    se llama Noviler.
-
-    Es una copia casi exacta del mismo Noviler en persona.'
-  - "IA Noviler:\r\nYo no lo tomar\xEDa asi Dra. Amelie\r.\nYo dir\xEDa que soy una
-    versi\xF3n simp\xE1tica y carism\xE1tica del Dr. Noviler.\r\nIncluso m\xE1s atractivo.\r\n"
+  - "Amelie:\n\xA1Ah! Cierto, te presento a la Inteligencia Artificial del Museo,
+    se llama Noviler.\nEs una copia casi exacta del mismo Noviler en persona."
+  - "IA Noviler:\r\nYo no lo tomar\xEDa as\xED, Dra. Amelie\r.\nYo dir\xEDa que soy
+    una versi\xF3n simp\xE1tica y carism\xE1tica del Dr. Noviler.\r\nIncluso m\xE1s
+    atractivo.\r\n"
   - "Amelie:\r\nSigue so\xF1ando N\r."
   - "Jacob:\r\n\xBFEntonces me dices que t\xFA eres una \u2026?\r"
   - "IA Noviler: \r\nUna Inteligencia Artificial, una de las m\xE1s guapas e inteligentes
     en la Tierra.\r\nSoy la primera IA tan magn\xEDfica y poderosa en todo el\narco
     superior de la v\xEDa l\xE1ctea."
   - "Jacob:\nNo puedo creer que han llegado a estas cosas\r.\nEsto se tomar\xEDa
-    como brujer\xEDa, incluso en mi tiempo\r.\n"
+    como brujer\xEDa incluso, en mi tiempo\r.\n"
   - "IA Noviler:\n\xBFBrujer\xEDa? Amelie, \xBFde d\xF3nde sacas a este tipo de personas?\n\xBFEn
     serio es tu primera interacci\xF3n con una IA en tu vida?\n\xBFNi has visto una
     en alguna tienda o centro comercial?\n"
@@ -3163,10 +3154,10 @@ MonoBehaviour:
     tiempo."
   - "IA Noviler:\r\n\xBF\xA1\xBF\xA1\xBFC\xD3MO?!?!?\n\xA1\xA1\xA1Por las siete estrellas
     de Nova Prime!!!\r\n\xA1\xA1\xA1Las teor\xEDas son ciertas!!!\r\nEs todo un gusto
-    conocerlo viajero."
+    conocerlo, viajero."
   - "Jacob:\r\nEl gusto es m\xEDo, supongo\r.\n"
   - "IA Noviler:\r\nPero espera\u2026\r\nLa otra\u2026\r\n"
-  - "Amelie\r:\n\xA1\xA1\xA1NO, Y NO!!!\r\n\xBF\xA1\xBFPorque Martin y tu quieren
+  - "Amelie\r:\n\xA1\xA1\xA1NO, Y NO!!!\r\n\xBF\xA1\xBFPorque Martin y t\xFA quieren
     saber eso?!?\r"
   - "\rIA Noviler:\r\nBueno siento que har\xEDa un gran avance a la teor\xEDa si\u2026\r"
   - "Amelie:\r\n\xA1\xA1No!!\r\nYa habr\xE1 otra manera de comprobarla, \npero no
@@ -3175,7 +3166,7 @@ MonoBehaviour:
     todo de manera f\xEDsica\r.\nMe preocupar\xEDa m\xE1s del Dr. Noviler en persona\r.\nA
     \xE9l le gusta la experimentaci\xF3n m\xE1s que nada\r."
   - "Jacob:\r\n\xBFQui\xE9n es el Dr. Noviler?\r"
-  - "Amelie\r:\nCharles Noviler es el cient\xEDfico humano con mas prestigio. \nen
+  - "Amelie\r:\nCharles Noviler es el cient\xEDfico humano con m\xE1s prestigio\nen
     todos los rincones de la galaxia. \r"
   - "\nY forma parte del consejo de la Federaci\xF3n Cient\xEDfica de Exploraci\xF3n
     y Descubrimiento Intergal\xE1ctico y pronto Extragalactico.\r"
@@ -3196,28 +3187,28 @@ MonoBehaviour:
     Dr Amelie, no sea aguafiestas, nuestro visitante quiere saber
     de la historia que se encuentran en estas paredes'
   - "\nAdem\xE1s es uno de mis juegos favoritos cuando llega alguien aqu\xED por
-    primera vez"
-  - "Amelie:\r\nUh, bueno, dile como funciona.\r"
+    primera vez."
+  - "Amelie:\r\nUh, bueno, dile c\xF3mo funciona.\r"
   - "IA Noviler:\r\n\xA1\xA1Perfecto!!\nViajero, el juego se trata de lo siguiente:\r\nEste
     museo tiene artefactos de tu tiempo, as\xED como \narte e informacion valiosa
     para el mismo\r"
-  - "\nTu mision es simple\r.\nExplora el Museo y aprende de nuestra gran colecci\xF3n
-    privada\r.\nSi\xE9ntete libre de ir a las alas del pasado y del ma\xF1ana\r\n"
-  - "\nUna vez que hayas visto todo o sientas que ya est\xE9s listo.\r\nRegresa conmigo
-    y har\xE9 yo las preguntas para ver que aprendiste. Y tambi\xE9n te dar\xE9 una
-    recompensa por ello.\r\n"
+  - "\nTu misi\xF3n es simple\r.\nExplora el Museo y aprende de nuestra gran colecci\xF3n
+    privada\r.\nSi\xE9ntete libre de ir a las alas del pasado y del ma\xF1ana\r.\n"
+  - "\nUna vez que hayas visto todo o sientas que ya est\xE9s listo,\nregresa conmigo
+    y har\xE9 yo las preguntas para ver qu\xE9 aprendiste. Y tambi\xE9n te dar\xE9
+    una recompensa por ello.\r\n"
   - "Jacob:\r\n\xBFY cu\xE1l ser\xE1 esa recompensa?\r"
   - "IA Noviler:\r\nEs una sorpresa\r.\nVete a divertir en el museo y aprende todo
-    lo que quieras\r.\nMientras, yo me quedar\xE9 a hablar un rato con la Dra. Amelie\r"
+    lo que quieras\r.\nMientras, yo me quedar\xE9 a hablar un rato con la Dra. Amelie."
   - "Amelie:\r\nYeih\u2026\r"
   - "Instrucciones:\r\nEn este museo hay piezas las cuales est\xE1n esperando para
     contar sus historias.\nEstas piezas est\xE1n desde la primera era de la humanidad
     \nhasta la \xFAltima conocida en este tiempo.\r\n"
   - "Al acercarte te dar\xE1n la informaci\xF3n necesaria para que puedas aprender
-    de ellas. Ojo, estas solo contaran la historia una vez, por lo tanto, recuerda
-    bien la informacion que te contaran.\nLa necesitar\xE1s mas adelante para contestar
-    de manera\ncorrecta las preguntas."
-  - "Una vez que hayas ido con cada pieza del museo, regresa con IA Noviler y, !!!prep\xE1rate
+    de ellas. Ojo, estas solo contar\xE1n la historia una vez, por lo tanto, recuerda
+    bien la informacion que te contar\xE1n.\nLa necesitar\xE1s m\xE1s adelante para
+    contestar de manera\ncorrecta las preguntas."
+  - "Una vez que hayas ido con cada pieza del museo, regresa con IA Noviler y, \xA1\xA1\xA1prep\xE1rate
     para contestar!!!"
   velParrafo: 0.0002
   botonContinuar: {fileID: 1023943794}
@@ -30496,6 +30487,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
 --- !u!224 &717593483 stripped
@@ -31878,8 +31877,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 920350188}
   parrafos:
-  - "Foto de barco\r\nEsta imagen da a conocer el momento hist\xF3rico donde Crist\xF3bal
-    Colon zarpa con la idea de encontrar un nuevo camino a las Indias, descubriendo
+  - "Foto de barco\r:\nEsta imagen da a conocer el momento hist\xF3rico donde Crist\xF3bal
+    Col\xF3n zarpa con la idea de encontrar un nuevo camino a las Indias, descubriendo
     \nasi el continente americano. "
   - "Estos barcos utilizaban la energ\xEDa de los vientos m\xE1s las corrientes marinas
     para hacer los viajes a grandes distancia realidaddando inicio a \nmodelos de
@@ -33767,6 +33766,14 @@ PrefabInstance:
     - target: {fileID: 7315313320728685309, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
@@ -36294,7 +36301,7 @@ MonoBehaviour:
   - 'Mundo:
 
     El mundo se ve controlado por tres leyes esenciales las cuales son
-    las leyes de Kepler,.
+    las leyes de Kepler.
 
 
 '
@@ -38024,7 +38031,7 @@ MonoBehaviour:
   parrafos:
   - "Equipo de almacenamiento\r:\n1834. Charles Babbage, se le considera el inventor
     de la memoria para el ordenador, y surgi\xF3 con las tarjetas perforadas que
-    s\xF3lo eran para lectura. \nEsta pod\xEDa almacenar hasta 960 bytes\r\n"
+    s\xF3lo eran para lectura. \nEsta pod\xEDa almacenar hasta 960 bytes\r.\n"
   - "1957. lan Shugart creo en los laboratorios de IBM El disquete o disco flexible 
     de tipo magn\xE9tico, formado por una fina l\xE1mina circular encerrada en una
     cubierta de pl\xE1stico, cuadrada o rectangular, que se utilizaba en la computadora.
@@ -41366,6 +41373,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
 --- !u!224 &1553133545 stripped
@@ -43138,7 +43153,7 @@ MonoBehaviour:
     a los altos cambios clim\xE1ticos que se presentaban en esos a\xF1os, ya \nfuera
     por el alto consumo de combustible "
   - " f\xF3sil, deforestaci\xF3n y contaminaci\xF3n excesiva de residuos t\xF3xicos
-    y no t\xF3xicos.\r\nEl artista represento este fin del mundo como el castigo
+    y no t\xF3xicos.\r\nEl artista represent\xF3 este fin del mundo como el castigo
     eterno de Dios y el fin de los tiempos como se conocida en aquel entonces."
   - Siente una incomodidad al ver la rara estatua a lado del cuadro y decides seguir
     adelante en el museo.
@@ -47447,14 +47462,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 920350188}
   parrafos:
-  - "libros antiguos:\nEl primer libro:\r\nEste libro es la \xFAltima copia Sobreviviente
+  - "Libros antiguos:\nEl primer libro:\r\nEste libro es la \xFAltima copia Sobreviviente
     de los escritos de Pit\xE1goras, \nla cual data desde los 400 a\xF1os antes de
     Cristo.\r"
   - "En esta copia, se encuentra  de manera significativa los avances  de la matem\xE1tica
     hel\xE9nica, la geometr\xEDa, la aritm\xE9tica, derivadas particularmente de
     las relaciones num\xE9ricas, y aplicadas por ejemplo a la teor\xEDa de pesos
-    y medidas"
-  - "Como tambi\xE9n su famosa formula, el teorema de Pit\xE1goras\r\nFormula:\r\na^2+b^2=c^2\r"
+    y medidas."
+  - "Como tambi\xE9n su famosa f\xF3rmula, el teorema de Pit\xE1goras\r\nF\xF3rmula:\r\na^2+b^2=c^2\r"
   - "El segundo Libro:\r\nEl segundo libro una de las copias originales de \u201CMis
     Inventos\u201D de Nikolas Tesla, donde se redacta el c\xF3mo Revolucion\xF3 el
     campo del electromagnetismo y\n la forma de generar "
@@ -48820,6 +48835,14 @@ PrefabInstance:
     - target: {fileID: 7315313320728685309, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}

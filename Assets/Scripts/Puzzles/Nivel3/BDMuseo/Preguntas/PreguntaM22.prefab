@@ -43,16 +43,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "\xBFQue dice la ley de Moore?"
+  texto: "\xBFQu\xE9 dice la ley de Moore?"
   opciones:
   - texto: a)  La materia no se crea ni se destruye
     opcionCorrecta: 0
-  - texto: "b)  La miniaturizaci\xF3n al proceso tecnol\xF3gico mediante el cual
-      se intenta reducir el tama\xF1o de cualquier dispositivo electr\xF3nico"
+  - texto: "b)  La miniaturizaci\xF3n es el proceso tecnol\xF3gico con el que se
+      intenta reducir el tama\xF1o de cualquier dispositivo electr\xF3nico"
     opcionCorrecta: 1
   - texto: c) Cuerpo total o parcialmente sumergido en un fluido en reposo recibe
-      un empuje de abajo hacia arriba que es igual al peso del volumen de fluido
-      que desaloja
+      un empuje de abajo hacia arriba igual al peso del volumen del fluido desalojado
     opcionCorrecta: 0
   - texto: "d) La energ\xEDa no se crea ni se destruye, solamente se transforma"
     opcionCorrecta: 0

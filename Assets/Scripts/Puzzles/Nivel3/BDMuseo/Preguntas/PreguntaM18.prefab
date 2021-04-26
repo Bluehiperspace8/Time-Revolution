@@ -53,6 +53,6 @@ MonoBehaviour:
   - texto: "c) \u201CEl corrimiento al rojo de una galaxia es proporcional a la distancia
       a la que se encuentra.\u201D"
     opcionCorrecta: 0
-  - texto: "d) \"Todos los planetas se desplazan alrededor del Sol describiendo \xF3rbitas
+  - texto: "d) \"Todos los planetas se desplazan alrededor del Sol en \xF3rbitas
       el\xEDpticas\""
     opcionCorrecta: 0

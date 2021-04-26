@@ -52,5 +52,5 @@ MonoBehaviour:
     opcionCorrecta: 1
   - texto: c) Peligro
     opcionCorrecta: 0
-  - texto: d) Conocimiento.
+  - texto: d) Conocimiento
     opcionCorrecta: 0

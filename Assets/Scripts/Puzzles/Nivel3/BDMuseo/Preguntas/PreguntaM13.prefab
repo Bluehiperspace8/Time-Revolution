@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Nikolas Tesla fue un gran cient\xEDfico que revoluci\xF3n en las \xE1reas
+  texto: "Nikolas Tesla fue un gran cient\xEDfico que revolucion\xF3 en las \xE1reas
     de:"
   opciones:
   - texto: "a) F\xEDsica el\xE9ctrica y M\xFAsica"

@@ -13,20 +13,23 @@ public class DialogoMartinG : MonoBehaviour
 {
     public TextMeshProUGUI textD;
     [TextArea (3,30)]
+    //String que contendrá todos los diálogos 
     public string[] parrafos;
+    //índice de los párrafos
     int index;
+    //Velocidad a la que aparecerán los párrafos
     public float velParrafo;
-
+    //Botones
     public GameObject botonContinuar;
     public GameObject botonSalir;
 
     public GameObject panelDialogo; 
     public GameObject botonConversar;
-
+    //Sonido del diálogo
     public AudioSource sonidoConv;
 
     public Image imagenFondo;
-
+    //Martin que se desactivará y activará
     public GameObject martin1;
     public GameObject martin2;
 
@@ -56,7 +59,7 @@ public class DialogoMartinG : MonoBehaviour
         foreach (char letra in parrafos[index].ToCharArray())
         {
             textD.text += letra;
-
+            
             yield return new WaitForSeconds(velParrafo);
         }
 
@@ -66,28 +69,17 @@ public class DialogoMartinG : MonoBehaviour
     {
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
-        {
+        {   
+            //Siguiente párrafo de la conversación
             index ++;
             textD.text = "";
             StartCoroutine(TextDialogo());
 
         }else{
+            //Última línea de la conversación
             textD.text = "Martín: Oye hombre, ¿estás bien? ¿Qué sucede? ¿Quieres que te traiga algo?";
             botonContinuar.SetActive(false);
             botonSalir.SetActive(true);
-            //Hacer el código de fade out
-            /*imagenFondo.canvasRenderer.SetAlpha(0);
-            imagenFondo.gameObject.SetActive(true);
-            imagenFondo.CrossFadeAlpha(1, 11, true);
-
-            new WaitForSeconds(7);
-
-            imagenFondo.canvasRenderer.SetAlpha(0);
-            imagenFondo.gameObject.SetActive(false);
-            imagenFondo.CrossFadeAlpha(0, 11, true);
-
-            martin1.GameObject.SetActive(false);
-            martin2.GameObject.SetActive(true);*/
 
         }
     }
@@ -120,11 +112,13 @@ public class DialogoMartinG : MonoBehaviour
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(true);
         imagenFondo.CrossFadeAlpha(1, 11, true);
+        //Se desactiva el primer Martin para que ya no se muestre en la escena después del desmayo. 
         martin1.SetActive(false);
         new WaitForSeconds(3);
 
         
         StartCoroutine(EfectoDadeIn());
+        //Se activa el segundo Martin para que esté en la escena
         martin2.SetActive(true);
 
         
@@ -133,7 +127,7 @@ public class DialogoMartinG : MonoBehaviour
 
     public IEnumerator EfectoDadeIn()
     {
-        
+        //Efecto fade in
         yield return new WaitForSeconds(11);
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(false);

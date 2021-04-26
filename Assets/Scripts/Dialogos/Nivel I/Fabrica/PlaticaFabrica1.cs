@@ -88,7 +88,7 @@ public class PlaticaFabrica1 : MonoBehaviour
         }
         else
         {
-            textD.text = "Te alejas y escuchas como siguen discutiendo entre si por los materiales.";
+            textD.text = "Te alejas y escuchas cómo siguen discutiendo entre sí por los materiales.";
             botonQuitar.SetActive(true);
 
         }

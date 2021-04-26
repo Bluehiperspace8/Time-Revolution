@@ -90,15 +90,18 @@ public class Dialogo1Martin : MonoBehaviour
     public void siguienteParrafo()
     {
         botonContinuar.SetActive(false);
+
         if (index < parrafos.Length - 1)
         {
+            //Continúa el diálogo
             index++;
             textD.text = "";
             StartCoroutine(TextDialogo());
         }
         else
         {
-            textD.text = "Quieres que te traiga algo?";
+            //Última línea del diálogo
+            textD.text = "¿Quieres que te traiga algo?";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 
@@ -139,11 +142,13 @@ public class Dialogo1Martin : MonoBehaviour
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(true);
         imagenFondo.CrossFadeAlpha(1, 11, true);
+        //Desactivamos al primer Martin para que ya no esté en la escena
         martin1.SetActive(false);
         new WaitForSeconds(3);
 
         //Activamos al segundo Martin
         martin2.SetActive(true);
+        //Efecto de fade in para volver a la escena
         StartCoroutine(EfectoDadeIn());
         
 
@@ -151,7 +156,7 @@ public class Dialogo1Martin : MonoBehaviour
 
     public IEnumerator EfectoDadeIn()
     {
-
+        //Efecto de fade in
         yield return new WaitForSeconds(11);
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(false);

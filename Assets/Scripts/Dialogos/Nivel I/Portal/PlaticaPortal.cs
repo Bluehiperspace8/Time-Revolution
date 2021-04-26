@@ -122,7 +122,7 @@ public class PlaticaPortal : MonoBehaviour
         }
         else
         {
-            textD.text = "AHHH!!!!";
+            textD.text = "¡¡¡¡AHHH!!!!";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
             EfectoSonido1.Play();

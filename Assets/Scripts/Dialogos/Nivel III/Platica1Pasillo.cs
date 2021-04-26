@@ -88,7 +88,7 @@ public class Platica1Pasillo : MonoBehaviour
         else
         {
             textD.text = "*Piensas:\n" +
-                "Que bonita esta esta ciudad, no puedo creer que esta sea Londres.";
+                "Qué bonita está esta ciudad, no puedo creer que esta sea Londres.";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

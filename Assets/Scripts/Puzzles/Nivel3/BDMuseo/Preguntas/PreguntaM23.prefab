@@ -47,7 +47,7 @@ MonoBehaviour:
   opciones:
   - texto: 'a) Disquete '
     opcionCorrecta: 1
-  - texto: b) Disco Hibrido
+  - texto: "b) Disco H\xEDbrido"
     opcionCorrecta: 0
   - texto: c) USB
     opcionCorrecta: 0

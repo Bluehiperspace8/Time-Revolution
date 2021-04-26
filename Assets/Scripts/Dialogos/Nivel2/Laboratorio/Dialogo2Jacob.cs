@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /*
-Objetivo: el di�logo con Jacob en el laboratorio
+Objetivo: el diálogo con Jacob en el laboratorio
 Autor: Renata de la Luna
 */
 
@@ -114,6 +114,7 @@ public class Dialogo2Jacob : MonoBehaviour
 
     public void activarBotonLeer()
     {
+        //Se activa el botón para iniciar la conversación
         PanelDialogo.SetActive(true);
         EfectoSonido.Play();
         StartCoroutine(TextDialogo());
@@ -121,6 +122,7 @@ public class Dialogo2Jacob : MonoBehaviour
 
     public void botonCerrar()
     {
+        //Se termina el diálogo
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
         botonQuitar.SetActive(false);

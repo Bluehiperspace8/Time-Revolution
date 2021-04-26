@@ -43,11 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Los barcos de vapor utilizaban carb\xF3n como combustible para moverse
-    en los mares y oc\xE9anos, antes de ellos exist\xEDan los barcos de vela que
-    eran los sucesores de los barcos de remo de las antiguas civilizaciones. \xBFCu\xE1l
-    o cu\xE1les era la energ\xEDa que utilizaban los barcos de vela para moverse
-    por los mares? "
+  texto: "Los barcos de vela, sucesores de los barcos de remo, \xBFCu\xE1l o cu\xE1les
+    energ\xEDas utilizaban para moverse por los mares? "
   opciones:
   - texto: "a) Energ\xEDa nuclear"
     opcionCorrecta: 0

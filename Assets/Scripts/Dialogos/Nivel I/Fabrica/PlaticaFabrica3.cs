@@ -88,7 +88,7 @@ public class PlaticaFabrica3 : MonoBehaviour
         else
         {
             textD.text = "*Piensas:\n"+
-                "¿De dónde sacan a toda esta gente ?";
+                "Â¿De dÃ³nde sacan a toda esta gente?";
             botonQuitar.SetActive(true);
 
         }

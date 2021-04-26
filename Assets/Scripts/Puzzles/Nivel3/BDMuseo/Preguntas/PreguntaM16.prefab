@@ -43,11 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "La energ\xEDa Nuclear, es considera una energ\xEDa:"
+  texto: "La energ\xEDa Nuclear es considera una energ\xEDa:"
   opciones:
-  - texto: "a) Energ\xEDa Limpia"
+  - texto: "a) Energ\xEDa limpia"
     opcionCorrecta: 1
-  - texto: "b) Energ\xEDa no Limpia"
+  - texto: "b) Energ\xEDa no limpia"
     opcionCorrecta: 0
   - texto: "c) Energ\xEDa negativa"
     opcionCorrecta: 0

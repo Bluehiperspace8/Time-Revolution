@@ -1555,13 +1555,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 507586626}
   parrafos:
-  - "Amy:\r\nBuenos d\xEDas Jacob\r"
-  - "Jacob:\r\nBuenos d\xEDas\r"
+  - "Amy:\r\nBuenos d\xEDas Jacob."
+  - "Jacob:\r\nBuenos d\xEDas."
   - "Amy:\r\nVeo que vas con prisa,\n\xBFa d\xF3nde vas?"
-  - "Jacob:\r\nMe dirijo al centro por trabajo\r"
+  - 'Jacob:
+
+    Me dirijo al centro por trabajo.'
   - "Amy:\r\nOh, ok. Ten cuidado, \xFAltimamente hay mucha gente por toda la ciudad
     por los rumores que se escuchan.\r\n\xBFSabes si todo eso que dicen es cierto?\r\n"
-  - "Jacob:\r\nJusto voy a ir a averiguarlo\r"
+  - "Jacob:\r\nJusto voy a ir a averiguarlo\r."
   - "Amy:\r\nPerfecto, \xA1ah\xED me comentas que descubres!\n"
   velParrafo: 0.02
   botonContinuar: {fileID: 1980552701}
@@ -5174,7 +5176,7 @@ MonoBehaviour:
   textD: {fileID: 507586626}
   parrafos:
   - "Emiliano:\r\nY hay que hacer negocio con esa persona lo antes pos\u2026.\r\n"
-  - "Charly:\r\n\xA1\xA1\xA1OYE TU,VETE DE AQU\xCD!!!\r\n"
+  - "Charly:\r\n\xA1\xA1\xA1OYE T\xDA,VETE  DE AQU\xCD!!!\r\n"
   velParrafo: 0.02
   botonContinuar: {fileID: 1175718674}
   botonQuitar: {fileID: 1553477048}
@@ -10779,7 +10781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 507586626}
   parrafos:
-  - "**Piensas:\r\nQue bella est\xE1 la ciudad el d\xEDa de hoy"
+  - "**Piensas:\r\nQu\xE9 bella est\xE1 la ciudad el d\xEDa de hoy."
   - "\nSin duda alguna aqu\xED es donde se puede ver toda la ciudad sin \nproblema
     alguno**"
   velParrafo: 0.02
@@ -19962,7 +19964,7 @@ MonoBehaviour:
     bestia de vapor?\r"
   - "Liz:\r\nNo lo s\xE9, intent\xF3 dibujarla cuando llego a casa, pero su imaginaci\xF3n
     no dio para m\xE1s, aunque dijo que es del tama\xF1o de dos casas y media o \nde
-    toda una fabrica \r"
+    toda una f\xE1brica \r"
   velParrafo: 0.02
   botonContinuar: {fileID: 1138238910}
   botonQuitar: {fileID: 1275852353}

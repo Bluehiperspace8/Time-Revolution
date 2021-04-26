@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /*
-Objetivo: el diálogo con Jacob  los demas en el Pasillo
+Objetivo: el diÃ¡logo con Jacob  los demas en el Pasillo
 Autor: Renata de la Luna
 */
 
@@ -97,7 +97,7 @@ public class Dailogo1Amelier : MonoBehaviour
         else
         {
             textD.text = "Amelie:\n"+
-        "Cierto…te estaré esperando al final del pasillo cuando estés listo ok.";
+        "Cierto, te estarÃ© esperando al final del pasillo cuando estÃ©s listo, Â¿ok?";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

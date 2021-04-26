@@ -89,7 +89,7 @@ public class Platico6 : MonoBehaviour
         }
         else
         {
-            textD.text = "TendrÈ que cruzar por esta f·brica en construcciÛn";
+            textD.text = "Tendr√© que cruzar por esta f√°brica en construcci√≥n";
             botonQuitar.SetActive(true);
 
         }

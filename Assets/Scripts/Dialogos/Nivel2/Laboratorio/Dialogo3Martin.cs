@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /*
-Objetivo: el di�logo con Jacob en el laboratorio
+Objetivo: el diálogo con Jacob en el laboratorio
 Autor: Renata de la Luna
 */
 
@@ -97,7 +97,8 @@ public class Dialogo3Martin : MonoBehaviour
         }
         else
         {
-            textD.text = "Buena suerte!!!";
+            //última línea del diálogo
+            textD.text = "¡¡¡Buena suerte!!!";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 
@@ -109,6 +110,7 @@ public class Dialogo3Martin : MonoBehaviour
     {
         if (collsion.CompareTag("Player"))
         {
+            //Cuando entra en otro collider, se activa el botón para iniciar la conversación
             BotonLeer.SetActive(true);
 
         }
@@ -121,6 +123,7 @@ public class Dialogo3Martin : MonoBehaviour
 
     public void activarBotonLeer()
     {
+        //Comienza la conversación, se activa el panel y el sonido
         PanelDialogo.SetActive(true);
         EfectoSonido.Play();
         StartCoroutine(TextDialogo());
@@ -128,6 +131,7 @@ public class Dialogo3Martin : MonoBehaviour
 
     public void botonCerrar()
     {
+        //Se desactivan los botones y el panel de la conversación
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
         botonQuitar.SetActive(false);

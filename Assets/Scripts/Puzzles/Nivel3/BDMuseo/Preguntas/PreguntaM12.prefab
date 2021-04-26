@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Cual de estas es la formula CORRECTA del teorema de Pit\xE1goras"
+  texto: "\xBFCu\xE1l de estas es la f\xF3rmula CORRECTA del teorema de Pit\xE1goras?"
   opciones:
   - texto: a) a^3+-_b^4 =z^5
     opcionCorrecta: 0

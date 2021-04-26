@@ -47,9 +47,9 @@ MonoBehaviour:
   opciones:
   - texto: "a) Generar el Teorema de Arist\xF3teles"
     opcionCorrecta: 0
-  - texto: "b) Dar avances Significado a las matem\xE1ticas ar\xE1bicas"
+  - texto: "b) Dar avances significantes a las matem\xE1ticas ar\xE1bicas"
     opcionCorrecta: 0
   - texto: "c) Teor\xEDa de pesos y medidas"
     opcionCorrecta: 1
-  - texto: "d) Avances revolucionares en las m\xE1quinas de vapor."
+  - texto: "d) Avances revolucionarios en las m\xE1quinas de vapor."
     opcionCorrecta: 0

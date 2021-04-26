@@ -89,7 +89,7 @@ public class PlaticaFabrica2 : MonoBehaviour
         else
         {
             textD.text = "Obrero 4:\n"+
-                    "Uhh….olvidalo, busquemos en el siguiente barril";
+                    "Uhhï¿½.olvÃ­dalo, busquemos en el siguiente barril";
             botonQuitar.SetActive(true);
 
         }

@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo de entre dos Extrañas
+ Objetivo: Dialogo de entre dos Extraï¿½as
  Autor: Roberto Valdez Jasso
  */
 
@@ -90,7 +90,7 @@ public class Platica5 : MonoBehaviour
         else
         {
             textD.text = "Beatrice:\n"+
-                "Si… va a hacer muy difícil ir al centro otra vez.";
+                "SÃ­, va a hacer muy difÃ­cil ir al centro otra vez.";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

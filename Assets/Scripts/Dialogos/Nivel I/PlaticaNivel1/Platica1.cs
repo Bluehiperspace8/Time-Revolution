@@ -90,7 +90,7 @@ public class Platica1 : MonoBehaviour
         else
         {
             textD.text = "*Piensas:\n" +
-                "Espero que en efecto todo sea cierto… ya veremos cuando llegue a las oficinas.";
+                "Espero que en efecto todo sea cierto, ya veremos cuando llegue a las oficinas.";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

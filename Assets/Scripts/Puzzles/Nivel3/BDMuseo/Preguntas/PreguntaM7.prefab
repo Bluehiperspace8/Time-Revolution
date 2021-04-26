@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Cient\xEDfico famoso que idealizo la teor\xEDa de la evoluci\xF3n"
+  texto: "Cient\xEDfico famoso que idealiz\xF3 la teor\xEDa de la evoluci\xF3n:"
   opciones:
   - texto: a) Nikolas Tesla
     opcionCorrecta: 0

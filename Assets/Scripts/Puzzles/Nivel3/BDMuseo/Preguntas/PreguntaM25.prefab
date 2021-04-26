@@ -43,15 +43,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: 'El sistema de Hipersalto, se maneja por la idea de Miguel Alcubierre, el
+  texto: 'El sistema de Hipersalto se maneja por la idea de Miguel Alcubierre, el
     cual:'
   opciones:
-  - texto: "a) Dio la miniaturizaci\xF3n al proceso tecnol\xF3gico mediante el cual
-      se intenta reducir el tama\xF1o de cualquier dispositivo electr\xF3nico."
+  - texto: "a) La miniaturizaci\xF3n es el proceso tecnol\xF3gico mediante con el
+      que se reduce el tama\xF1o de dispositivos electr\xF3nicos"
     opcionCorrecta: 0
   - texto: "b) Inici\xF3 la impresi\xF3n de los viajes espaciales a larga distancia"
     opcionCorrecta: 1
-  - texto: "c) Dijo que la energ\xEDa no se crea ni se destruye, solamente se transforma"
+  - texto: "c) Dijo que la energ\xEDa no se crea ni se destruye, solo se transforma"
     opcionCorrecta: 0
   - texto: d) Dijo que la materia no se crea ni se destruye
     opcionCorrecta: 0

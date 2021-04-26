@@ -45,11 +45,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texto: "\xBFQu\xE9 es un Reactor \u201CTokamak\u201D?"
   opciones:
-  - texto: "a) Es un reactor de c\xE1mara de vac\xEDo capaz de convertir el gas en
-      plasma por medio fe fusi\xF3n"
+  - texto: "a) Un reactor de c\xE1mara de vac\xEDo que convierte el gas en plasma
+      por fusi\xF3n"
     opcionCorrecta: 1
-  - texto: "b) Es un Reactor con una c\xE1mara de almacenamiento de agua y genera
-      energ\xEDa por medio de presi\xF3n"
+  - texto: "b) Un reactor con una c\xE1mara que almacena agua y genera energ\xEDa
+      con presi\xF3n"
     opcionCorrecta: 0
   - texto: "c) Reactor de c\xE1mara radiactiva que contiene uranio natural y genera
       energ\xEDa por fisi\xF3n nuclear"
