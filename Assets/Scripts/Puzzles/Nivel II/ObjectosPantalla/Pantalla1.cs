@@ -4,12 +4,13 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo de Jacob al encontrar la primera nota
+ Objetivo: Dialogo de Jacob al encontrar la primera pantalla
  Autor: Roberto Valdez Jasso
  */
 
-public class Nota1 : MonoBehaviour
+public class Pantalla1 : MonoBehaviour
 {
+
     // Variables ---//
     // llamanndo al mensaje
     public TextMeshProUGUI textD;
@@ -88,7 +89,7 @@ public class Nota1 : MonoBehaviour
         }
         else
         {
-            textD.text = "Leíste la nota 1 de 3";
+            textD.text = "Has activado la pantalla 1 de 3";
             botonQuitar.SetActive(true);
 
         }

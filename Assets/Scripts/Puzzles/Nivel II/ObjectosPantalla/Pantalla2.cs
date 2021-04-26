@@ -2,13 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
 /*
- Objetivo: Dialogo de Jacob al encontrar la primera nota
+ Objetivo: Dialogo de Jacob al encontrar la segunda pantalla
  Autor: Roberto Valdez Jasso
  */
-
-public class Nota1 : MonoBehaviour
+public class Pantalla2 : MonoBehaviour
 {
     // Variables ---//
     // llamanndo al mensaje
@@ -88,7 +86,7 @@ public class Nota1 : MonoBehaviour
         }
         else
         {
-            textD.text = "Leíste la nota 1 de 3";
+            textD.text = "Has activado la pantalla 2 de 3";
             botonQuitar.SetActive(true);
 
         }
