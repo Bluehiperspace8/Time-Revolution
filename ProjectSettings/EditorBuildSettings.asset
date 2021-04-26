@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel_II/Pasillo.unity
     guid: f45727cecd61f8b42bd9f0ed284cbf36
+  - enabled: 1
+    path: Assets/Scenes/Nivel_IV/Nivel4Final.unity
+    guid: 0ad8d170a9123234f947b22406e38f08
   m_configObjects: {}

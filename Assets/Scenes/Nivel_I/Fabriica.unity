@@ -1205,7 +1205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93846463}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.9110578, y: 0.011758111, z: -1192.7164}
+  m_LocalPosition: {x: -0.91105783, y: 0.011758111, z: -1192.7164}
   m_LocalScale: {x: 0.06827624, y: 0.075374514, z: 1}
   m_Children: []
   m_Father: {fileID: 1183617006}
@@ -1225,7 +1225,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4508,6 +4508,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276237524}
   m_CullTransparentMesh: 1
+--- !u!1 &277821841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 277821842}
+  - component: {fileID: 277821843}
+  m_Layer: 0
+  m_Name: AudioFondo1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &277821842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277821841}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.8548186, y: 0.1456914, z: 0}
+  m_LocalScale: {x: 0.06827624, y: 0.075374514, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1183617006}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &277821843
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277821841}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 110
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &284272395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6272,16 +6399,16 @@ MonoBehaviour:
   - "La nota dice lo siguiente:\r\nLeonhard Paul Euler fue un matem\xE1tico y f\xEDsico
     suizo muy conocido por el\nn\xFAmero de Euler, que aparece en muchas f\xF3rmulas
     de c\xE1lculo \ny f\xEDsica."
-  - "Y fue \xE9l quien aport\xF3 ideas fundamentales sobre el c\xE1lculo diferencial,\n
-    integral y otras ramas de las matem\xE1ticas y sus aplicaciones."
+  - "Y fue \xE9l quien aport\xF3 ideas fundamentales sobre el c\xE1lculo diferencial,\nintegral
+    y otras ramas de las matem\xE1ticas y sus aplicaciones."
   - "El numero de Euler es el siguiente:\r\ne=2.718\r\ny funciona como constante
     matem\xE1tica la cual est\xE1 en los n\xFAmeros \nconocidos como \u201CIrracionales\u201D,
     es decir, no tienen expansi\xF3n \n"
   - 'decimal finita.
 
-    **Una vez que teminaste de leerla y justo al intentar
-    guardarla en tu bolsillo, esta se deshizo en tus manos dando a conocer el terrible
-    cuidado que tuvo la nota**'
+    **Una vez que teminaste de leerla y justo al intentar guardarla
+    en tu bolsillo, esta se deshizo en tus manos dando a conocer el terrible cuidado
+    que tuvo la nota**'
   velParrafo: 0.02
   botonContinuar: {fileID: 1983298982}
   botonQuitar: {fileID: 1027609946}
@@ -16974,6 +17101,7 @@ Transform:
   m_LocalScale: {x: 14.646384, y: 13.267083, z: 1}
   m_Children:
   - {fileID: 93846464}
+  - {fileID: 277821842}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45470,7 +45598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893650042}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.76, y: -3.58, z: -0.77708435}
+  m_LocalPosition: {x: 5.702, y: -3.58, z: -0.77708435}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1891142447}
@@ -45571,7 +45699,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 110
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
