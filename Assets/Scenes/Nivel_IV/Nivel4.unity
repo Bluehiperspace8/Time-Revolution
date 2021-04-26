@@ -911,7 +911,7 @@ MonoBehaviour:
     Eso es bastante profundo"
   - "Cindy: \nEn verdad s\xED, me gustar\xEDa haber poder visto c\xF3mo era la vida
     en ese entonces."
-  velParrafo: 0.002
+  velParrafo: 0.02
   botonContinuar: {fileID: 782839698}
   botonQuitar: {fileID: 1563442004}
   PanelDialogo: {fileID: 1199873647}
@@ -955,13 +955,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4ff5edad2c9ebfb4e9a5f61b80b374bd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 110
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -4585,7 +4585,7 @@ MonoBehaviour:
   - "Jacob:\r\nPrecisamente, ahora que s\xE9 lo que va a suceder no s\xE9 c\xF3mo
     voy a dar la cara de sorpresa cuando salgan los inventos en mi tiempo.\r\n"
   - "Amelie:\r\nMe imagino ser\xE1 complicado.\n"
-  velParrafo: 0.002
+  velParrafo: 0.02
   botonContinuar: {fileID: 1118545228}
   botonQuitar: {fileID: 1281226276}
   PanelDialogo: {fileID: 1199873647}
@@ -4629,13 +4629,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4ff5edad2c9ebfb4e9a5f61b80b374bd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 110
   DopplerLevel: 1
   MinDistance: 0.507982
   MaxDistance: 500

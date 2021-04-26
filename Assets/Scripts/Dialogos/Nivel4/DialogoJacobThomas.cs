@@ -5,16 +5,14 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-/*
- Objetivo: Dialogo entre Diego, Cindy y Amelie
- Autor: Diego Alejandro Juárez Ruiz
- Autor: Luis Enrique Zamarripa
- Referencia a: Drosgame
- Youtube: https://youtu.be/FjoL4ufZmXc
 
+
+/*
+ Objetivo: Dialogo de Jacob final cdel juego
+ Autor: Roberto Valdez Jasso
  */
 
-public class DialogoInges : MonoBehaviour
+public class DialogoJacobThomas : MonoBehaviour
 {
     // Variables ---//
     // llamanndo al mensaje
@@ -43,11 +41,22 @@ public class DialogoInges : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
-    // Referencia al auido Source
+
+    // PANEL MISION CUMPLIDA
+    public GameObject PanelMisionCumplida;
+
+    // Boton Seguir al Menu
+    public GameObject BotonMenu;
+
+    // Referencia al auido Source1(Dialogo)
     public AudioSource EfectoSonido;
 
-    //Imagen que dara la transicion en negro a la siguiente escena
-    public Image imagenFondo;
+    // Referencia al auido Source (Fondo)
+    public AudioSource EfectoSonido1;
+
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -57,12 +66,17 @@ public class DialogoInges : MonoBehaviour
         botonQuitar.SetActive(false);
         BotonLeer.SetActive(false);
         PanelDialogo.SetActive(false);
+        PanelMisionCumplida.SetActive(false);
+        BotonMenu.SetActive(false);
+        EfectoSonido1.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
+
         // Si utilizamos el objecto pasamos al if
+
         if (textD.text == parrafos[index])
         {
             botonContinuar.SetActive(true);
@@ -95,11 +109,8 @@ public class DialogoInges : MonoBehaviour
         }
         else
         {
-            textD.text = "Diego:\n" +
-                        "Bueno, al menos le dejaste una sopresa para que lo descubra con el tiempo.\n" +
-                        "La cual descubrirá en poco tiempo…";
-
-
+            textD.text = "\n¿Le gustaría saber por qué llegue tarde?";
+            botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 
         }
@@ -132,25 +143,19 @@ public class DialogoInges : MonoBehaviour
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
         botonQuitar.SetActive(false);
-        textD.text = "";
-        //Generar animacion de transicion con el audio
-        imagenFondo.canvasRenderer.SetAlpha(0);
-        imagenFondo.gameObject.SetActive(true);
-        imagenFondo.CrossFadeAlpha(1, 8, true);
-        new WaitForSeconds(3);
 
-        // Cargamos Escena
-        StartCoroutine(CambiarEscena());
-
+        // Activar panel de mision cumplida
+        PanelMisionCumplida.SetActive(true);
+        BotonMenu.SetActive(true);
     }
 
-    //Corrutina -> Cambio de escena
-    private IEnumerator CambiarEscena()
+  
+
+    
+    // Regresamos al nivel Final al menu
+    public void BotonIrMenu()
     {
-        yield return new WaitForSeconds(8);
-        // Cambiar de escena
-        //Ya regreso /Ya termino
-        // Transicion al siguiente Nivel
-        SceneManager.LoadScene("Scenes/Nivel_IV/Nivel4Final");
+        // Transicion al menu
+        SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
     }
 }

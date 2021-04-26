@@ -5553,7 +5553,7 @@ MonoBehaviour:
     el reactor, necesito que me ayudes a colocar el n\xFAcleo. Esto le dar\xE1 vida
     al reactor y es lo \xFAltimo que necesitamos hacer antes de llevarte a casa."
   - "Jacob:\nDe acuerdo, y \xBFc\xF3mo hacemos tal proeza?"
-  velParrafo: 0.002
+  velParrafo: 0.02
   botonContinuar: {fileID: 212697313}
   botonQuitar: {fileID: 542610312}
   PanelDialogo: {fileID: 1199873647}
@@ -5597,13 +5597,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4ff5edad2c9ebfb4e9a5f61b80b374bd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 110
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -6124,7 +6124,7 @@ MonoBehaviour:
   textD: {fileID: 845104012}
   parrafos:
   - "Jacob:\nVaya, \xA1eso fue divertido!"
-  velParrafo: 0.002
+  velParrafo: 0.02
   botonContinuar: {fileID: 1118545228}
   botonQuitar: {fileID: 1281226276}
   PanelDialogo: {fileID: 1199873647}
@@ -6182,13 +6182,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4ff5edad2c9ebfb4e9a5f61b80b374bd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 110
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

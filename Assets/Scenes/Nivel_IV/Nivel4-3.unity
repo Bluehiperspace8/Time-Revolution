@@ -5696,7 +5696,7 @@ MonoBehaviour:
 
 '
   - "Jacob: \r\nNo comprendo\r\n"
-  velParrafo: 0.002
+  velParrafo: 0.02
   botonContinuar: {fileID: 2017807954}
   botonQuitar: {fileID: 215066598}
   PanelDialogo: {fileID: 1199873647}
@@ -5740,13 +5740,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4ff5edad2c9ebfb4e9a5f61b80b374bd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 110
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -7305,7 +7305,7 @@ MonoBehaviour:
   textD: {fileID: 845104012}
   parrafos:
   - "Jacob:\nEso fue bastante ca\xF3tico"
-  velParrafo: 0.002
+  velParrafo: 0.02
   botonContinuar: {fileID: 212697313}
   botonQuitar: {fileID: 542610312}
   PanelDialogo: {fileID: 1199873647}
@@ -7349,13 +7349,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4ff5edad2c9ebfb4e9a5f61b80b374bd, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 110
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
