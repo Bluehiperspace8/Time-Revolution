@@ -45,11 +45,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texto: Cuantos Kilobytes son doce Megabytes
   opciones:
-  - texto: A) 12,285 MB
+  - texto: A) 12,285 KB
     opcionCorrecta: 0
   - texto: B) 12,288 NB
     opcionCorrecta: 0
-  - texto: 'C) 12,288 MB '
+  - texto: 'C) 12,288 KB '
     opcionCorrecta: 1
   - texto: D) 13,586 GB
     opcionCorrecta: 0

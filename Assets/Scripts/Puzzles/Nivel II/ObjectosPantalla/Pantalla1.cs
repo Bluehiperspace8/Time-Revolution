@@ -10,7 +10,6 @@ using TMPro;
 
 public class Pantalla1 : MonoBehaviour
 {
-
     // Variables ---//
     // llamanndo al mensaje
     public TextMeshProUGUI textD;

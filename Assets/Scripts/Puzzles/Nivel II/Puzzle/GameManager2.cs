@@ -40,6 +40,10 @@ public class GameManager2 : MonoBehaviour
 
     public GameObject BotonFinalizar;
 
+    // Referencias de Audio
+
+    public AudioSource Audio1;
+
 
 
     //--------------------------------------------------------------//
@@ -69,7 +73,7 @@ public class GameManager2 : MonoBehaviour
         // Referencias
         m_preguntaBd = GameObject.FindObjectOfType<PreguntasBD2>();
         m_preguntaUI = GameObject.FindObjectOfType<PreguntasUI2>();
-        m_audioSource = GameObject.FindObjectOfType<AudioSource>();
+        //  m_audioSource = GameObject.FindObjectOfType<AudioSource>();
 
         // Declarando el inicio
         //No estara prendido hasta que el objeto sea utilizado
@@ -111,6 +115,9 @@ public class GameManager2 : MonoBehaviour
 
         botonSi.SetActive(true);
         botonNo.SetActive(true);
+
+        //Activando Audio
+        Audio1.Play();
 
 
 
