@@ -121,6 +121,15 @@ public class Dialogo3Martin : MonoBehaviour
         }
     }
 
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+
+        }
+    }
+
     public void activarBotonLeer()
     {
         //Comienza la conversación, se activa el panel y el sonido

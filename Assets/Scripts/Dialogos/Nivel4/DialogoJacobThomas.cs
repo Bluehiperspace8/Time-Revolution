@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Networking;
 
 
 
@@ -54,9 +55,13 @@ public class DialogoJacobThomas : MonoBehaviour
     // Referencia al auido Source (Fondo)
     public AudioSource EfectoSonido1;
 
+    public struct DatosUsuariosLogro
+    {
+        public string usuario;
+        public string logro;
+    }
 
-
-
+    public DatosUsuariosLogro datosLogro;
 
     // Start is called before the first frame update
     void Start()
@@ -149,13 +154,38 @@ public class DialogoJacobThomas : MonoBehaviour
         BotonMenu.SetActive(true);
     }
 
-  
 
-    
+    public void EscribirJson2()
+    {
+        StartCoroutine(DarLogro());
+    }
+
     // Regresamos al nivel Final al menu
     public void BotonIrMenu()
     {
         // Transicion al menu
+        EscribirJson2();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
+    }
+
+    public IEnumerator DarLogro()
+    {
+        datosLogro.usuario = PlayerPrefs.GetString("username", "dummy");
+        datosLogro.logro = "6";
+        print(JsonUtility.ToJson(datosLogro));
+        //Encapsular los datos que se suben a la red con el metodo POST
+        WWWForm forma = new WWWForm();
+        forma.AddField("datosJSON", JsonUtility.ToJson(datosLogro));
+        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/logros/agregarLogroJugador", forma);
+        yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
+        //... ya regreso porque ya termino SendWebRequest
+        if (request.result == UnityWebRequest.Result.Success) //200
+        {
+            print("Beautiful");
+        }
+        else
+        {
+            print("o.O");
+        }
     }
 }

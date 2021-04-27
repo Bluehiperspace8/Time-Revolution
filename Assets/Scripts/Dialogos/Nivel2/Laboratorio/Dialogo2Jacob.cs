@@ -112,6 +112,15 @@ public class Dialogo2Jacob : MonoBehaviour
         }
     }
 
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+
+        }
+    }
+
     public void activarBotonLeer()
     {
         //Se activa el botón para iniciar la conversación

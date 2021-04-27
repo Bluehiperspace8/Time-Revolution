@@ -77,7 +77,8 @@ public class DialogoMartinG : MonoBehaviour
 
         }else{
             //Última línea de la conversación
-            textD.text = "Martín: Oye hombre, ¿estás bien? ¿Qué sucede? ¿Quieres que te traiga algo?";
+            textD.text = "Martín:\n"+
+                "Oye hombre, ¿estás bien? ¿Qué sucede? ¿Quiéres que te traiga algo?";
             botonContinuar.SetActive(false);
             botonSalir.SetActive(true);
 
@@ -91,6 +92,15 @@ public class DialogoMartinG : MonoBehaviour
             botonConversar.SetActive(true);
         }else{
             botonConversar.SetActive(false);
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            botonConversar.SetActive(false);
+
         }
     }
 

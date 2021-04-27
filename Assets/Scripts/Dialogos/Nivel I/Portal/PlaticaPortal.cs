@@ -4,6 +4,8 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System;
+using UnityEngine.Networking;
 
 
 
@@ -69,6 +71,23 @@ public class PlaticaPortal : MonoBehaviour
 
     //Imagen que dara la transicion en negro a la siguiente escena
     public Image imagenFondo;
+
+    //Encapsular los datos -> JSON
+    public struct DatosUsuarios
+    {
+        public string usuario;
+        public string nivel;
+    }
+
+    public DatosUsuarios datosPartida;
+
+    public struct DatosUsuariosLogro
+    {
+        public string usuario;
+        public string logro;
+    }
+
+    public DatosUsuariosLogro datosLogro;
 
     // Start is called before the first frame update
     void Start()
@@ -192,12 +211,68 @@ public class PlaticaPortal : MonoBehaviour
         // Cambiar de escena
         //Ya regreso /Ya termino
         // Transicion al siguiente Nivel
+        EscribirJson();
+        EscribirJson2();
         SceneManager.LoadScene("Scenes/Nivel_II/Laboratorio");
+    }
+
+    public void EscribirJson()
+    {
+        StartCoroutine(GuardarPartida());
+    }
+
+    public void EscribirJson2()
+    {
+        StartCoroutine(DarLogro());
+    }
+
+    public IEnumerator DarLogro()
+    {
+        datosLogro.usuario = PlayerPrefs.GetString("username", "dummy");
+        datosLogro.logro = "1";
+        print(JsonUtility.ToJson(datosLogro));
+        //Encapsular los datos que se suben a la red con el metodo POST
+        WWWForm forma = new WWWForm();
+        forma.AddField("datosJSON", JsonUtility.ToJson(datosLogro));
+        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/logros/agregarLogroJugador", forma);
+        yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
+        //... ya regreso porque ya termino SendWebRequest
+        if (request.result == UnityWebRequest.Result.Success) //200
+        {
+            print("Beautiful");
+        }
+        else
+        {
+            print("o.O");
+        }
+    }
+
+    public IEnumerator GuardarPartida()
+    {
+        datosPartida.usuario = PlayerPrefs.GetString("username", "dummy");
+        datosPartida.nivel = "1";
+        print(JsonUtility.ToJson(datosPartida));
+        //Encapsular los datos que se suben a la red con el metodo POST
+        WWWForm forma = new WWWForm();
+        forma.AddField("datosJSON", JsonUtility.ToJson(datosPartida));
+        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/partida/agregarPartida", forma);
+        yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
+        //... ya regreso porque ya termino SendWebRequest
+        if (request.result == UnityWebRequest.Result.Success) //200
+        {
+            print("Beautiful");
+        }
+        else
+        {
+            print("o.O");
+        }
     }
 
     public void BotonIrMenu()
     {
         // Transicion al menu
+        EscribirJson();
+        EscribirJson2();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
     }
 

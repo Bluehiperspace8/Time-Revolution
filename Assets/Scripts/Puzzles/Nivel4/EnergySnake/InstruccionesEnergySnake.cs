@@ -28,6 +28,9 @@ public class InstruccionesEnergySnake : MonoBehaviour
         if(estaPausado == false)
         {
             Sonido.Play();
+            float tiempillo = Time.time;
+            PlayerPrefs.SetFloat("inicioSnake", tiempillo);
+            PlayerPrefs.Save();
         }
         //Escala de tiempo
         Time.timeScale = estaPausado ? 0 : 1;

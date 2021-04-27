@@ -53,6 +53,10 @@ public class MueveBola : MonoBehaviour
             puntaje -= 1;
             if(puntaje <= 0)
             {
+                float tiempoF = Time.time;
+                float tiempillo = PlayerPrefs.GetFloat("inicioSnake");
+                float duracion = tiempoF - tiempillo;
+                print(duracion);
                 SceneManager.LoadScene("Energysnake");
             }
             HUD.instance.ActualizaEnergias();
@@ -95,6 +99,10 @@ public class MueveBola : MonoBehaviour
     {
         if (col.CompareTag("Block"))
         {
+            float tiempoF = Time.time;
+            float tiempillo = PlayerPrefs.GetFloat("inicioSnake");
+            float duracion = tiempoF - tiempillo;
+            print(duracion);
             SceneManager.LoadScene("EnergySnake");
         }
         else if (col.CompareTag("Nuclear") || col.CompareTag("Agua") || col.CompareTag("Sol")  || col.CompareTag("Aire"))

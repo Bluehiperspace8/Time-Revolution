@@ -9,11 +9,19 @@ public class PierdeoGana : MonoBehaviour
     // Update is called once per frame
     void Pierde()
     {
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("inicioCoreDrop");
+        float duracion = tiempoF - tiempo;
+        print(duracion);
         SceneManager.LoadScene("Falldown"); 
     }
 
     void Gana()
     {
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("inicioCoreDrop");
+        float duracion = tiempoF - tiempo;
+        print(duracion);
         SceneManager.LoadScene("Nivel4-3");
     }
     void Update()

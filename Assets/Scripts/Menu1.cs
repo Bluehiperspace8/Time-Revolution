@@ -11,6 +11,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu1 : MonoBehaviour
 {
+
     public void Salir()
     {
         Application.Quit();

@@ -123,7 +123,16 @@ public class Dialogo1Martin : MonoBehaviour
         }
     }
 
-    public void activarBotonLeer()
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+
+        }
+    }
+
+        public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
         EfectoSonido.Play();

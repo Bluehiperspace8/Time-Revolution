@@ -28,6 +28,8 @@ public class InstruccionesCoreDrop : MonoBehaviour
         if (estaPausado == false)
         {
             Sonido.Play();
+            float tiempo = Time.time;
+            PlayerPrefs.SetFloat("inicioCoreDrop", tiempo);
         }
         //Escala de tiempo
         Time.timeScale = estaPausado ? 0 : 1;
