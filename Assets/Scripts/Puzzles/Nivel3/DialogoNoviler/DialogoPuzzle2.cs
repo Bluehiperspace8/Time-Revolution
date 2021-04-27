@@ -66,6 +66,7 @@ public class DialogoPuzzle2 : MonoBehaviour
     {
         public string usuario;
         public string nivel;
+        public float tiempo;
     }
 
     public DatosUsuarios datosPartida;
@@ -253,6 +254,7 @@ public class DialogoPuzzle2 : MonoBehaviour
     {
         datosPartida.usuario = PlayerPrefs.GetString("username", "dummy");
         datosPartida.nivel = "3";
+        datosPartida.tiempo = PlayerPrefs.GetFloat("tiemponivel3");
         print(JsonUtility.ToJson(datosPartida));
         //Encapsular los datos que se suben a la red con el metodo POST
         WWWForm forma = new WWWForm();

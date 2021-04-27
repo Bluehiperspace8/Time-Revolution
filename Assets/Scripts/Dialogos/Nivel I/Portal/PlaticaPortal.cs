@@ -77,6 +77,7 @@ public class PlaticaPortal : MonoBehaviour
     {
         public string usuario;
         public string nivel;
+        public float tiempo;
     }
 
     public DatosUsuarios datosPartida;
@@ -88,6 +89,15 @@ public class PlaticaPortal : MonoBehaviour
     }
 
     public DatosUsuariosLogro datosLogro;
+
+    public struct DatosUsuariosStats
+    {
+        public string usuario;
+        public string campo;
+        public int stat;
+    }
+
+    public DatosUsuariosStats datosStat;
 
     // Start is called before the first frame update
     void Start()
@@ -216,6 +226,7 @@ public class PlaticaPortal : MonoBehaviour
         float duracion = tiempoF - tiempo;
         PlayerPrefs.SetFloat("tiemponivel1", duracion);
         print(PlayerPrefs.GetFloat("tiemponivel1"));
+
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Nivel_II/Laboratorio");
@@ -229,6 +240,11 @@ public class PlaticaPortal : MonoBehaviour
     public void EscribirJson2()
     {
         StartCoroutine(DarLogro());
+    }
+
+    public void EscribirJson3()
+    {
+        StartCoroutine(GuardaStats());
     }
 
     public IEnumerator DarLogro()
@@ -256,6 +272,29 @@ public class PlaticaPortal : MonoBehaviour
     {
         datosPartida.usuario = PlayerPrefs.GetString("username", "dummy");
         datosPartida.nivel = "1";
+        datosPartida.tiempo = PlayerPrefs.GetFloat("tiemponivel1");
+        print(JsonUtility.ToJson(datosPartida));
+        //Encapsular los datos que se suben a la red con el metodo POST
+        WWWForm forma = new WWWForm();
+        forma.AddField("datosJSON", JsonUtility.ToJson(datosPartida));
+        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/partida/agregarPartida", forma);
+        yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
+        //... ya regreso porque ya termino SendWebRequest
+        if (request.result == UnityWebRequest.Result.Success) //200
+        {
+            print("Beautiful");
+        }
+        else
+        {
+            print("o.O");
+        }
+    }
+
+    public IEnumerator GuardaStats()
+    {
+        datosStat.usuario = PlayerPrefs.GetString("username", "dummy");
+        datosStat.campo = "intentosCuestionario1";
+        datosStat.stat = PlayerPrefs.GetInt("Intentos1");
         print(JsonUtility.ToJson(datosPartida));
         //Encapsular los datos que se suben a la red con el metodo POST
         WWWForm forma = new WWWForm();

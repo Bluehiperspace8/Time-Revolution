@@ -20,6 +20,11 @@ public class Menu1 : MonoBehaviour
     {
         SceneManager.LoadScene("EleccionMenu");
     }
+
+    public void CerrarSesion()
+    {
+        SceneManager.LoadScene("LoginEscena");
+    }
     public void Configuracion()
     {
         SceneManager.LoadScene("Configuraciones");

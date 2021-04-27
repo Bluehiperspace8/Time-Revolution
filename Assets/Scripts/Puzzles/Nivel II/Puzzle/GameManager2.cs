@@ -170,19 +170,20 @@ public class GameManager2 : MonoBehaviour
 
     private IEnumerator RutinaPregunta(BotonesOpciones2 opcionBoton)
     {
+        /*
         if (m_audioSource.isPlaying)
         {
             m_audioSource.Stop();
-        }
+        }*/
         // operador ternario
         //Cambiio de Sonido
-        m_audioSource.clip = opcionBoton.Opcion.opcionCorrecta ? sonidoCorrecto : sonidoIncorrecto;
+        //m_audioSource.clip = opcionBoton.Opcion.opcionCorrecta ? sonidoCorrecto : sonidoIncorrecto;
         //Cambio de Color
         opcionBoton.SetColor(opcionBoton.Opcion.opcionCorrecta ? colorCorrecto : colorIncorrecto);
 
 
         //Reproduccion de Sonido
-        m_audioSource.Play();
+        //m_audioSource.Play();
 
         // Esperar tiempo por los efectos
 

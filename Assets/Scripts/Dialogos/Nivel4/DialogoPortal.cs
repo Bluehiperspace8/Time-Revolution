@@ -77,6 +77,7 @@ public class DialogoPortal : MonoBehaviour
     {
         public string usuario;
         public string nivel;
+        public float tiempo;
     }
 
     public DatosUsuarios datosPartida;
@@ -267,6 +268,7 @@ public class DialogoPortal : MonoBehaviour
     {
         datosPartida.usuario = PlayerPrefs.GetString("username", "dummy");
         datosPartida.nivel = "4";
+        datosPartida.tiempo = PlayerPrefs.GetFloat("tiemponivel4");
         print(JsonUtility.ToJson(datosPartida));
         //Encapsular los datos que se suben a la red con el metodo POST
         WWWForm forma = new WWWForm();

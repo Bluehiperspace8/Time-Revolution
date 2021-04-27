@@ -66,6 +66,7 @@ public class TransicionFinalPasillo : MonoBehaviour
     {
         public string usuario;
         public string nivel;
+        public float tiempo;
     }
 
     public DatosUsuarios datosPartida;
@@ -241,6 +242,7 @@ public class TransicionFinalPasillo : MonoBehaviour
     {
         datosPartida.usuario = PlayerPrefs.GetString("username", "dummy");
         datosPartida.nivel = "2";
+        datosPartida.tiempo = PlayerPrefs.GetFloat("tiemponivel2");
         print(JsonUtility.ToJson(datosPartida));
         //Encapsular los datos que se suben a la red con el metodo POST
         WWWForm forma = new WWWForm();
