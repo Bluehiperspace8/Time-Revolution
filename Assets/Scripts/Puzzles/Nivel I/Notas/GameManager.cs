@@ -41,11 +41,15 @@ public class GameManager : MonoBehaviour
 
     public GameObject BotonFinalizar;
 
-   //--------------------------------------------------------------//
-   // Variable --//
-   //Puzzle:
-   //Sonido
-   [SerializeField ]private AudioClip sonidoCorrecto = null;
+    // Referencias de Audio
+
+    public AudioSource Audio1;
+
+    //--------------------------------------------------------------//
+    // Variable --//
+    //Puzzle:
+    //Sonido
+    [SerializeField ]private AudioClip sonidoCorrecto = null;
     [SerializeField] private AudioClip sonidoIncorrecto = null;
     //Color
     [SerializeField] private Color colorCorrecto = Color.black;
@@ -111,7 +115,8 @@ public class GameManager : MonoBehaviour
         botonSi.SetActive(true);
         botonNo.SetActive(true);
 
-
+        //Activando Audio
+        Audio1.Play();
 
     }
 
@@ -167,14 +172,14 @@ public class GameManager : MonoBehaviour
     // Corruntina
 
     private IEnumerator RutinaPregunta(BotonOpciones opcionBoton) 
-    {
+    {   /*
         if (m_audioSource.isPlaying)
         {
             m_audioSource.Stop();
         }
         // operador ternario
         //Cambiio de Sonido
-        m_audioSource.clip = opcionBoton.Opcion.opcionCorrecta ? sonidoCorrecto : sonidoIncorrecto;
+        m_audioSource.clip = opcionBoton.Opcion.opcionCorrecta ? sonidoCorrecto : sonidoIncorrecto;*/
         //Cambio de Color
         opcionBoton.SetColor(opcionBoton.Opcion.opcionCorrecta ? colorCorrecto : colorIncorrecto);
 
