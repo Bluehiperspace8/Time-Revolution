@@ -114,6 +114,8 @@ public class Dialogo1Martin : MonoBehaviour
         if (collsion.CompareTag("Player"))
         {
             BotonLeer.SetActive(true);
+            float tiempo = Time.time;
+            PlayerPrefs.SetFloat("tiemponivel2", tiempo);
 
         }
         else

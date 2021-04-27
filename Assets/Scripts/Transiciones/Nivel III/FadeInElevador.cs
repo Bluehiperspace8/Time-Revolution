@@ -16,7 +16,8 @@ public class FadeInElevador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        float tiempo = Time.time;
+        PlayerPrefs.SetFloat("tiemponivel3", tiempo);
         imagenFondo.CrossFadeAlpha(0, 4, true);
         EfectoSonido.Play();
     }

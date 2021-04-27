@@ -211,6 +211,11 @@ public class PlaticaPortal : MonoBehaviour
         // Cambiar de escena
         //Ya regreso /Ya termino
         // Transicion al siguiente Nivel
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("tiemponivel1");
+        float duracion = tiempoF - tiempo;
+        PlayerPrefs.SetFloat("tiemponivel1", duracion);
+        print(PlayerPrefs.GetFloat("tiemponivel1"));
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Nivel_II/Laboratorio");
@@ -271,6 +276,11 @@ public class PlaticaPortal : MonoBehaviour
     public void BotonIrMenu()
     {
         // Transicion al menu
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("tiemponivel1");
+        float duracion = tiempoF - tiempo;
+        PlayerPrefs.SetFloat("tiemponivel1", duracion);
+        print(PlayerPrefs.GetFloat("tiemponivel1"));
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");

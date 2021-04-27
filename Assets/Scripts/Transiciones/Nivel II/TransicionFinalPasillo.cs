@@ -182,7 +182,7 @@ public class TransicionFinalPasillo : MonoBehaviour
         //Generar animacion de transicion con el audio
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(true);
-        imagenFondo.CrossFadeAlpha(1, 9, true);
+        imagenFondo.CrossFadeAlpha(1, 7, true);
         new WaitForSeconds(3);
 
         // Cargamos Escena
@@ -192,10 +192,15 @@ public class TransicionFinalPasillo : MonoBehaviour
     //Corrutina -> Cambio de escena
     private IEnumerator CambiarEscena()
     {
-        yield return new WaitForSeconds(9);
+        yield return new WaitForSeconds(7);
         // Cambiar de escena
         //Ya regreso /Ya termino
         // Transicion al siguiente Nivel
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("tiemponivel2");
+        float duracion = tiempoF - tiempo;
+        PlayerPrefs.SetFloat("tiemponivel2", duracion);
+        print(PlayerPrefs.GetFloat("tiemponivel2"));
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Nivel_III/nivel3Pasillo");
@@ -256,6 +261,11 @@ public class TransicionFinalPasillo : MonoBehaviour
     public void BotonIrMenu()
     {
         // Transicion al menu
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("tiemponivel2");
+        float duracion = tiempoF - tiempo;
+        PlayerPrefs.SetFloat("tiemponivel2", duracion);
+        print(PlayerPrefs.GetFloat("tiemponivel2"));
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");

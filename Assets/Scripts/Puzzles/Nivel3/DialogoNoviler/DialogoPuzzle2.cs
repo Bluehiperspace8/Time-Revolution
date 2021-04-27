@@ -195,6 +195,11 @@ public class DialogoPuzzle2 : MonoBehaviour
         // Cambiar de escena
         //Ya regreso /Ya termino
         // Transicion al siguiente Nivel
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("tiemponivel3");
+        float duracion = tiempoF - tiempo;
+        PlayerPrefs.SetFloat("tiemponivel3", duracion);
+        print(PlayerPrefs.GetFloat("tiemponivel3"));
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Nivel_IV/Nivel4");
@@ -203,6 +208,11 @@ public class DialogoPuzzle2 : MonoBehaviour
     public void BotonIrMenu()
     {
         // Transicion al menu
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("tiemponivel3");
+        float duracion = tiempoF - tiempo;
+        PlayerPrefs.SetFloat("tiemponivel3", duracion);
+        print(PlayerPrefs.GetFloat("tiemponivel3"));
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");

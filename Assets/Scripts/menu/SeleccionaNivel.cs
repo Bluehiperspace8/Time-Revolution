@@ -24,6 +24,8 @@ public class SeleccionaNivel : MonoBehaviour
         imagenfondo.canvasRenderer.SetAlpha(0);
         imagenfondo.gameObject.SetActive(true);
         imagenfondo.CrossFadeAlpha(1, 1, true);
+        float tiempo = Time.time;
+        PlayerPrefs.SetFloat("tiemponivel1", tiempo);
         StartCoroutine(CambiarEscena1());
     }
     public void Nivel2()

@@ -21,7 +21,8 @@ public class PierdeoGana : MonoBehaviour
         float tiempoF = Time.time;
         float tiempo = PlayerPrefs.GetFloat("inicioCoreDrop");
         float duracion = tiempoF - tiempo;
-        print(duracion);
+        PlayerPrefs.SetFloat("inicioCoreDrop", duracion);
+        print(PlayerPrefs.GetFloat("inicioCoreDrop"));
         SceneManager.LoadScene("Nivel4-3");
     }
     void Update()

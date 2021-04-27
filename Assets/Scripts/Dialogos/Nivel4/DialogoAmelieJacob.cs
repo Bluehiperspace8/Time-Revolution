@@ -103,6 +103,8 @@ public class DialogoAmelieJacob : MonoBehaviour
         if (collsion.CompareTag("Player"))
         {
             BotonLeer.SetActive(true);
+            float tiempo = Time.time;
+            PlayerPrefs.SetFloat("tiemponivel4", tiempo);
 
         }
         else

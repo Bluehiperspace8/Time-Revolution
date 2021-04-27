@@ -209,6 +209,11 @@ public class DialogoPortal : MonoBehaviour
         // Cambiar de escena
         //Ya regreso /Ya termino
         // Transicion al siguiente Nivel
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("tiemponivel4");
+        float duracion = tiempoF - tiempo;
+        PlayerPrefs.SetFloat("tiemponivel4", duracion);
+        print(PlayerPrefs.GetFloat("tiemponivel4"));
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Nivel_IV/Nivel4-4");
@@ -217,6 +222,11 @@ public class DialogoPortal : MonoBehaviour
     public void BotonIrMenu()
     {
         // Transicion al menu
+        float tiempoF = Time.time;
+        float tiempo = PlayerPrefs.GetFloat("tiemponivel4");
+        float duracion = tiempoF - tiempo;
+        PlayerPrefs.SetFloat("tiemponivel4", duracion);
+        print(PlayerPrefs.GetFloat("tiemponivel4"));
         EscribirJson();
         EscribirJson2();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
