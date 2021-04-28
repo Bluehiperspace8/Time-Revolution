@@ -79,6 +79,15 @@ public class DialogoPuzzle2 : MonoBehaviour
 
     public DatosUsuariosLogro datosLogro;
 
+    public struct DatosUsuariosStats
+    {
+        public string usuario;
+        public string campo;
+        public int stat;
+    }
+
+    public DatosUsuariosStats datosStat;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -203,6 +212,7 @@ public class DialogoPuzzle2 : MonoBehaviour
         print(PlayerPrefs.GetFloat("tiemponivel3"));
         EscribirJson();
         EscribirJson2();
+        EscribirJson3();
         SceneManager.LoadScene("Scenes/Nivel_IV/Nivel4");
     }
 
@@ -216,6 +226,7 @@ public class DialogoPuzzle2 : MonoBehaviour
         print(PlayerPrefs.GetFloat("tiemponivel3"));
         EscribirJson();
         EscribirJson2();
+        EscribirJson3();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
     }
 
@@ -227,6 +238,11 @@ public class DialogoPuzzle2 : MonoBehaviour
     public void EscribirJson2()
     {
         StartCoroutine(DarLogro());
+    }
+
+    public void EscribirJson3()
+    {
+        StartCoroutine(GuardaStats());
     }
 
     public IEnumerator DarLogro()
@@ -265,6 +281,28 @@ public class DialogoPuzzle2 : MonoBehaviour
         if (request.result == UnityWebRequest.Result.Success) //200
         {
             print("Beautiful");
+        }
+        else
+        {
+            print("o.O");
+        }
+    }
+
+    public IEnumerator GuardaStats()
+    {
+        datosStat.usuario = PlayerPrefs.GetString("username", "dummy");
+        datosStat.campo = "intentosCuestionario3";
+        datosStat.stat = PlayerPrefs.GetInt("Intentos3");
+        print(JsonUtility.ToJson(datosStat));
+        //Encapsular los datos que se suben a la red con el metodo POST
+        WWWForm forma = new WWWForm();
+        forma.AddField("datosJSON", JsonUtility.ToJson(datosStat));
+        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/stats/agregarStats", forma);
+        yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
+        //... ya regreso porque ya termino SendWebRequest
+        if (request.result == UnityWebRequest.Result.Success) //200
+        {
+            print("Beautiful people");
         }
         else
         {

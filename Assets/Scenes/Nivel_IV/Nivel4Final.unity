@@ -1701,7 +1701,7 @@ MonoBehaviour:
     por seguir esta historia
     con nosotros.
 
-'
+    Es momento de que tu revoluciones el tiempo'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2321,7 +2321,7 @@ MonoBehaviour:
   - "Jacob:\r\nUna disculpa\u2026Tuve uno que otro tropiezo en el camino\r"
   - "Thomas:\r\nMe lo imaginaba, estos d\xEDas hay mucha gente por las calles intentado
     saber qu\xE9 hay de nuevo, tanto que las casas de teatro y opera se est\xE1n
-    quedando. vac\xEDas.\r"
+    quedando vac\xEDas.\r"
   - " \nSiento que ahorita los inventores se estamos haciendo m\xE1s famosos que
     \u2026"
   - 'Jacob:
@@ -2329,11 +2329,10 @@ MonoBehaviour:
     Como una estrella de Rock.'
   - "Thomas:\n\xBF\xBFDisculpa??\n"
   - "Jacob:\nPerdone, es algo que me comentaron\n\xBFComenzamos la entrevista?\n"
-  - "Thomas listo para tus preguntas y responderlas espera tu primera pregunta.\r\nViendo
-    su acci\xF3n, debes de sacar tu libreta, sacas tu tableta por accidente y provocas
-    el asombroso del inventor. \r\n"
+  - "**Thomas esta listo para tus preguntas\r\nDebes de sacar tu libreta, sacas tu
+    tableta por accidente y provocas el asombroso del inventor. \r\n"
   - "Thomas:\n\xA1\xA1\xA1Por Dios!!!\n\xBF\xA1\xBF\xA1\xBFQu\xE9 es eso?!?!?\n"
-  - "Jacob:\r\nOhh\u2026 sabe, debes de hacerle la entrevista\u2026.\r\n"
+  - "Jacob:\r\nOhh\u2026 sabe....."
   velParrafo: 0.02
   botonContinuar: {fileID: 188996975}
   botonQuitar: {fileID: 507122133}

@@ -606,7 +606,7 @@ MonoBehaviour:
   - "Amelie:\r\nVamos a mi laboratorio\r.\nQuiero ense\xF1arte unas cosas antes de
     que te vayas\r.\n"
   - "IA Noviler:\n\xA1\xA1\xA1Fue un gusto haberte conocido viajero!!!\n"
-  velParrafo: 0.02
+  velParrafo: 0.0002
   botonContinuar: {fileID: 1899544369}
   botonQuitar: {fileID: 730752153}
   PanelDialogo: {fileID: 817034292}
@@ -3131,8 +3131,8 @@ MonoBehaviour:
   textD: {fileID: 920350188}
   parrafos:
   - "Amelie:\r\nBienvenido al Gran Museo Gal\xE1ctico de Londres.\r\nEl \xFAnico
-    en su clase en toda la Tierra\r.\nAqu\xED puedes encontrar historia desde la
-    primera era de piedra, hasta el primer salto al centro de la Galaxia.\r."
+    en su clase en toda la Tierra\r. Aqu\xED puedes \nencontrar historia desde la
+    primera era de piedra, \nhasta el primer salto al centro de la Galaxia.\r."
   - "Jacob\r:\nToda la historia que hay aqu\xED debe valer al menos millones de \na\xF1os
     de conocimiento\r.\nPero antes... \xBFQui\xE9n es esa persona azul?\r"
   - "Amelie:\n\xA1Ah! Cierto, te presento a la Inteligencia Artificial del Museo,
@@ -3184,7 +3184,7 @@ MonoBehaviour:
   - "Amelie:\nAy no, ah\xED vamos de nuevo\u2026"
   - 'IA Noviler:
 
-    Dr Amelie, no sea aguafiestas, nuestro visitante quiere saber
+    Dra. Amelie, no sea aguafiestas, nuestro visitante quiere saber
     de la historia que se encuentran en estas paredes'
   - "\nAdem\xE1s es uno de mis juegos favoritos cuando llega alguien aqu\xED por
     primera vez."
@@ -3210,7 +3210,7 @@ MonoBehaviour:
     contestar de manera\ncorrecta las preguntas."
   - "Una vez que hayas ido con cada pieza del museo, regresa con IA Noviler y, \xA1\xA1\xA1prep\xE1rate
     para contestar!!!"
-  velParrafo: 0.0002
+  velParrafo: 0.00002
   botonContinuar: {fileID: 1023943794}
   botonQuitar: {fileID: 343304123}
   PanelDialogo: {fileID: 817034292}

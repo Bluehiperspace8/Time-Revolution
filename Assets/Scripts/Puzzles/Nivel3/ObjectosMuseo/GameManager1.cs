@@ -123,6 +123,13 @@ public class GameManager1 : MonoBehaviour
         BotonLeer.SetActive(false);
         botonSi.SetActive(false);
         botonNo.SetActive(false);
+        int intentos = PlayerPrefs.GetInt("Intentos3", 1);
+        if (intentos == 1)
+        {
+            PlayerPrefs.SetInt("Intentos3", 1);
+            PlayerPrefs.Save();
+        }
+        print(PlayerPrefs.GetInt("Intentos3"));
         //Prendemos los de juego
         PanelJuego.SetActive(true);
         //Iniciamos con la Corrutina
@@ -201,7 +208,9 @@ public class GameManager1 : MonoBehaviour
         }
         else
         {
-
+            int intentos = PlayerPrefs.GetInt("Intentos3");
+            intentos += 1;
+            PlayerPrefs.SetInt("Intentos3", intentos);
             // En caso que pierda,este vuelva a hacer el puzzle desde cero
             SceneManager.LoadScene("Scenes/Nivel_III/nivel3Museo");
         }
@@ -212,6 +221,9 @@ public class GameManager1 : MonoBehaviour
             PanelDialogo.SetActive(true);
             textD.text = " ";
             BotonFinalizar.SetActive(true);
+            int intentos = PlayerPrefs.GetInt("Intentos3");
+            intentos += 1;
+            PlayerPrefs.SetInt("Intentos3", intentos);
         }
 
 

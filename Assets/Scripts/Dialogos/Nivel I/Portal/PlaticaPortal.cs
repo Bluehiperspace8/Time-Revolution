@@ -226,9 +226,9 @@ public class PlaticaPortal : MonoBehaviour
         float duracion = tiempoF - tiempo;
         PlayerPrefs.SetFloat("tiemponivel1", duracion);
         print(PlayerPrefs.GetFloat("tiemponivel1"));
-
         EscribirJson();
         EscribirJson2();
+        EscribirJson3();
         SceneManager.LoadScene("Scenes/Nivel_II/Laboratorio");
     }
 
@@ -295,11 +295,11 @@ public class PlaticaPortal : MonoBehaviour
         datosStat.usuario = PlayerPrefs.GetString("username", "dummy");
         datosStat.campo = "intentosCuestionario1";
         datosStat.stat = PlayerPrefs.GetInt("Intentos1");
-        print(JsonUtility.ToJson(datosPartida));
+        print(JsonUtility.ToJson(datosStat));
         //Encapsular los datos que se suben a la red con el metodo POST
         WWWForm forma = new WWWForm();
-        forma.AddField("datosJSON", JsonUtility.ToJson(datosPartida));
-        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/partida/agregarPartida", forma);
+        forma.AddField("datosJSON", JsonUtility.ToJson(datosStat));
+        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/stats/agregarStats", forma);
         yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
         //... ya regreso porque ya termino SendWebRequest
         if (request.result == UnityWebRequest.Result.Success) //200
@@ -322,6 +322,7 @@ public class PlaticaPortal : MonoBehaviour
         print(PlayerPrefs.GetFloat("tiemponivel1"));
         EscribirJson();
         EscribirJson2();
+        EscribirJson3();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
     }
 

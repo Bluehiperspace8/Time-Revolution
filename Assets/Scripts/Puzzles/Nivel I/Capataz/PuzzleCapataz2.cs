@@ -92,8 +92,6 @@ public class PuzzleCapataz2 : MonoBehaviour
                     "Sí, de nada Bye!!!!!";
             botonQuitar.SetActive(true);
 
-            //if(PlayerPrefs.GetInt("Intentos1"))
-
         }
     }
 

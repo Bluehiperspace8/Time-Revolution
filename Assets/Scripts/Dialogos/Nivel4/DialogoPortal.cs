@@ -285,6 +285,5 @@ public class DialogoPortal : MonoBehaviour
             print("o.O");
         }
     }
-
 }
 

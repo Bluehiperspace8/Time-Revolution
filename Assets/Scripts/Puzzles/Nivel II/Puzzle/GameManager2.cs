@@ -131,6 +131,14 @@ public class GameManager2 : MonoBehaviour
         BotonLeer.SetActive(false);
         botonSi.SetActive(false);
         botonNo.SetActive(false);
+        //Stats
+        int intentos = PlayerPrefs.GetInt("Intentos2", 1);
+        if (intentos == 1)
+        {
+            PlayerPrefs.SetInt("Intentos2", 1);
+            PlayerPrefs.Save();
+        }
+        print(PlayerPrefs.GetInt("Intentos2"));
         //Prendemos los de juego
         PanelJuego.SetActive(true);
         //Iniciamos con la Corrutina
@@ -209,7 +217,9 @@ public class GameManager2 : MonoBehaviour
         }
         else
         {
-
+            int intentos = PlayerPrefs.GetInt("Intentos2");
+            intentos += 1;
+            PlayerPrefs.SetInt("Intentos2", intentos);
             // En caso que pierda,este vuelva a hacer el puzzle desde cero
             SceneManager.LoadScene("Scenes/Nivel_II/Laboratorio");
         }
@@ -220,6 +230,9 @@ public class GameManager2 : MonoBehaviour
             PanelDialogo.SetActive(true);
             textD.text = " ";
             BotonFinalizar.SetActive(true);
+            int intentos = PlayerPrefs.GetInt("Intentos2");
+            intentos += 1;
+            PlayerPrefs.SetInt("Intentos2", intentos);
         }
 
 

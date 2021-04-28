@@ -79,6 +79,15 @@ public class TransicionFinalPasillo : MonoBehaviour
 
     public DatosUsuariosLogro datosLogro;
 
+    public struct DatosUsuariosStats
+    {
+        public string usuario;
+        public string campo;
+        public int stat;
+    }
+
+    public DatosUsuariosStats datosStat;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -204,6 +213,7 @@ public class TransicionFinalPasillo : MonoBehaviour
         print(PlayerPrefs.GetFloat("tiemponivel2"));
         EscribirJson();
         EscribirJson2();
+        EscribirJson3();
         SceneManager.LoadScene("Scenes/Nivel_III/nivel3Pasillo");
     }
 
@@ -215,6 +225,11 @@ public class TransicionFinalPasillo : MonoBehaviour
     public void EscribirJson2()
     {
         StartCoroutine(DarLogro());
+    }
+
+    public void EscribirJson3()
+    {
+        StartCoroutine(GuardaStats());
     }
 
     public IEnumerator DarLogro()
@@ -260,6 +275,28 @@ public class TransicionFinalPasillo : MonoBehaviour
         }
     }
 
+    public IEnumerator GuardaStats()
+    {
+        datosStat.usuario = PlayerPrefs.GetString("username", "dummy");
+        datosStat.campo = "intentosCuestionario2";
+        datosStat.stat = PlayerPrefs.GetInt("Intentos2");
+        print(JsonUtility.ToJson(datosStat));
+        //Encapsular los datos que se suben a la red con el metodo POST
+        WWWForm forma = new WWWForm();
+        forma.AddField("datosJSON", JsonUtility.ToJson(datosStat));
+        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/stats/agregarStats", forma);
+        yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
+        //... ya regreso porque ya termino SendWebRequest
+        if (request.result == UnityWebRequest.Result.Success) //200
+        {
+            print("Beautiful Stat");
+        }
+        else
+        {
+            print("o.O");
+        }
+    }
+
     public void BotonIrMenu()
     {
         // Transicion al menu
@@ -270,6 +307,7 @@ public class TransicionFinalPasillo : MonoBehaviour
         print(PlayerPrefs.GetFloat("tiemponivel2"));
         EscribirJson();
         EscribirJson2();
+        EscribirJson3();
         SceneManager.LoadScene("Scenes/Menus/Menuprincipal");
     }
 }

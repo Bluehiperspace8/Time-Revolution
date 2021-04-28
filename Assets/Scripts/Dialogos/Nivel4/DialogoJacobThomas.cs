@@ -171,7 +171,7 @@ public class DialogoJacobThomas : MonoBehaviour
     public IEnumerator DarLogro()
     {
         datosLogro.usuario = PlayerPrefs.GetString("username", "dummy");
-        datosLogro.logro = "6";
+        datosLogro.logro = "5";
         print(JsonUtility.ToJson(datosLogro));
         //Encapsular los datos que se suben a la red con el metodo POST
         WWWForm forma = new WWWForm();

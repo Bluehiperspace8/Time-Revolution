@@ -128,6 +128,16 @@ public class GameManager : MonoBehaviour
         BotonLeer.SetActive(false);
         botonSi.SetActive(false);
         botonNo.SetActive(false);
+
+        //Stats
+        int intentos = PlayerPrefs.GetInt("Intentos1",1);
+        if (intentos == 1)
+        {
+            PlayerPrefs.SetInt("Intentos1", 1);
+            PlayerPrefs.Save();
+        }
+
+        print(PlayerPrefs.GetInt("Intentos1"));
         //Prendemos los de juego
         PanelJuego.SetActive(true);
         //Iniciamos con la Corrutina
@@ -159,7 +169,6 @@ public class GameManager : MonoBehaviour
     // Codigo
     private void NextQuestion()
     {
-        print("Ejecutando nexquestion");
         m_preguntaUI.Construct(m_preguntaBd.GETRandom(), GiveAnswer);
     }
 
@@ -205,8 +214,11 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-          
+
             // En caso que pierda,este vuelva a hacer el puzzle desde cero
+            int intentos = PlayerPrefs.GetInt("Intentos1");
+            intentos += 1;
+            PlayerPrefs.SetInt("Intentos1", intentos);
             SceneManager.LoadScene("Scenes/Nivel_I/Fabriica");
         }
         // En caso que termine, este
@@ -216,6 +228,9 @@ public class GameManager : MonoBehaviour
             PanelDialogo.SetActive(true);
             textD.text = " ";
             BotonFinalizar.SetActive(true);
+            int intentos = PlayerPrefs.GetInt("Intentos1");
+            intentos += 1;
+            PlayerPrefs.SetInt("Intentos1", intentos);
         }
         
 

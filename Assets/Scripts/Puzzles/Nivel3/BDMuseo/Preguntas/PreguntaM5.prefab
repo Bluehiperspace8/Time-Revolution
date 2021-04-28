@@ -50,6 +50,6 @@ MonoBehaviour:
   - texto: b) Gas Natural
     opcionCorrecta: 0
   - texto: c) Nuclear
-    opcionCorrecta: 0
+    opcionCorrecta: 1
   - texto: "d) Biog\xE1s"
     opcionCorrecta: 0

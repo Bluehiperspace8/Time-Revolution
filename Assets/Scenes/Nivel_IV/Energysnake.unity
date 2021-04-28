@@ -4750,7 +4750,7 @@ MonoBehaviour:
   m_Text: "Instrucciones:\r\n\nMueve la fila de energia amarilla con las flechas
     del teclado o con las teclas \"WASD\". Recolecta energia renovable cuando pases
     por encima de ellas. No te salgas del espacio y no toques los muros oscuros.
-    Tienes que recolectar 88 TW de energias mas limpias que la quema de combustibles.
+    Tienes que recolectar 80 TW de energias mas limpias que la quema de combustibles.
     Pero cuidado, no puedes tocar la fila de energia porque produce un corto y debido
     al transporte de energia perderas 1 TW cada dos segundos. Una vez tengas la energia
     suficiente regresa al laboratorio de la esquina superior izquierda. Suerte!\n\n\rLas
