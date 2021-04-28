@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 /*
  Objetivo: Dialogo de Jacob con Cindy
- Autor: Diego Alejandro Juárez Ruiz
+ Autor: Diego Alejandro Juï¿½rez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
  Youtube: https://youtu.be/FjoL4ufZmXc
@@ -90,10 +90,10 @@ public class DialogoJacobCindy : MonoBehaviour
         }
         else
         {
-            textD.text = "Pero ahorita lo que urge es conseguir la energía para tu transportador."+
-                "¿Me podrías ayudar a recolectar distintas fuentes de energía?"+
-                "Ten cuidado, con tanto movimiento se va transformando la energía y queda inservible."+
-                "Tienes que asegurarte de recolectar suficiente energía útil para el reactor y regresar con ella a tiempo.";
+            textD.text = "Pero ahorita lo que urge es conseguir la energa para tu transportador."+
+                "Â¿Me podrÃ­as ayudar a recolectar distintas fuentes de energÃ­a?"+
+                "Ten cuidado, con tanto movimiento se va transformando la energÃ­a y queda inservible."+
+                "Tienes que asegurarte de recolectar suficiente energÃ­a Ãºtil para el reactor y regresar con ella a tiempo.";
             botonQuitar.SetActive(true);
 
         }

@@ -2318,7 +2318,7 @@ MonoBehaviour:
   textD: {fileID: 2062141713}
   parrafos:
   - "Thomas Savery:\r\nBuenos d\xEDas, por un momento pens\xE9 que no ibas a llegar.\r\n"
-  - "Jacob:\r\nUna disculpa\u2026Tuve uno que otro tropiezo en el camino\r"
+  - "Jacob:\r\nUna disculpa\u2026Tuve uno que otro tropiezo en el camino\r."
   - "Thomas:\r\nMe lo imaginaba, estos d\xEDas hay mucha gente por las calles intentado
     saber qu\xE9 hay de nuevo, tanto que las casas de teatro y opera se est\xE1n
     quedando vac\xEDas.\r"
@@ -2328,7 +2328,7 @@ MonoBehaviour:
 
     Como una estrella de Rock.'
   - "Thomas:\n\xBF\xBFDisculpa??\n"
-  - "Jacob:\nPerdone, es algo que me comentaron\n\xBFComenzamos la entrevista?\n"
+  - "Jacob:\nPerdone, es algo que me comentaron.\n\xBFComenzamos la entrevista?\n"
   - "**Thomas esta listo para tus preguntas\r\nDebes de sacar tu libreta, sacas tu
     tableta por accidente y provocas el asombroso del inventor. \r\n"
   - "Thomas:\n\xA1\xA1\xA1Por Dios!!!\n\xBF\xA1\xBF\xA1\xBFQu\xE9 es eso?!?!?\n"

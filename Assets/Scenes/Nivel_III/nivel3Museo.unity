@@ -3132,7 +3132,7 @@ MonoBehaviour:
   parrafos:
   - "Amelie:\r\nBienvenido al Gran Museo Gal\xE1ctico de Londres.\r\nEl \xFAnico
     en su clase en toda la Tierra\r. Aqu\xED puedes \nencontrar historia desde la
-    primera era de piedra, \nhasta el primer salto al centro de la Galaxia.\r."
+    primera era de piedra, \nhasta el primer salto al centro de la Galaxia.\r.."
   - "Jacob\r:\nToda la historia que hay aqu\xED debe valer al menos millones de \na\xF1os
     de conocimiento\r.\nPero antes... \xBFQui\xE9n es esa persona azul?\r"
   - "Amelie:\n\xA1Ah! Cierto, te presento a la Inteligencia Artificial del Museo,
@@ -3144,7 +3144,7 @@ MonoBehaviour:
   - "Jacob:\r\n\xBFEntonces me dices que t\xFA eres una \u2026?\r"
   - "IA Noviler: \r\nUna Inteligencia Artificial, una de las m\xE1s guapas e inteligentes
     en la Tierra.\r\nSoy la primera IA tan magn\xEDfica y poderosa en todo el\narco
-    superior de la v\xEDa l\xE1ctea."
+    superior de la V\xEDa L\xE1ctea."
   - "Jacob:\nNo puedo creer que han llegado a estas cosas\r.\nEsto se tomar\xEDa
     como brujer\xEDa incluso, en mi tiempo\r.\n"
   - "IA Noviler:\n\xBFBrujer\xEDa? Amelie, \xBFde d\xF3nde sacas a este tipo de personas?\n\xBFEn
@@ -3157,42 +3157,42 @@ MonoBehaviour:
     conocerlo, viajero."
   - "Jacob:\r\nEl gusto es m\xEDo, supongo\r.\n"
   - "IA Noviler:\r\nPero espera\u2026\r\nLa otra\u2026\r\n"
-  - "Amelie\r:\n\xA1\xA1\xA1NO, Y NO!!!\r\n\xBF\xA1\xBFPorque Martin y t\xFA quieren
-    saber eso?!?\r"
+  - "Amelie\r:\n\xA1\xA1\xA1NO, Y NO!!!\r\n\xBF\xA1\xBFPor qu\xE9 Martin y t\xFA
+    quieren saber eso?!?\r"
   - "\rIA Noviler:\r\nBueno siento que har\xEDa un gran avance a la teor\xEDa si\u2026\r"
   - "Amelie:\r\n\xA1\xA1No!!\r\nYa habr\xE1 otra manera de comprobarla, \npero no
     haremos experimentos con Jacob.\r"
   - "IA Noviler:\r\nTranquila Dra. Amelie, soy una IA, no un ser vivo que pueda \nmanejar
     todo de manera f\xEDsica\r.\nMe preocupar\xEDa m\xE1s del Dr. Noviler en persona\r.\nA
-    \xE9l le gusta la experimentaci\xF3n m\xE1s que nada\r."
+    \xE9l le gusta la experimentaci\xF3n m\xE1s que nada\r.."
   - "Jacob:\r\n\xBFQui\xE9n es el Dr. Noviler?\r"
   - "Amelie\r:\nCharles Noviler es el cient\xEDfico humano con m\xE1s prestigio\nen
     todos los rincones de la galaxia. \r"
   - "\nY forma parte del consejo de la Federaci\xF3n Cient\xEDfica de Exploraci\xF3n
-    y Descubrimiento Intergal\xE1ctico y pronto Extragalactico.\r"
-  - "Jacob:\r\n\xA1\xA1\xA1\xA1WOW\r!!!!\nMe gustar\xEDa un d\xEDa entrevistarlo
-    y aprender de \xE9l antes de irme.\r"
+    y Descubrimiento Intergal\xE1ctico y pronto Extragal\xE1ctico.\r"
+  - "Jacob:\r\n\xA1WOW\r!\nMe gustar\xEDa un d\xEDa entrevistarlo y aprender de \xE9l
+    antes de irme.\r"
   - "Amelie:\r\nEl Dr. Noviler es una persona muy ocupada.\nNo toma nada de entrevistas
-    por nuestros\nentrevistadores aqu\xED en la universidad\r."
+    por nuestros\nentrevistadores aqu\xED en la universidad\r.."
   - "\nHablando de\u2026 no se encuentra aqu\xED ya que lo pienso.\nNormalmente te
-    lo encuentras aqu\xED m\xE1s que en su oficina\r.\n\xBFDonde est\xE1, N?\r"
+    lo encuentras aqu\xED m\xE1s que en su oficina\r.\n\xBFD\xF3nde est\xE1, N?\r"
   - "IA Noviler\r:\nEl Dr. se fue hace unas horas por razones que desconozco\r.\nYa
     es habitual que el Dr. Noviler entre y salga del Museo sin \nsiquiera decir una
-    palabra\r"
+    palabra\r."
   - "\nEn cuanto a ti viajero, dices que quieres entrevistarlo.\r\n\xBFPor qu\xE9
     no hacemos un juego?"
   - "Amelie:\nAy no, ah\xED vamos de nuevo\u2026"
   - 'IA Noviler:
 
     Dra. Amelie, no sea aguafiestas, nuestro visitante quiere saber
-    de la historia que se encuentran en estas paredes'
+    de la historia que se encuentran en estas paredes.'
   - "\nAdem\xE1s es uno de mis juegos favoritos cuando llega alguien aqu\xED por
     primera vez."
   - "Amelie:\r\nUh, bueno, dile c\xF3mo funciona.\r"
   - "IA Noviler:\r\n\xA1\xA1Perfecto!!\nViajero, el juego se trata de lo siguiente:\r\nEste
     museo tiene artefactos de tu tiempo, as\xED como \narte e informacion valiosa
     para el mismo\r"
-  - "\nTu misi\xF3n es simple\r.\nExplora el Museo y aprende de nuestra gran colecci\xF3n
+  - "\nTu misi\xF3n es simple\r:\nExplora el Museo y aprende de nuestra gran colecci\xF3n
     privada\r.\nSi\xE9ntete libre de ir a las alas del pasado y del ma\xF1ana\r.\n"
   - "\nUna vez que hayas visto todo o sientas que ya est\xE9s listo,\nregresa conmigo
     y har\xE9 yo las preguntas para ver qu\xE9 aprendiste. Y tambi\xE9n te dar\xE9
@@ -30487,13 +30487,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083666113745638357, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -49.7283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083666113745638357, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.8322906
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
@@ -33771,13 +33783,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083666113745638357, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -38.0915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083666113745638357, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.7008972
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
@@ -35991,7 +36015,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Si
+  m_Text: "S\xED"
 --- !u!222 &1090015750
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41377,13 +41401,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083666113745638357, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -36.6642
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083666113745638357, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.4968109
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
@@ -48840,13 +48876,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083666113745638357, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -48.0854
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083666113745638357, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -4.5202
+      objectReference: {fileID: 0}
+    - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8190862826323115137, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8861149f1ec220241a4dc134d0c0b7f1, type: 3}

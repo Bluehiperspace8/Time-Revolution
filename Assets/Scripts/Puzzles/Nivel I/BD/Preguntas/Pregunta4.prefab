@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7530587cd85a62044947bf881c53a334, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "Tras la creciente fama que se est\xE1n ganando las fabrica, ya sea por
+  texto: "Tras la creciente fama que se est\xE1n ganando las fabricas, ya sea por
     su revolucionaria idea o la incentivaci\xF3n econ\xF3mica, esta tiene un efecto
     negativo en la sociedad actual, la cual es:"
   opciones:

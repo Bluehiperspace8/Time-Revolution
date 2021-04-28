@@ -87,7 +87,7 @@ public class PuzzleCapataz1 : MonoBehaviour
         }
         else
         {
-            textD.text = "Buena suerte!!!";
+            textD.text = "¡¡¡Buena suerte!!!";
             botonQuitar.SetActive(true);
 
         }

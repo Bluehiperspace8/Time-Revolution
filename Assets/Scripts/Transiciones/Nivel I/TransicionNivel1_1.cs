@@ -81,7 +81,7 @@ public class TransicionNivel1_1 : MonoBehaviour
     {
 
         PanelDialogo.SetActive(true);
-        textD.text = "Listo para seguir adelante:";
+        textD.text = "¿Listo para seguir adelante?";
         
         botonSi.SetActive(true);
         botonNo.SetActive(true);

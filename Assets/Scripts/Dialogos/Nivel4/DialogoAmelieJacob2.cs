@@ -5,7 +5,7 @@ using TMPro;
 
 /*
  Objetivo: Dialogo de Jacob con Diego Ruiz
- Autor: Diego Alejandro Juárez Ruiz
+ Autor: Diego Alejandro Juï¿½rez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
  Youtube: https://youtu.be/FjoL4ufZmXc
@@ -90,7 +90,7 @@ public class DialogoAmelieJacob2 : MonoBehaviour
         else
         {
             textD.text = "Amelie:\n" +
-                         "Lo sé y espero que no lo comprendas por un buen rato";
+                         "Lo sÃ© y espero que no lo comprendas por un buen rato.";
 
             botonQuitar.SetActive(true);
 

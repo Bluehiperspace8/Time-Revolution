@@ -52,7 +52,7 @@ MonoBehaviour:
       en tiempos iguales"
     opcionCorrecta: 1
   - texto: "c) El cuadrado de su per\xEDodo orbital es directamente proporcional
-      al cubo de la longitud del semieje mayor de su \xF3rbita el\xEDptica."
+      al cubo de la longitud del semieje mayor de su \xF3rbita el\xEDptica"
     opcionCorrecta: 0
   - texto: d) Ninguna de las anteriores
     opcionCorrecta: 0

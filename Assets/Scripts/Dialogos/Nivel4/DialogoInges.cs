@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 /*
  Objetivo: Dialogo entre Diego, Cindy y Amelie
- Autor: Diego Alejandro Juárez Ruiz
+ Autor: Diego Alejandro Juï¿½rez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
  Youtube: https://youtu.be/FjoL4ufZmXc
@@ -102,7 +102,7 @@ public class DialogoInges : MonoBehaviour
         {
             textD.text = "Diego:\n" +
                         "Bueno, al menos le dejaste una sopresa para que lo descubra con el tiempo.\n" +
-                        "La cual descubrirá en poco tiempo…";
+                        "La cual descubrirÃ¡ en poco tiempoï¿½";
 
 
             botonQuitar.SetActive(true);

@@ -43,8 +43,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "\xBFCu\xE1les son las opciones y acciones que puede ayudar a restaurar
-    al planeta del os efectos del cambio clim\xE1tico?"
+  texto: "\xBFCu\xE1les son las opciones y acciones que pueden ayudar a restaurar
+    al planeta de los efectos del cambio clim\xE1tico?"
   opciones:
   - texto: "a) Cambio de energ\xEDas f\xF3siles a energ\xEDas limpias"
     opcionCorrecta: 1
@@ -52,5 +52,5 @@ MonoBehaviour:
     opcionCorrecta: 0
   - texto: c) Recolectores de aire libre
     opcionCorrecta: 0
-  - texto: d) Purificar los aguas y mares.
+  - texto: d) Purificar los aguas y mares
     opcionCorrecta: 0

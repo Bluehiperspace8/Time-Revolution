@@ -114,7 +114,7 @@ public class DialogoJacobThomas : MonoBehaviour
         }
         else
         {
-            textD.text = "\n¿Le gustaría saber por qué llegue tarde?";
+            textD.text = "\nÂ¿Le gustarÃ­a saber por quÃ© lleguÃ© tarde?";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

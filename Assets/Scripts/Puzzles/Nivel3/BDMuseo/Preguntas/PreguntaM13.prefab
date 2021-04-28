@@ -48,7 +48,7 @@ MonoBehaviour:
   opciones:
   - texto: "a) F\xEDsica el\xE9ctrica y M\xFAsica"
     opcionCorrecta: 0
-  - texto: "b) Electromagnetismo y El\xE9ctrica."
+  - texto: "b) Electromagnetismo y El\xE9ctrica"
     opcionCorrecta: 1
   - texto: "c) Inducci\xF3n electroest\xE1tica y Matem\xE1ticas"
     opcionCorrecta: 0

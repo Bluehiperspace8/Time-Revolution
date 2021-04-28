@@ -5,7 +5,7 @@ using TMPro;
 
 /*
  Objetivo: Dialogo de Jacob con Cindy 2
- Autor: Diego Alejandro Juárez Ruiz
+ Autor: Diego Alejandro Juï¿½rez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
  Youtube: https://youtu.be/FjoL4ufZmXc
@@ -90,7 +90,7 @@ public class DialogoJacobCindy2 : MonoBehaviour
         else
         {
             textD.text = "Cindy:\n" +
-                "¡Muy bien!Ya tenemos la energía necesaria. Ahora solo falta prender el reactor. Ve a hablar con mi compañero Diego para que conozcas un poco más de todo esto. ¡Un gusto conocerte viajero!";
+                "Â¡Muy bien!Ya tenemos la energÃ­a necesaria. Ahora solo falta prender el reactor. Ve a hablar con mi compaÃ±ero Diego para que conozcas un poco mÃ¡s de todo esto. Â¡Un gusto conocerte, viajero!";
            botonQuitar.SetActive(true);
 
         }

@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texto: "Cient\xEDfico y astr\xF3nomo alem\xE1n que fue reconocido por las leyes
-    del movimiento de los planetas en las orbitas del Sol:"
+    del movimiento de los planetas en las \xF3rbitas del Sol:"
   opciones:
   - texto: a) Tycho Brahe
     opcionCorrecta: 0

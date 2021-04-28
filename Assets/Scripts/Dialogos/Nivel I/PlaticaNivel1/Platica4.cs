@@ -88,7 +88,7 @@ public class Platica4 : MonoBehaviour
         }
         else
         {
-            textD.text = "Aunque hay mucho humo de las fábricas, es una pena**";
+            textD.text = "Aunque hay mucho humo de las fábricas, es una pena.**";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

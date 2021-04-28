@@ -47,11 +47,11 @@ MonoBehaviour:
   opciones:
   - texto: a)  La materia no se crea ni se destruye
     opcionCorrecta: 0
-  - texto: "b)  La miniaturizaci\xF3n es el proceso tecnol\xF3gico con el que se
+  - texto: "b) La miniaturizaci\xF3n al proceso tecnol\xF3gico mediante el cual se
       intenta reducir el tama\xF1o de cualquier dispositivo electr\xF3nico"
     opcionCorrecta: 1
   - texto: c) Cuerpo total o parcialmente sumergido en un fluido en reposo recibe
-      un empuje de abajo hacia arriba igual al peso del volumen del fluido desalojado
+      un empuje de abajo hacia arriba
     opcionCorrecta: 0
-  - texto: "d) La energ\xEDa no se crea ni se destruye, solamente se transforma"
+  - texto: "d) La energ\xEDa no se crea ni se destruye, solo se transforma"
     opcionCorrecta: 0

@@ -5,7 +5,7 @@ using TMPro;
 
 /*
  Objetivo: Dialogo de Jacob con Amelie
- Autor: Diego Alejandro Juárez Ruiz
+ Autor: Diego Alejandro Juï¿½rez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
  Youtube: https://youtu.be/FjoL4ufZmXc
@@ -90,7 +90,7 @@ public class DialogoAmelieJacob : MonoBehaviour
         }
         else
         {
-            textD.text = "Ya estamos dando los últimos toques al teletransportador. ¿Por qué no vas a hablar con mis compañeros Diego y Cindy?";
+            textD.text = "Ya estamos dando los Ãºltimos toques al teletransportador. Â¿Por quÃ© no vas a hablar con mis compaÃ±eros Diego y Cindy?";
 
             botonQuitar.SetActive(true);
 

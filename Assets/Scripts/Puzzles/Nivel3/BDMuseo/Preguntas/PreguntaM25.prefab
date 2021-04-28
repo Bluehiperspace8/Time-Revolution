@@ -46,12 +46,12 @@ MonoBehaviour:
   texto: 'El sistema de Hipersalto se maneja por la idea de Miguel Alcubierre, el
     cual:'
   opciones:
-  - texto: "a) La miniaturizaci\xF3n es el proceso tecnol\xF3gico mediante con el
-      que se reduce el tama\xF1o de dispositivos electr\xF3nicos"
+  - texto: "a) La miniaturizaci\xF3n es el proceso con el que se reduce el tama\xF1o
+      dispositivos"
     opcionCorrecta: 0
   - texto: "b) Inici\xF3 la impresi\xF3n de los viajes espaciales a larga distancia"
     opcionCorrecta: 1
-  - texto: "c) Dijo que la energ\xEDa no se crea ni se destruye, solo se transforma"
+  - texto: "c) La energ\xEDa no se crea ni se destruye, solo se transforma"
     opcionCorrecta: 0
   - texto: d) Dijo que la materia no se crea ni se destruye
     opcionCorrecta: 0

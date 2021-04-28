@@ -6281,7 +6281,7 @@ MonoBehaviour:
 
     **Una vez que teminaste de leerla y justo al intentar guardarla
     en tu bolsillo, esta se deshizo en tus manos dando a conocer el terrible cuidado
-    que tuvo la nota**'
+    que tuvo la nota.**'
   velParrafo: 0.02
   botonContinuar: {fileID: 1983298982}
   botonQuitar: {fileID: 1027609946}
@@ -13362,9 +13362,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 2096880619}
   parrafos:
-  - "Viejo Obrero:\r\nYa estoy viejo, ya no puedo cargar tantas cosas al mismo tiempo\r"
+  - 'Viejo Obrero:
+
+    Ya estoy viejo, ya no puedo cargar tantas cosas al mismo
+    tiempo.'
   - "Obrero Flojo:\r\nY yo muy joven para cargar tambi\xE9n\r.\nCreo que estamos
-    en un dilema muy interesante aqu\xED \u2026\r"
+    en un dilema muy interesante aqu\xED\u2026\r"
   velParrafo: 0.02
   botonContinuar: {fileID: 180161347}
   botonQuitar: {fileID: 543632195}
@@ -19208,7 +19211,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Si
+  m_Text: "S\xED"
 --- !u!222 &1517542439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21380,23 +21383,23 @@ MonoBehaviour:
   - "Capataz:\r\n\xBFT\xFA qui\xE9n eres?\r"
   - "Jacob:\r\nSoy Jacob Smith y me gustar\xEDa\u2026\r"
   - "Capataz:\r\nS\xED, s\xED, s\xED, no me interesa.\nPor favor, salga de la fabrica
-    antes de que se lastime.\nNormalmente se caen las cosas por aqu\xED"
+    antes de que se lastime.\nNormalmente se caen las cosas por aqu\xED."
   - "Jacob:\r\nEso no me trae mucha confianza en la construcci\xF3n\u2026\r\nY bueno
     esa es mi idea, tengo que salir de aqu\xED lo m\xE1s r\xE1pido posible, \nsi
     no\u2026\r\n"
   - "Capataz:\nYa veo, entonces tendr\xE1 que pasar por la puerta que tengo detr\xE1s
-    m\xEDa\r"
-  - "Capataz:\r\nPero antes, necesito que haga algo por m\xED"
+    m\xEDa."
+  - "Capataz:\r\nPero antes, necesito que haga algo por m\xED."
   - "Jacob:\r\nS\xED\u2026 La ve\xEDa venir desde lejos\u2026\r\n\xBFQu\xE9 necesitas?
-    Se me acaba el tiempo\r"
-  - "Capataz:\r\nTr\xE1eme mis notas que est\xE1n escondidas en los barriles\r"
+    Se me acaba el tiempo..."
+  - "Capataz:\r\nTr\xE1eme mis notas que est\xE1n escondidas en los barriles\r."
   - "Jacob:\r\n\xBFY por qu\xE9 est\xE1n escondidas?\r"
-  - "Capataz:\r\nEso no importa, ve por mis notas y tr\xE1elas\r"
+  - "Capataz:\r\nEso no importa, ve por mis notas y tr\xE1elas\r."
   - "Instrucciones:\r\nEn esta f\xE1brica est\xE1n escondidas notas que contendr\xE1n\nlo
-    necesario para contestar a las preguntas que te har\xE1 \nel capataz m\xE1s adelante\r\n"
+    necesario para contestar a las preguntas que te har\xE1 \nel capataz m\xE1s adelante\r.\n"
   - "Estas notas tienen la informaci\xF3n necesaria,\n pero desaparecer\xE1n una
     vez que las encuentres.\n Recuerda bien lo que encontraste porque lo necesitar\xE1s
-    \npara contestar de manera correcta"
+    \npara contestar de manera correcta."
   - "Una vez que las hayas encontrado las notas, \n\xA1regresa con el capataz \ny
     prep\xE1rate para contestar!"
   velParrafo: 0.02

@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo con extraños
+ Objetivo: Dialogo con extraï¿½os
  Autor: Roberto Valdez Jasso
  */
 
@@ -89,7 +89,7 @@ public class Platica2 : MonoBehaviour
         else
         {
             textD.text = "Jacob\n" +
-                "Disculpen";
+                "Disculpen.";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

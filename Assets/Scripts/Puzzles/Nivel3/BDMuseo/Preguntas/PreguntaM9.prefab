@@ -43,13 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9b3b390a787d5c47a1b90dc10ecdf2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: "\xBFQu\xE9 dice la Primera Ley de esencial de los movimientos de lo?s planetas"
+  texto: "\xBFQu\xE9 dice la Primera Ley de esencial de los movimientos de los planetas?"
   opciones:
   - texto: "a) El radio vector que une un planeta y el Sol recorre \xE1reas iguales
-      en tiempos iguales."
+      en tiempos iguales"
     opcionCorrecta: 0
   - texto: "b) El cuadrado de su per\xEDodo orbital es directamente proporcional
-      al cubo de la longitud del semieje mayor de su \xF3rbita el\xEDptica."
+      al cubo de la longitud del semieje mayor de su \xF3rbita el\xEDptica"
     opcionCorrecta: 0
   - texto: "c) Todos los planetas se desplazan alrededor del Sol describiendo \xF3rbitas
       el\xEDpticas"

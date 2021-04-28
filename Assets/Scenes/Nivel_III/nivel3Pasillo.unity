@@ -5116,8 +5116,8 @@ MonoBehaviour:
   textD: {fileID: 478183615}
   parrafos:
   - "Jacob:\r\nA\xFAn no puedo creer que existan ciudades de tal tama\xF1o, me pregunto
-    c\xF3mo pasamos de los edificios de mi era a los grandes \u201CRascasielos\u201D"
-  - es simplemente impresionante ver estos gigantes sostenerse en es este mundo de
+    c\xF3mo pasamos de los edificios de mi era a los grandes \u201CRascasielos\u201D."
+  - Es simplemente impresionante ver estos gigantes sostenerse en es este mundo de
     Metal y cristal.
   - "Amelie:\r\n\xBFViajero, todo bien por all\xE1?\r"
   - "Jacob:\nS\xED, todo bien, ya voy para all\xE1.\r\n"
@@ -11126,7 +11126,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Si
+  m_Text: "S\xED"
 --- !u!222 &1318381616
 CanvasRenderer:
   m_ObjectHideFlags: 0

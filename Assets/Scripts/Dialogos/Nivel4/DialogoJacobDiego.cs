@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 /*
  Objetivo: Dialogo de Jacob con Diego Ruiz
- Autor: Diego Alejandro Juárez Ruiz
+ Autor: Diego Alejandro Juï¿½rez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
  Youtube: https://youtu.be/FjoL4ufZmXc
@@ -91,7 +91,7 @@ public class DialogoJacobDiego : MonoBehaviour
         else
         {
             textD.text = "Diego:\n" +
-                "Pues mira, aquí tengo el núcleo. Pero necesitamos colocarlo en su contenedor. Tu tarea es controlar el núcleo a control remoto y hacer que llegue hasta su lugar. Pero cuidado, cuando inicie el sistema estarás contra reloj. ¡Necesitaras ser veloz!";
+                "Pues mira, aquÃ­ tengo el nÃºcleo. Pero necesitamos colocarlo en su contenedor. Tu tarea es controlar el nÃºcleo a control remoto y hacer que llegue hasta su lugar. Pero cuidado, cuando inicie el sistema estarÃ¡s contra reloj. Â¡NecesitarÃ¡s ser veloz!";
             botonQuitar.SetActive(true);
 
         }

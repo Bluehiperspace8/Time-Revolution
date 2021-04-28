@@ -51,5 +51,5 @@ MonoBehaviour:
     opcionCorrecta: 0
   - texto: c) 16 GB
     opcionCorrecta: 0
-  - texto: d) 8.5 GB*
+  - texto: d) 8.5 GB
     opcionCorrecta: 1

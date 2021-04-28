@@ -45,12 +45,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   texto: "\xBFQu\xE9 es la criogenizaci\xF3n?"
   opciones:
-  - texto: "a) Es la preservaci\xF3n de seres vivos a bajas temperaturas"
+  - texto: "a) Preservaci\xF3n de seres vivos a bajas temperaturas"
     opcionCorrecta: 1
-  - texto: "b) Es la preservaci\xF3n de los seres vivos y no vivos en temperaturas
+  - texto: "b) Es la preservaci\xF3n de los seres vivos e inertes en temperaturas
       no tan altas"
     opcionCorrecta: 0
-  - texto: "c) Es el cuidado medico de los seres vivos con equipos de refrigeraci\xF3n"
+  - texto: "c) Es el cuidado m\xE9dico de los seres vivos con refrigeraci\xF3n"
     opcionCorrecta: 0
-  - texto: "d) Es  el manejo de la materia no viva para su utilidad m\xE1s adelante."
+  - texto: "d) Manejo de la materia no viva para su utilidad m\xE1s adelante"
     opcionCorrecta: 0

@@ -11788,7 +11788,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 23455584}
   parrafos:
-  - "Jacob:\nTantas historias y entrevistas que he anotado en esta libreta, que recuerdos\u2026"
+  - "Jacob:\nTantas historias y entrevistas que he anotado en esta libreta, qu\xE9
+    recuerdos\u2026"
   velParrafo: 0.02
   botonContinuar: {fileID: 1807470030}
   botonQuitar: {fileID: 85849123}
@@ -12609,9 +12610,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 1321965607}
   parrafos:
-  - "Jacob:\nAlg\xFAn d\xEDa de estos tendr\xE9 que acomodar todo este desorden"
-  - "\xBFD\xF3nde est\xE1 mi\u2026? Oh ah\xED esta"
-  - No quiero que vuelva a pasar lo de la otra vez
+  - "Jacob:\nAlg\xFAn d\xEDa de estos tendr\xE9 que acomodar todo este desorden."
+  - "\xBFD\xF3nde est\xE1 mi\u2026? Oh ah\xED est\xE1."
+  - No quiero que vuelva a pasar lo de la otra vez.
   velParrafo: 0.02
   botonContinuar: {fileID: 913027903}
   botonQuitar: {fileID: 805734879}
@@ -14503,7 +14504,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Si
+  m_Text: "S\xED"
 --- !u!222 &1963814564
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -5291,7 +5291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 845104012}
   parrafos:
-  - "Cindy:\r\nEl sabr\xE1 que la universidad tiene su nombre inscrito a su honor\r.\n"
+  - "Cindy:\r\n\xC9l sabr\xE1 que la universidad tiene su nombre inscrito a su honor\r.\n"
   - "Diego:\r\nTu no dijiste nada, \xBFverdad Amelie?\r"
   - 'Amelie:
 

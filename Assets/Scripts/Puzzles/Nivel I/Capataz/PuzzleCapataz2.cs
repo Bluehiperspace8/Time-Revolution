@@ -89,7 +89,7 @@ public class PuzzleCapataz2 : MonoBehaviour
         else
         {
             textD.text = "Jacob:\n"+
-                    "Sí, de nada Bye!!!!!";
+                    "Sí, de nada.\n" + "¡¡¡¡¡Bye!!!!!";
             botonQuitar.SetActive(true);
 
         }

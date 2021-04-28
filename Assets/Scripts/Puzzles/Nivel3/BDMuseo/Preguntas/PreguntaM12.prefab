@@ -49,7 +49,7 @@ MonoBehaviour:
     opcionCorrecta: 0
   - texto: b) a^a-c^b =c^a
     opcionCorrecta: 0
-  - texto: c) a^2+b^2=c^2*
+  - texto: c) a^2+b^2=c^2
     opcionCorrecta: 1
   - texto: d) a^a+b^2=c^2
     opcionCorrecta: 0

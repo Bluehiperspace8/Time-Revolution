@@ -5803,7 +5803,7 @@ MonoBehaviour:
     una que otra cosita.  Lo que te doy, m\xE1s la informaci\xF3n que te dio N del
     museo, creo que estar\xE1s m\xE1s que preparado para cualquier cosa. Y bueno,
     tambi\xE9n porque en tu tiempo no hay HyperInternet para que puedas investigar
-    m\xE1s sabes\r\n"
+    m\xE1s, \xBFsabes?\r\n"
   - "Jacob: \r\nSolo por curiosidad, \xBFcu\xE1nta informaci\xF3n tiene esta tableta?\r\n"
   - 'Amelie:
 
@@ -6664,7 +6664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu
+  m_Text: "Men\xFA"
 --- !u!222 &1363709364
 CanvasRenderer:
   m_ObjectHideFlags: 0

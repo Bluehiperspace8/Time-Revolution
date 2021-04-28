@@ -4929,7 +4929,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Si
+  m_Text: "S\xED"
 --- !u!222 &406223427
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10783,7 +10783,7 @@ MonoBehaviour:
   parrafos:
   - "**Piensas:\r\nQu\xE9 bella est\xE1 la ciudad el d\xEDa de hoy."
   - "\nSin duda alguna aqu\xED es donde se puede ver toda la ciudad sin \nproblema
-    alguno**"
+    alguno.**"
   velParrafo: 0.02
   botonContinuar: {fileID: 155206138}
   botonQuitar: {fileID: 1386817193}
@@ -19046,8 +19046,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 507586626}
   parrafos:
-  - "**Piensas:\r\nHay mucha gente, llegare tarde a la entrevista si intento pasar\r
-    por aqu\xED**"
+  - "**Piensas:\r\nHay mucha gente, llegar\xE9 tarde a la entrevista si intento pasar\r
+    por aqu\xED.**"
   velParrafo: 0.02
   botonContinuar: {fileID: 1241139619}
   botonQuitar: {fileID: 1715573962}
@@ -19755,7 +19755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 507586626}
   parrafos:
-  - "\n**Escuchas muchas personas al mismo tiempo. No sabes que est\xE1n diciendo
+  - "\n**Escuchas muchas personas al mismo tiempo. No sabes qu\xE9 est\xE1n diciendo
     entre todos.**"
   velParrafo: 0.02
   botonContinuar: {fileID: 1753595549}
@@ -19959,12 +19959,12 @@ MonoBehaviour:
   textD: {fileID: 507586626}
   parrafos:
   - "Liz:\r\nS\xED, la otra vez mi esposo vio una bestia de vapor que se mov\xEDa
-    a gran velocidad con carb\xF3n \r"
+    a gran velocidad con carb\xF3n."
   - "Asuna:\r\nOh, \xA1\xA1\xA1eso se escucha incre\xEDble!!!\r\n\xBFC\xF3mo es esta
     bestia de vapor?\r"
-  - "Liz:\r\nNo lo s\xE9, intent\xF3 dibujarla cuando llego a casa, pero su imaginaci\xF3n
+  - "Liz:\r\nNo lo s\xE9, intent\xF3 dibujarla cuando lleg\xF3 a casa, pero su imaginaci\xF3n
     no dio para m\xE1s, aunque dijo que es del tama\xF1o de dos casas y media o \nde
-    toda una f\xE1brica \r"
+    toda una f\xE1brica. \r"
   velParrafo: 0.02
   botonContinuar: {fileID: 1138238910}
   botonQuitar: {fileID: 1275852353}

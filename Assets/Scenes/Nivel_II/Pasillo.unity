@@ -6263,69 +6263,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textD: {fileID: 152348464}
   parrafos:
-  - "Amelie:\nMartin cuantas veces tengo que decirte que los eletro-magnetos de esta
-    puerta est\xE1n despolarizados y \u2026\r"
-  - "Justo Amelie nota que a la nueva persona (Jacob) y le pregunta nuevamente le
-    pregunta a Martin\r"
-  - "Amelie:\nAdivino se meti\xF3 otro vagabundo por el portal verdad?\r"
-  - "Jacob:\nQue no soy un vagabundo!!!!!\r"
+  - "Amelie:\nMartin, \xBFcu\xE1ntas veces tengo que decirte que los eletro-magnetos
+    de esta puerta est\xE1n despolarizados y\u2026?\r"
+  - Justo Amelie nota que a la nueva persona (Jacob) y le pregunta nuevamente le
+    pregunta a Martin.
+  - "Amelie:\nAdivino se meti\xF3 otro vagabundo por el portal, \xBFverdad?\r"
+  - "Jacob:\n\xA1\xA1\xA1\xA1\xA1Que no soy un vagabundo!!!!!\r"
   - "Martin:\r\nOk tengo algo que explicarte algo\u2026\r"
-  - "Martin le explica lo que sucedi\xF3 en el laboratorio"
+  - "Martin le explica lo que sucedi\xF3 en el laboratorio..."
   - "Amelie:\nNo puede ser, esto en efecto es un acontecimiento hist\xF3rico\r\nacabas
-    de crear los viajes en el tiempo\r"
-  - "Martin\r:\nBueno no del todo, sabes bien que la Formula de Newton II y Querison
-    \r\n"
-  - "Jacob\r:\nPodemos concentrarnos en lo en que ando en tiempo equivocado\r"
+    de crear los viajes en el tiempo\r."
+  - "Martin\r:\nBueno no del todo, sabes bien que la F\xF3rmula de Newton II y Querison...\r\n"
+  - "Jacob\r:\n\xBFPodemos concentrarnos en que esoy en un tiempo equivocado?\r"
   - "Martin:\nCierto,tenemos que hablar con Diego y con Cindy para poder\nrecrear
     el evento y poder regresarlo a su tiempo original\r\nO podemos ver la otra teor\xEDa.\r...\n"
-  - "Amelie\r:\nNO!!!\r\nNi siquiera vamos a intentarlo\r\n"
-  - "Jacob:\r\nCual otra teor\xEDa?\r"
+  - "Amelie\r:\n\xA1\xA1\xA1NO!!!\r\nNi siquiera vamos a intentarlo\r.\n"
+  - "Jacob:\r\n\xBFCu\xE1l otra teor\xEDa?\r"
   - "Amelie:\r\nDigamos que tiene que ver contigo, polvo y una inc\xF3moda explosi\xF3n
     espacio tiempo en cada c\xE9lula de tu cuerpo.\r\n"
-  - "Jacob:\r\nSi\u2026\u2026\u2026no quiero tampoco ver si esa teor\xEDa es cierta\r\n"
-  - "Amelie:\r\nMe lo imaginaba\r\nMartin ve a buscar a los dem\xE1s y yo me quedo
-    con....c\xF3mo te llamas?\r\n"
+  - "Jacob:\r\nS\xED\u2026\u2026\u2026no quiero tampoco ver si esa teor\xEDa es cierta\r.\n"
+  - "Amelie:\r\nMe lo imaginaba\r.\nMartin ve a buscar a los dem\xE1s y yo me quedo
+    con....\xBFc\xF3mo te llamas?\r\n"
   - 'Jacob:
 
-    Jacob, Jacob Smith, un gusto
+    Jacob, Jacob Smith, un gusto.
 
 '
-  - 'Martin
-
-    Y apenas me dices tu nombre?!?
-
-    No crees que tuviste que decirme
-    eso primero
-
-'
-  - Ambos lo ignoran y Amelie procede a presentarse
+  - "Martin\n\xBF\xBFY apenas me dices tu nombre?!?\nNo crees que tuviste que decirme
+    eso primero.\n"
+  - Ambos lo ignoran y Amelie procede a presentarse.
   - "Amelie:\nYo soy Amelie Leohart, y soy Investigadora gal\xE1ctica general, igualmente
-    un gusto conocerte  viajero."
-  - "Martin:\r\nMe est\xE1n ignorado verdad?\r\n"
-  - "Amelie\r:\nTu no tienes al mas que hacer para ayudar a nuestro compa\xF1ero.\r\n"
-  - "Martin:\r\nY ustedes a donde van a ir? \r\nNo me digas que los va a llevar de
-    compras o algo parecido o\r...\n"
-  - "R\xE1pidamente Amelie interrumpe"
-  - "Amelie:\r\nTu solo haz lo que tienes que hacer si quieres el cr\xE9dito completo
+    un gusto conocerte, viajero."
+  - "Martin:\r\nMe est\xE1n ignorado,v\xBFerdad?\r\n"
+  - "Amelie\r:\nT\xFA no tienes m\xE1s que hacer para ayudar a nuestro compa\xF1ero.\r\n"
+  - "Martin:\r\n\xBFY ustedes a d\xF3nde van a ir? \r\nNo me digas que los va a llevar
+    de compras o algo parecido o\r...\n"
+  - "R\xE1pidamente Amelie interrumpe."
+  - "Amelie:\r\nT\xFA solo haz lo que tienes que hacer si quieres el cr\xE9dito completo
     en el art\xEDculo.\r\n"
   - "Martin:\r\nOk, ir\xE9 a buscar a los dem\xE1s\u2026\r\n"
-  - "Amelie\r:\nBueno ya que se fue el ni\xF1o, estas listo para aprender algo antes
-    de regresar a tu tiempo\r\n"
-  - 'Jacob:
-
-    A donde piensas llevarme?
-
-'
+  - "Amelie\r:\nBueno ya que se fue el ni\xF1o, \xBFest\xE1s listo para aprender
+    algo antes de regresar a tu tiempo\r?\n"
+  - "Jacob:\n\xBFA d\xF3nde piensas llevarme?\n"
   - "Amelie:\r\nAl futuro y al pasado\r\nNo ser\xE1 otro viaje en el tiempo, bueno
     al menos no ser\xE1 con una maquina esta vez."
   - "Iremos al museo gal\xE1ctico de la universidad, \ns\xE9 que habr\xE1 unas cosas
     una que otra cosa que puede llamarte la atenci\xF3n\nYo te estar\xE9 esperando
     en el Hiper elevador cuando est\xE9s listo"
-  - 'Jacob:
-
-    Que es un hiper elevador?
-
-'
+  - "Jacob:\n\xBFQu\xE9 es un hiper elevador?\n"
   velParrafo: 0.02
   botonContinuar: {fileID: 552016224}
   botonQuitar: {fileID: 1911346447}
@@ -15391,7 +15376,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Menu
+  m_Text: "Men\xFA"
 --- !u!222 &1536083969
 CanvasRenderer:
   m_ObjectHideFlags: 0

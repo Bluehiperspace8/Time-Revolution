@@ -139,7 +139,7 @@ public class DialogoPuzzle2 : MonoBehaviour
         }
         else
         {
-            textD.text = "Buen viaje y bien jugado!!!!";
+            textD.text = "¡¡¡Buen viaje y bien jugado!!!!";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

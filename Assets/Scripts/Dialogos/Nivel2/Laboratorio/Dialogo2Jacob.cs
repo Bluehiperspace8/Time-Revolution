@@ -90,7 +90,7 @@ public class Dialogo2Jacob : MonoBehaviour
         else
         {
             textD.text = "*Piensas:\n" +
-                "Donde esta esa persona?";
+                "¿Dónde esta esa persona?";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

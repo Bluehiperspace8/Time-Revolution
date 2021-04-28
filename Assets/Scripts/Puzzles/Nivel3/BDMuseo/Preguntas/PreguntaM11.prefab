@@ -51,5 +51,5 @@ MonoBehaviour:
     opcionCorrecta: 0
   - texto: "c) Teor\xEDa de pesos y medidas"
     opcionCorrecta: 1
-  - texto: "d) Avances revolucionarios en las m\xE1quinas de vapor."
+  - texto: "d) Avances revolucionarios en las m\xE1quinas de vapor"
     opcionCorrecta: 0

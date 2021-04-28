@@ -5,7 +5,7 @@ using TMPro;
 
 /*
  Objetivo: Dialogo de Jacob con Diego Ruiz
- Autor: Diego Alejandro Juárez Ruiz
+ Autor: Diego Alejandro Juï¿½rez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
  Youtube: https://youtu.be/FjoL4ufZmXc
@@ -90,7 +90,7 @@ public class DialogoDiegoJacob2 : MonoBehaviour
         else
         {
             textD.text = "Diego:\n" +
-                "¡En verdad sí! Esa era la última parte del teletransportador. Ya estás listo para regresar Jacob";
+                "Â¡En verdad sÃ­! Esa era la Ãºltima parte del teletransportador. Ya estÃ¡s listo para regresar Jacob";
             botonQuitar.SetActive(true);
 
         }

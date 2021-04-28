@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42dcf7053ffe98f40b8d002f526782cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: Cuantos bytes son un Kilobyte
+  texto: "\xBFCu\xE1ntos bytes son un Kilobyte?"
   opciones:
   - texto: ' A) 1024 b'
     opcionCorrecta: 0

@@ -140,7 +140,7 @@ public class TransicionFinalPasillo : MonoBehaviour
         else
         {
             textD.text = "Jacob:\n" +
-                    "Estoy Listo";
+                    "Estoy listo.";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
 

@@ -106,7 +106,7 @@ public class GameManager1 : MonoBehaviour
     {
 
         PanelDialogo.SetActive(true);
-        textD.text = "Listo para contestar las preguntas:";
+        textD.text = "¿Listo para contestar las preguntas?";
 
         botonSi.SetActive(true);
         botonNo.SetActive(true);

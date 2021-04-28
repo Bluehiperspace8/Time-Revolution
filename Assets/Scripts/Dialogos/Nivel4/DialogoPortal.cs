@@ -7,8 +7,8 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 
 /*
- Objetivo: Dialogo de Jacob antes de entrar al portal. También maneja su entrada al portal
- Autor: Diego Alejandro Juárez Ruiz
+ Objetivo: Dialogo de Jacob antes de entrar al portal. Tambiï¿½n maneja su entrada al portal
+ Autor: Diego Alejandro Juï¿½rez Ruiz
  Autor: Luis Enrique Zamarripa
  Referencia a: Drosgame
  Youtube: https://youtu.be/FjoL4ufZmXc
@@ -140,7 +140,7 @@ public class DialogoPortal : MonoBehaviour
         }
         else
         {
-            textD.text = "\nEs hora de revolucionar mi tiempo";
+            textD.text = "\nEs hora de revolucionar mi tiempo.";
             botonContinuar.SetActive(false);
             botonQuitar.SetActive(true);
             Prota.SetActive(false);

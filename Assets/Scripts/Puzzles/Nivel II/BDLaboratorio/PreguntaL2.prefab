@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42dcf7053ffe98f40b8d002f526782cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  texto: Cuantos Gigabytes son tres Terabytes
+  texto: "\xBFCu\xE1ntos Gigabytes son tres Terabytes?"
   opciones:
   - texto: A) 3650 GB
     opcionCorrecta: 0
