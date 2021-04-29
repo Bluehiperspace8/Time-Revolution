@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 /*
- Objetivo: Dialogo al ver la gran pantalla de cristal en el futuro
- Autor: Roberto Valdez Jasso
+ * Objetivo: Dialogo al ver la gran pantalla de cristal en el futuro
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 public class Platica1Pasillo : MonoBehaviour
 {
@@ -108,6 +112,12 @@ public class Platica1Pasillo : MonoBehaviour
             BotonLeer.SetActive(false);
 
         }
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        BotonLeer.SetActive(false);
+        PisoPrueba.estaenpiso = true;
     }
 
     public void activarBotonLeer()

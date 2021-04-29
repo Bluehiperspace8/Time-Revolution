@@ -6,8 +6,12 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /*
- Objetivo: Pasar a la transicion de pasillo al museo del Nivel III del Prota
- Autor: Roberto Valdez Jasso
+ * Objetivo: Pasar a la transicion de pasillo al museo del Nivel III del Prota
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class Transicion1Pasillo : MonoBehaviour
@@ -126,6 +130,11 @@ public class Transicion1Pasillo : MonoBehaviour
     {
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
+    }
 
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        BotonLeer.SetActive(false);
+        PisoPrueba.estaenpiso = true;
     }
 }

@@ -4,12 +4,11 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo de Jacob con Cindy 2
- Autor: Diego Alejandro Ju�rez Ruiz
- Autor: Luis Enrique Zamarripa
- Referencia a: Drosgame
- Youtube: https://youtu.be/FjoL4ufZmXc
-
+ * Objetivo: Dialogo de Jacob con Cindy 2
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class DialogoJacobCindy2 : MonoBehaviour
@@ -113,9 +112,12 @@ public class DialogoJacobCindy2 : MonoBehaviour
         }
     }
 
+
+
     public void OnTriggerExit2D(Collider2D collsion)
     {
         BotonLeer.SetActive(false);
+        PisoPrueba.estaenpiso = true;
     }
 
     public void activarBotonLeer()

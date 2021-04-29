@@ -4,12 +4,11 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo de Jacob con Diego Ruiz
- Autor: Diego Alejandro Ju�rez Ruiz
- Autor: Luis Enrique Zamarripa
- Referencia a: Drosgame
- Youtube: https://youtu.be/FjoL4ufZmXc
-
+ * Objetivo: Dialogo de Jacob con Diego Ruiz
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class DialogoAmelieJacob2 : MonoBehaviour
@@ -40,6 +39,8 @@ public class DialogoAmelieJacob2 : MonoBehaviour
     public GameObject PanelDialogo;
     // Boton Lectura
     public GameObject BotonLeer;
+    // Boton Saltar
+    public GameObject botonSaltar;
     // Referencia al auido Source
     public AudioSource EfectoSonido;
 
@@ -59,6 +60,7 @@ public class DialogoAmelieJacob2 : MonoBehaviour
         // Si utilizamos el objecto pasamos al if
         if (textD.text == parrafos[index])
         {
+            botonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -80,6 +82,7 @@ public class DialogoAmelieJacob2 : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        botonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
@@ -115,6 +118,7 @@ public class DialogoAmelieJacob2 : MonoBehaviour
     public void OnTriggerExit2D(Collider2D collsion)
     {
         BotonLeer.SetActive(false);
+        PisoPrueba.estaenpiso = true;
     }
 
     public void activarBotonLeer()
@@ -131,5 +135,12 @@ public class DialogoAmelieJacob2 : MonoBehaviour
         botonQuitar.SetActive(false);
         textD.text = "";
         Destroy(gameObject, t: 0.1f);
+    }
+
+    public void BotonSaltar()
+    {
+        botonContinuar.SetActive(false);
+        botonSaltar.SetActive(false);
+        botonCerrar();
     }
 }

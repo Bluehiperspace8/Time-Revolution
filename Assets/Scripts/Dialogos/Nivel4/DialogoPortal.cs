@@ -7,11 +7,11 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 
 /*
- Objetivo: Dialogo de Jacob antes de entrar al portal. Tambi�n maneja su entrada al portal
- Autor: Diego Alejandro Ju�rez Ruiz
- Autor: Luis Enrique Zamarripa
- Referencia a: Drosgame
- Youtube: https://youtu.be/FjoL4ufZmXc
+ * Objetivo: Dialogo de Jacob antes de entrar al portal. Tambi�n maneja su entrada al portal
+ * Autor: Diego Alejandro Ju�rez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class DialogoPortal : MonoBehaviour
@@ -165,6 +165,7 @@ public class DialogoPortal : MonoBehaviour
     public void OnTriggerExit2D(Collider2D collsion)
     {
         BotonLeer.SetActive(false);
+        PisoPrueba.estaenpiso = true;
     }
 
     public void activarBotonLeer()
