@@ -4,9 +4,14 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 /*
-CLase Game Manager para control de Puzzle
-Autor: Roberto Valdez Jasso
-*/
+ * Clase Game Manager para control de Puzzle
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Unity ClassRoom
+ * Youtube: https://www.youtube.com/watch?v=eKzKntYG7Pc
+ * Youtube: https://www.youtube.com/watch?v=5dkKm-6jtdo
+ */
 
 public class GameManager1 : MonoBehaviour
 {
@@ -101,6 +106,16 @@ public class GameManager1 : MonoBehaviour
 
         }
     }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
+    }
+
     //Activaar la pregunta
     public void activarBotonLeer()
     {
@@ -150,7 +165,8 @@ public class GameManager1 : MonoBehaviour
     {
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
-
+        botonNo.SetActive(false);
+        botonSi.SetActive(false);
     }
 
 

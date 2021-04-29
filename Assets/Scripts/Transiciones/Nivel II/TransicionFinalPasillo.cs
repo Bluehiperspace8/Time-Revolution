@@ -7,8 +7,12 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 
 /*
-Ultima platica de Amelie en el pasillo Nivel II
- Autor: Roberto Valdez Jasso
+ * Ultima platica de Amelie en el pasillo Nivel II
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 
@@ -159,6 +163,15 @@ public class TransicionFinalPasillo : MonoBehaviour
         {
             BotonLeer.SetActive(false);
 
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
         }
     }
 

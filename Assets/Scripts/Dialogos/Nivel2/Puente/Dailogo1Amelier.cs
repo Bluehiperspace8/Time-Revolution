@@ -4,9 +4,13 @@ using UnityEngine;
 using TMPro;
 
 /*
-Objetivo: el diálogo con Jacob  los demas en el Pasillo
-Autor: Renata de la Luna
-*/
+ * Objetivo: el diálogo con Jacob  los demas en el Pasillo
+ * Autor: Renata de la Luna
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
+ */
 
 public class Dailogo1Amelier : MonoBehaviour
 {
@@ -38,6 +42,9 @@ public class Dailogo1Amelier : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    // Boton Saltar
+    public GameObject botonSaltar;
+
     // Referencia al auido Source
     public AudioSource EfectoSonido;
 
@@ -66,6 +73,7 @@ public class Dailogo1Amelier : MonoBehaviour
 
         if (textD.text == parrafos[index])
         {
+            botonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -87,6 +95,7 @@ public class Dailogo1Amelier : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        botonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
@@ -122,6 +131,7 @@ public class Dailogo1Amelier : MonoBehaviour
     public void OnTriggerExit2D(Collider2D collsion)
     {
         BotonLeer.SetActive(false);
+        PisoPrueba.estaenpiso = true;
     }
 
     public void activarBotonLeer()
@@ -142,6 +152,12 @@ public class Dailogo1Amelier : MonoBehaviour
         Amelie2.SetActive(true);
         textD.text = "";
         Destroy(gameObject, t: 0.1f);
+    }
 
+    public void BotonSaltar()
+    {
+        botonCerrar();
+        botonContinuar.SetActive(false);
+        botonSaltar.SetActive(false);
     }
 }

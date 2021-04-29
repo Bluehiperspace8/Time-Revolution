@@ -7,8 +7,12 @@ using UnityEngine.UI;
 using UnityEngine.Networking;
 
 /*
-Segunda platica del IANoviler con Jacob para dar termino del nivel y seguir al Nivel IV
- Autor: Roberto Valdez Jasso
+ * Segunda platica del IA Noviler con Jacob para dar termino del nivel y seguir al Nivel IV
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 
@@ -40,6 +44,8 @@ public class DialogoPuzzle2 : MonoBehaviour
     public GameObject PanelDialogo;
     // Boton Lectura
     public GameObject BotonLeer;
+    // Boton Saltar
+    public GameObject botonSaltar;
 
 
 
@@ -109,6 +115,7 @@ public class DialogoPuzzle2 : MonoBehaviour
 
         if (textD.text == parrafos[index])
         {
+            botonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -130,6 +137,7 @@ public class DialogoPuzzle2 : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        botonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
@@ -161,6 +169,15 @@ public class DialogoPuzzle2 : MonoBehaviour
         }
     }
 
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
+    }
+
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
@@ -178,6 +195,13 @@ public class DialogoPuzzle2 : MonoBehaviour
         PanelMisionCumplida.SetActive(true);
         BotonNivel.SetActive(true);
         BotonMenu.SetActive(true);
+    }
+
+    public void BotonSaltar()
+    {
+        botonContinuar.SetActive(false);
+        botonSaltar.SetActive(false);
+        botonCerrar();
     }
 
     // Botones de transiciones

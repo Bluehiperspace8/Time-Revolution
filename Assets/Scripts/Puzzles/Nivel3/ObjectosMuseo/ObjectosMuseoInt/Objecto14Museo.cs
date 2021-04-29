@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
 /*
- Objetivo: Dialogo de Jacob al encontrar el 14/14 objectos en el museo
- Autor: Roberto Valdez Jasso
+ * Objetivo: Dialogo de Jacob al encontrar el 14/14 objectos en el museo
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class Objecto14Museo : MonoBehaviour
@@ -105,6 +110,15 @@ public class Objecto14Museo : MonoBehaviour
         {
             BotonLeer.SetActive(false);
 
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
         }
     }
 
