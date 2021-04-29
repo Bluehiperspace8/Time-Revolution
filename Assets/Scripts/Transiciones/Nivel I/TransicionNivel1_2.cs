@@ -7,9 +7,14 @@ using UnityEngine.UI;
 
 
 /*
- Objetivo: Pasar a la transicion del Nivel I y fabrica  del Prota
- Autor: Roberto Valdez Jasso
+ * Objetivo: Pasar a la transicion del Nivel I y fabrica  del Prota
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
+
 public class TransicionNivel1_2 : MonoBehaviour
 {
     // Variables ---//
@@ -126,6 +131,14 @@ public class TransicionNivel1_2 : MonoBehaviour
     {
         PanelDialogo.SetActive(false);
         BotonLeer.SetActive(false);
+    }
 
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
     }
 }

@@ -4,8 +4,12 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo de Jacob Con los obreros
- Autor: Roberto Valdez Jasso
+ * Objetivo: Dialogo de Jacob Con los obreros
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class PlaticaFabrica1 : MonoBehaviour
@@ -36,6 +40,8 @@ public class PlaticaFabrica1 : MonoBehaviour
     public GameObject PanelDialogo;
     // Boton Lectura
     public GameObject BotonLeer;
+    // Boton Saltar
+    public GameObject botonSaltar;
 
     // Referencia al auido Source
     public AudioSource EfectoSonido;
@@ -58,6 +64,7 @@ public class PlaticaFabrica1 : MonoBehaviour
 
         if (textD.text == parrafos[index])
         {
+            botonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -79,6 +86,7 @@ public class PlaticaFabrica1 : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        botonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
@@ -124,5 +132,21 @@ public class PlaticaFabrica1 : MonoBehaviour
         textD.text = "";
         Destroy(gameObject, t: 0.1f);
 
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
+    }
+
+    public void BotonSaltar()
+    {
+        botonCerrar();
+        botonContinuar.SetActive(false);
+        botonSaltar.SetActive(false);
     }
 }

@@ -4,9 +4,14 @@ using UnityEngine;
 using TMPro;
 
 /*
- Primera platica del capataz con Jacob
-    Autor: Roberto Valdez Jasso
+ * Primera platica del capataz con Jacob
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
+
 public class PuzzleCapataz1 : MonoBehaviour
 {
     // Variables ---//
@@ -35,6 +40,8 @@ public class PuzzleCapataz1 : MonoBehaviour
     public GameObject PanelDialogo;
     // Boton Lectura
     public GameObject BotonLeer;
+    // Boton Saltar
+    public GameObject botonSaltar;
 
     // Referencia al auido Source
     public AudioSource EfectoSonido;
@@ -57,6 +64,7 @@ public class PuzzleCapataz1 : MonoBehaviour
 
         if (textD.text == parrafos[index])
         {
+            botonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -78,6 +86,7 @@ public class PuzzleCapataz1 : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        botonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
@@ -122,6 +131,21 @@ public class PuzzleCapataz1 : MonoBehaviour
         botonQuitar.SetActive(false);
         textD.text = "";
         Destroy(gameObject, t: 0.1f);
+    }
 
+    public void BotonSaltar()
+    {
+        botonCerrar();
+        botonContinuar.SetActive(false);
+        botonSaltar.SetActive(false);
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
     }
 }

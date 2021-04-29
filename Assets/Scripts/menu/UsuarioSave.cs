@@ -69,4 +69,10 @@ public class UsuarioSave : MonoBehaviour
             print("o.O");
         }
     }
+    public void AgregarJugador()
+    {
+        Application.OpenURL("http://localhost:8080/estudiante/agregarJugador");
+    }
+
+
 }

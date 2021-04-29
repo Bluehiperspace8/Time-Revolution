@@ -76,6 +76,16 @@ public class TransicionNivel1_1 : MonoBehaviour
 
         }
     }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+
+        }
+    }
     //Activaar la pregunta
     public void activarBotonLeer()
     {

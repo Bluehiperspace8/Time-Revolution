@@ -4,8 +4,12 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Mensaje de estante para presentar al Prota
- Autor: Roberto Valdez Jasso
+ * Objetivo: Mensaje de estante para presentar al Prota
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class EstanteMensaje : MonoBehaviour
@@ -15,7 +19,7 @@ public class EstanteMensaje : MonoBehaviour
     public TextMeshProUGUI textD;
 
     [TextArea(3, 30)]
-    // String para el Texto (Arreay de Parrafos)
+    // String para el Texto (Array de Parrafos)
     public string[] parrafos;
 
     // Index
@@ -28,6 +32,9 @@ public class EstanteMensaje : MonoBehaviour
     // Botones
     // Boton Continuar 
     public GameObject botonContinuar;
+
+    // Boton Saltar
+    //public GameObject BotonSaltar;
 
     // Boton Quitar
     public GameObject botonQuitar;
@@ -58,6 +65,7 @@ public class EstanteMensaje : MonoBehaviour
 
         if (textD.text == parrafos[index])
         {
+            //BotonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -79,6 +87,7 @@ public class EstanteMensaje : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        //BotonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
@@ -110,6 +119,15 @@ public class EstanteMensaje : MonoBehaviour
         }
     }
 
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
+    }
+
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
@@ -124,4 +142,11 @@ public class EstanteMensaje : MonoBehaviour
         Destroy(gameObject, t: 0.1f);
 
     }
+
+    /*public void botonSaltar()
+    {
+        botonCerrar();
+        botonContinuar.SetActive(false);
+        BotonSaltar.SetActive(false);
+    }*/
 }

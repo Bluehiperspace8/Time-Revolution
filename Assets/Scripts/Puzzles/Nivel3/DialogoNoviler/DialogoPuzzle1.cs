@@ -37,6 +37,8 @@ public class DialogoPuzzle1 : MonoBehaviour
     public GameObject PanelDialogo;
     // Boton Lectura
     public GameObject BotonLeer;
+    // Boton Saltar
+    public GameObject BotonSaltar;
 
     // Noviler1
     public GameObject Noviler1;
@@ -72,6 +74,7 @@ public class DialogoPuzzle1 : MonoBehaviour
         if (textD.text == parrafos[index])
         {
             botonContinuar.SetActive(true);
+            BotonSaltar.SetActive(true);
         }
     }
 
@@ -93,6 +96,7 @@ public class DialogoPuzzle1 : MonoBehaviour
     public void siguienteParrafo()
     {
         botonContinuar.SetActive(false);
+        BotonSaltar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
             index++;
@@ -121,7 +125,16 @@ public class DialogoPuzzle1 : MonoBehaviour
 
         }
     }
-
+    
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
+    }
+    
     public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
@@ -148,5 +161,12 @@ public class DialogoPuzzle1 : MonoBehaviour
 
         //Destruimos el objecto
         Destroy(gameObject, t: 0.1f);
+    }
+
+    public void botonSaltar()
+    {
+        botonCerrar();
+        botonContinuar.SetActive(false);
+        BotonSaltar.SetActive(false);
     }
 }

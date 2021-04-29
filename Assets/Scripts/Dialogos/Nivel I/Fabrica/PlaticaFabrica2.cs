@@ -4,8 +4,12 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Dialogo de Jacob Con los obreros 2
- Autor: Roberto Valdez Jasso
+ * Objetivo: Dialogo de Jacob Con los obreros 2
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class PlaticaFabrica2 : MonoBehaviour
@@ -124,6 +128,14 @@ public class PlaticaFabrica2 : MonoBehaviour
         botonQuitar.SetActive(false);
         textD.text = "";
         Destroy(gameObject, t: 0.1f);
+    }
 
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
     }
 }

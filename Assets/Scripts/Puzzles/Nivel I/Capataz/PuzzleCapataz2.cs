@@ -4,8 +4,12 @@ using UnityEngine;
 using TMPro;
 
 /*
- Segunda platica del capataz con Jacob
-    Autor: Roberto Valdez Jasso
+ * Segunda platica del capataz con Jacob
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class PuzzleCapataz2 : MonoBehaviour
@@ -126,4 +130,14 @@ public class PuzzleCapataz2 : MonoBehaviour
         Destroy(gameObject, t: 0.1f);
 
     }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+        }
+    }
+
 }

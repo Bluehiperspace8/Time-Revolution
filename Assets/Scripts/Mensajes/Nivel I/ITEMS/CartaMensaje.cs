@@ -4,8 +4,12 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Mensaje de la Carta para presentar al Prota
- Autor: Roberto Valdez Jasso
+ * Objetivo: Mensaje de la Carta para presentar al Prota
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class CartaMensaje : MonoBehaviour
@@ -29,6 +33,9 @@ public class CartaMensaje : MonoBehaviour
     // Botones
     // Boton Continuar 
     public GameObject botonContinuar;
+
+    // Boton Saltar
+    public GameObject botonSaltar;
 
     // Boton Quitar
     public GameObject botonQuitar;
@@ -59,6 +66,7 @@ public class CartaMensaje : MonoBehaviour
 
         if (textD.text == parrafos[index])
         {
+            botonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -80,6 +88,7 @@ public class CartaMensaje : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        botonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
@@ -111,7 +120,17 @@ public class CartaMensaje : MonoBehaviour
         }
     }
 
-    public void activarBotonLeer()
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
+
+        }
+    }
+
+        public void activarBotonLeer()
     {
         PanelDialogo.SetActive(true);
         StartCoroutine(TextDialogo());
@@ -124,5 +143,12 @@ public class CartaMensaje : MonoBehaviour
         BotonLeer.SetActive(false);
         Destroy(gameObject, t: 0.1f);
 
+    }
+
+    public void BotonSaltar()
+    {
+        botonCerrar();
+        botonContinuar.SetActive(false);
+        botonSaltar.SetActive(false);
     }
 }

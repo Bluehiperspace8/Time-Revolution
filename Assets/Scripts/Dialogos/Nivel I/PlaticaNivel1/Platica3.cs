@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 /*
- Objetivo: Dialogo con extra�os 2
- Autor: Roberto Valdez Jasso
+ * Objetivo: Dialogo con ciudadanos 2
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class Platica3 : MonoBehaviour
@@ -108,6 +112,15 @@ public class Platica3 : MonoBehaviour
         {
             BotonLeer.SetActive(false);
 
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
         }
     }
 

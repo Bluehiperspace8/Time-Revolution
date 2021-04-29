@@ -4,8 +4,12 @@ using UnityEngine;
 using TMPro;
 
 /*
- Objetivo: Mensaje de la libreta para presentar al Prota
- Autor: Roberto Valdez Jasso
+ * Objetivo: Mensaje de la libreta para presentar al Prota
+ * Autor: Roberto Valdez Jasso
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
  */
 
 public class LibretaMensaje : MonoBehaviour
@@ -108,6 +112,15 @@ public class LibretaMensaje : MonoBehaviour
         {
             BotonLeer.SetActive(false);
 
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D collsion)
+    {
+        if (collsion.CompareTag("Player"))
+        {
+            BotonLeer.SetActive(false);
+            PisoPrueba.estaenpiso = true;
         }
     }
 
