@@ -71,7 +71,7 @@ public class UsuarioSave : MonoBehaviour
     }
     public void AgregarJugador()
     {
-        Application.OpenURL("http://localhost:8080/estudiante/agregarJugador");
+        Application.OpenURL("http://3.133.137.226:8080/estudiante/agregarJugador");
     }
 
 

@@ -161,7 +161,7 @@ public class Dialogo1Martin : MonoBehaviour
         //Efecto fade out
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(true);
-        imagenFondo.CrossFadeAlpha(1, 11, true);
+        imagenFondo.CrossFadeAlpha(1, 3, true);
         //Desactivamos al primer Martin para que ya no esté en la escena
         martin1.SetActive(false);
         new WaitForSeconds(3);
@@ -177,10 +177,10 @@ public class Dialogo1Martin : MonoBehaviour
     public IEnumerator EfectoDadeIn()
     {
         //Efecto de fade in
-        yield return new WaitForSeconds(11);
+        yield return new WaitForSeconds(3);
         imagenFondo.canvasRenderer.SetAlpha(0);
         imagenFondo.gameObject.SetActive(false);
-        imagenFondo.CrossFadeAlpha(0, 15, true);
+        imagenFondo.CrossFadeAlpha(0, 6, true);
         Destroy(gameObject, t: 0.1f);
     }
 
