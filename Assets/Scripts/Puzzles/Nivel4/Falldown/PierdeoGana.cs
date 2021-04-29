@@ -55,7 +55,7 @@ public class PierdeoGana : MonoBehaviour
         //Encapsular los datos que se suben a la red con el metodo POST
         WWWForm forma = new WWWForm();
         forma.AddField("datosJSON", JsonUtility.ToJson(datosStat));
-        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/stats/agregarStats", forma);
+        UnityWebRequest request = UnityWebRequest.Post("http://3.133.137.226:8080/stats/agregarStats", forma);
         yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
         //... ya regreso porque ya termino SendWebRequest
         if (request.result == UnityWebRequest.Result.Success) //200

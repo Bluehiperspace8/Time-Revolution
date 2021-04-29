@@ -46,7 +46,7 @@ public class UsuarioSave : MonoBehaviour
         //Encapsular los datos que se suben a la red con el metodo POST
         WWWForm forma = new WWWForm();
         forma.AddField("datosJSON", JsonUtility.ToJson(datos));
-        UnityWebRequest request = UnityWebRequest.Post("http://localhost:8080/estudiante/verificarLogin", forma);
+        UnityWebRequest request = UnityWebRequest.Post("http://3.133.137.226:8080/estudiante/verificarLogin", forma);
         yield return request.SendWebRequest(); //Regresa, ejecuta, espera...
         //... ya regreso porque ya termino SendWebRequest
         if (request.result == UnityWebRequest.Result.Success) //200

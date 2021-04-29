@@ -563,7 +563,7 @@ MonoBehaviour:
   textD: {fileID: 300904213}
   parrafos:
   - "Me siento algo raro\u2026\r"
-  - "\xBFQu\xE9 me est\xE1 pasando\u2026\r?"
+  - "\xBFQu\xE9 me est\xE1 pasando?"
   - "\xBFPero qu\xE9 diabl\u2026.?"
   velParrafo: 0.02
   botonContinuar: {fileID: 1745362922}
