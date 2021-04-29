@@ -4,9 +4,13 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 /*
-Objetivo: Dialogo al ver la gran pantalla de cristal en el futuro
-Autor: Renata de la Luna
-*/
+ * Objetivo: Dialogo al ver la gran pantalla de cristal en el futuro
+ * Autor: Renata de la Luna
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
+ */
 
 public class Dialogo1Martin : MonoBehaviour
 {
@@ -38,6 +42,9 @@ public class Dialogo1Martin : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    // Boton Saltar
+    public GameObject botonSaltar;
+
     // Referencia al auido Source
     public AudioSource EfectoSonido;
 
@@ -68,6 +75,7 @@ public class Dialogo1Martin : MonoBehaviour
 
         if (textD.text == parrafos[index])
         {
+            botonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -89,6 +97,7 @@ public class Dialogo1Martin : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        botonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
 
         if (index < parrafos.Length - 1)
@@ -130,7 +139,7 @@ public class Dialogo1Martin : MonoBehaviour
         if (collsion.CompareTag("Player"))
         {
             BotonLeer.SetActive(false);
-
+            PisoPrueba.estaenpiso = true;
         }
     }
 
@@ -173,5 +182,12 @@ public class Dialogo1Martin : MonoBehaviour
         imagenFondo.gameObject.SetActive(false);
         imagenFondo.CrossFadeAlpha(0, 15, true);
         Destroy(gameObject, t: 0.1f);
+    }
+
+    public void BotonSaltar()
+    {
+        botonCerrar();
+        botonContinuar.SetActive(false);
+        botonSaltar.SetActive(false);
     }
 }

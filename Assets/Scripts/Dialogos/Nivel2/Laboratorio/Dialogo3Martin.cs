@@ -4,9 +4,13 @@ using UnityEngine;
 using TMPro;
 
 /*
-Objetivo: el diálogo con Jacob en el laboratorio
-Autor: Renata de la Luna
-*/
+ * Objetivo: el diálogo con Jacob en el laboratorio
+ * Autor: Renata de la Luna
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
+ */
 
 public class Dialogo3Martin : MonoBehaviour
 {
@@ -38,6 +42,9 @@ public class Dialogo3Martin : MonoBehaviour
     // Boton Lectura
     public GameObject BotonLeer;
 
+    // Boton Saltar
+    public GameObject botonSaltar;
+
     // Referencia al auido Source
     public AudioSource EfectoSonido;
 
@@ -67,6 +74,7 @@ public class Dialogo3Martin : MonoBehaviour
 
         if (textD.text == parrafos[index])
         {
+            botonSaltar.SetActive(true);
             botonContinuar.SetActive(true);
         }
     }
@@ -88,6 +96,7 @@ public class Dialogo3Martin : MonoBehaviour
     // Manejo de los controles
     public void siguienteParrafo()
     {
+        botonSaltar.SetActive(false);
         botonContinuar.SetActive(false);
         if (index < parrafos.Length - 1)
         {
@@ -126,7 +135,7 @@ public class Dialogo3Martin : MonoBehaviour
         if (collsion.CompareTag("Player"))
         {
             BotonLeer.SetActive(false);
-
+            PisoPrueba.estaenpiso = true;
         }
     }
 
@@ -150,7 +159,13 @@ public class Dialogo3Martin : MonoBehaviour
         plataforma2.SetActive(true);
         textD.text = "";
         Destroy(gameObject, t: 0.1f);
+    }
 
+    public void BotonSaltar()
+    {
+        botonCerrar();
+        botonContinuar.SetActive(false);
+        botonSaltar.SetActive(false);
     }
 }
 

@@ -4,9 +4,14 @@ using UnityEngine;
 using TMPro;
 
 /*
-Objetivo: el diálogo con Jacob en el laboratorio
-Autor: Renata de la Luna
-*/
+ * Objetivo: el diálogo con Jacob en el laboratorio
+ * Autor: Renata de la Luna
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Drosgame
+ * Youtube: https://youtu.be/FjoL4ufZmXc
+ */
+
 
 public class Dialogo2Jacob : MonoBehaviour
 {
@@ -117,7 +122,7 @@ public class Dialogo2Jacob : MonoBehaviour
         if (collsion.CompareTag("Player"))
         {
             BotonLeer.SetActive(false);
-
+            PisoPrueba.estaenpiso = true;
         }
     }
 
