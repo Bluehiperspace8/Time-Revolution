@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 /*
  * Manejo de instrucciones de EnergySnake
- * Diego Alejandro Juárez Ruiz
- * Luis Enrique Zamarripa Marín
+ * Diego Alejandro Juarez Ruiz
+ * Luis Enrique Zamarripa Marin
  */
 
 public class InstruccionesEnergySnake : MonoBehaviour

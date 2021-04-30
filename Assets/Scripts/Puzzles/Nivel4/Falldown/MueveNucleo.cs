@@ -1,6 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Controlador del nucleo en CoreDrop
+ * Diego Alejandro Juarez Ruiz
+ * Luis Enrique Zamarripa Marin
+ */
+
 public class MueveNucleo : MonoBehaviour
 {
     // variables

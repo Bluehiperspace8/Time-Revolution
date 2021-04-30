@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * Objetivo: Controlador del movimiento de la bola
+ * Autor: Diego Alejandro Juarez Ruiz
+ * Autor: Luis Enrique Zamarripa
+ * Referencia a: Hector Pulido
+ * Youtube: https://youtu.be/W7tHwE8g11w
+ */
+
 public class MueveBola : MonoBehaviour
 {
     enum dir

@@ -9,8 +9,8 @@ using UnityEngine.Networking;
 
 
 /*
- Objetivo: Dialogo de Jacob final cdel juego
- Autor: Roberto Valdez Jasso
+ * Objetivo: Dialogo de Jacob final cdel juego
+ * Autor: Roberto Valdez Jasso
  */
 
 public class DialogoJacobThomas : MonoBehaviour

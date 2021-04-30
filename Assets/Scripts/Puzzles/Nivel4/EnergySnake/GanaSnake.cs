@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-/* Codigo que dice si el jugador pierde o gana en el juego de Energy Snake
- * Autor: Diego Alejandro Juárez Ruiz
+/* 
+ * Codigo que dice si el jugador pierde o gana en el juego de Energy Snake
+ * Autor: Diego Alejandro Juarez Ruiz
  * Luis Enrique Zamarripa
  */
 

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
- * Realizado por Diego Alejandro Juárez Ruiz A01379566
- * Código que mueve el tileset
+ * Codigo que mueve el tileset
+ * Diego Alejandro Juarez Ruiz
  */
 
 public class Movertile : MonoBehaviour

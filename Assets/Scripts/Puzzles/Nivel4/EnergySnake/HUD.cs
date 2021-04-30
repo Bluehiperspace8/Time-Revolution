@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Interfaz de EnergySnake
+ * Diego Alejandro Juarez Ruiz
+ * Luis Enrique Zamarripa Marin
+ */
 public class HUD : MonoBehaviour
 {
     public static HUD instance;

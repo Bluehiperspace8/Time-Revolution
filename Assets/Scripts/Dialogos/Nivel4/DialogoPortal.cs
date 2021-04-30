@@ -8,7 +8,7 @@ using UnityEngine.Networking;
 
 /*
  * Objetivo: Dialogo de Jacob antes de entrar al portal. Tambi�n maneja su entrada al portal
- * Autor: Diego Alejandro Ju�rez Ruiz
+ * Autor: Diego Alejandro Juarez Ruiz
  * Autor: Luis Enrique Zamarripa
  * Referencia a: Drosgame
  * Youtube: https://youtu.be/FjoL4ufZmXc

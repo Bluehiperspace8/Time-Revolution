@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
 
-/* Codigo que dice si el jugador pierde o gana en el juego de CoreDrop
- * Autor: Diego Alejandro Juárez Ruiz
+/* 
+ * Codigo que dice si el jugador pierde o gana en el juego de CoreDrop
+ * Autor: Diego Alejandro Juarez Ruiz
  * Luis Enrique Zamarripa
  */
 
